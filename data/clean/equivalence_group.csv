@@ -1,0 +1,2839 @@
+group_id,generic_id,strength,dosage_form
+1,145,4 mg/5 ml,Syrup
+2,346,(10 mg+30 mg+1.25 mg)/5 ml,Syrup
+3,292,500 mg/vial,Injection
+4,292,250 mg/vial,Injection
+5,292,125 mg/5 ml,Powder for Suspension
+6,292,500 mg,Capsule
+7,120,6 mg+200 mg+50 mg,Tablet
+8,639,20 mg,Tablet
+9,1094,50 mg,Tablet
+10,169,500 mg+400 iu,Tablet
+11,169,500 mg+200 iu,Tablet
+12,173,500 mg,Tablet
+13,1063,100 mg,Tablet
+14,1154,30 mg,Tablet
+15,5,25 mg/ ml,IV Injection or Infusion
+16,931,10 mg,Tablet
+17,931,40 mg,Tablet
+18,1285,2.5 mg+500 mg,Tablet
+19,1285,2.5 mg+850 mg,Tablet
+20,687,5 mg,Tablet
+21,100,500 mg,Tablet
+22,100,200 mg/5 ml,Powder for Suspension
+23,100,250 mg,Capsule
+24,404,600 mg,Tablet
+25,829,120 mg,Capsule
+26,234,10 mg,Tablet
+27,351,0.225%+10%,IV Infusion
+28,370,10 mg/5 ml,Syrup
+29,226,125 mg/5 ml,Powder for Suspension
+30,28,1 mg/ ml,Injection
+31,393,2 mg/ ml,IV Infusion
+32,1674,100 mg/10 ml,IV Injection
+33,380,5 mg/5 ml,Oral Suspension
+34,380,5 mg/ ml,Pediatric Drops
+35,380,10 mg,Tablet
+36,210,500 mg,Capsule
+37,210,1000 mg,Tablet
+38,210,125 mg/1.25 ml,Pediatric Drops
+39,210,125 mg/5 ml,Powder for Suspension
+40,812,100 mg/5 ml,Powder for Suspension
+41,812,500 mg,Tablet
+42,390,3 mg,Tablet
+43,69,500 mg,Capsule
+44,69,125 mg/5 ml,Powder for Suspension
+45,523,30 mg,Tablet (Modified Release)
+46,523,80 mg,Tablet
+47,329,5 mg,Tablet
+48,11,0.1%+2.5%,Gel
+49,217,400 mg,Tablet
+50,217,100 mg/5 ml,Powder for Suspension
+51,217,400 mg,Capsule
+52,217,200 mg,Capsule
+53,217,200 mg,Tablet
+54,457,10 mg,Tablet
+55,457,5 mg,Tablet
+56,468,180 mg,Tablet
+57,468,120 mg,Tablet
+58,468,30 mg/5 ml,Oral Suspension
+59,878,15 mg/5 ml,Syrup
+60,1814,11.25 mg/0.5 ml,Nebuliser Solution
+61,988,67 mg/ ml,Pediatric Drops
+62,1654,200 mcg/puff,Inhaler
+63,768,4 mg,Dispersible Tablet
+64,768,5 mg,Dispersible Tablet
+65,768,10 mg,Tablet
+66,649,1 mg,Tablet
+67,649,1 mg/5 ml,Syrup
+68,106,10 mg,Tablet
+69,106,20 mg,Tablet
+70,106,5 mg/5 ml,Oral Solution
+71,16,400 mg,Chewable Tablet
+72,31,40 mg/0.8 ml,SC Injection
+73,593,400 mg,Tablet
+74,593,200 mg,Tablet
+75,68,5 mg+10 mg,Tablet
+76,593,100 mg/5 ml,Oral Suspension
+77,606,0.5 ml/prefilled syringe,IM Injection
+78,366,0.25 mg,Tablet
+79,35,25 mg,Tablet
+80,1871,12.5 mg,Tablet
+81,1871,25 mg,Tablet
+82,1299,25 mg+200 mg,Capsule (Extended Release)
+83,984,50 mg,Tablet
+84,984,100 mg,Tablet
+85,535,500 mg,Tablet
+86,291,200 mg,Vaginal Tablet
+87,289,1%,Cream
+88,846,0.03%,Nasal Drop
+89,846,0.05%,Nasal Drop
+90,1444,1%,Cream
+91,1217,0.1%+0.025%,Ophthalmic Solution
+92,1216,0.1%+0.3%,Ophthalmic Ointment
+93,1216,0.1%+0.3%,Ophthalmic Suspension
+94,482,0.10%,Ophthalmic Suspension
+95,474,50 mg,Capsule
+96,474,150 mg,Capsule
+97,474,50 mg/5 ml,Powder for Suspension
+98,217,25 mg/ ml,Pediatric Drops
+99,217,200 mg/5 ml,Powder for Suspension
+100,211,300 mg,Capsule
+101,823,0.10%,Ophthalmic Solution
+102,823,0.70%,Ophthalmic Solution
+103,823,0.20%,Ophthalmic Solution
+104,1115,500 mg,Tablet
+105,795,500 mg,Tablet
+106,795,250 mg,Tablet
+107,1869,0.05%,Topical Gel
+108,54,500 mg/2 ml,IM/IV Injection
+109,54,100 mg/2 ml,IM/IV Injection
+110,1547,200 mg,Tablet
+111,1580,5 mg+500 mg,Tablet
+112,1275,10 mg,Tablet
+113,1275,25 mg,Tablet
+114,768,4 mg,Tablet
+115,768,5 mg,Tablet
+116,768,5 mg,Chewable Tablet
+117,683,1 mg/5 ml,Syrup
+118,683,2 mg,Tablet
+119,683,1 mg,Tablet
+120,357,100 mg,Capsule (Timed Release)
+121,357,100 mg,Tablet (Sustained Release)
+122,357,50 mg,Tablet
+123,16,200 mg/5 ml,Oral Suspension
+124,211,125 mg/5 ml,Powder for Suspension
+125,18,0.25 mg,Tablet
+126,18,0.5 mg,Tablet
+127,234,5 mg/5 ml,Syrup
+128,234,2.5 mg/ ml,Pediatric Drops
+129,972,10 mg,Tablet
+130,696,10 mg,Tablet
+131,696,5 mg/5 ml,Oral Suspension
+132,1311,0.03%,Ophthalmic Solution
+133,468,60 mg,Tablet
+134,468,30 mg,Tablet
+135,678,2.5 mg/5 ml,Oral Solution
+136,678,5 mg,Tablet
+137,3,100 mg,Tablet
+138,413,0.5 mg,Tablet
+139,29,0.25%,Ophthalmic Solution
+140,545,25%,IV Infusion
+141,545,5%,IV Infusion
+142,545,20%,IV Infusion
+143,39,30 mg+10 mg,Tablet
+144,105,10 mg,Tablet
+145,524,2 mg,Tablet
+146,1357,25 mg,Tablet
+147,30,10 mg,Tablet
+148,30,70 mg,Tablet
+149,1501,150 mg,Capsule
+150,416,50 mg,Tablet
+151,199,100 mg+10 mg,Tablet
+152,199,250 mg+25 mg,Tablet
+153,421,25 mg,Tablet
+154,421,50 mg,Tablet
+155,1405,0.10 mg,Tablet
+156,1024,(200 mg+40 mg)/5 ml,Oral Suspension
+157,1024,400 mg+80 mg,Tablet
+158,1024,800 mg+160 mg,Tablet
+159,357,100 mg,Capsule (Sustained Release)
+160,209,500 mg,Capsule
+161,209,125 mg/5 ml,Powder for Suspension
+162,209,125 mg/1.25 ml,Pediatric Drops
+163,524,1 mg,Tablet
+164,41,10 mg,Tablet (Extended Release)
+165,1361,40 mg/ ml,IM/IA Injection
+166,894,200 mg,Tablet
+167,411,8000 anti-xa iu/0.8 ml,SC Injection
+168,411,6000 anti-xa iu/0.6 ml,SC Injection
+169,411,4000 anti-xa iu/0.4 ml,SC Injection
+170,1369,5 mg,Tablet
+171,401,10 mg,Tablet
+172,401,5 mg/5 ml,Syrup
+173,249,4 mg,Tablet
+174,249,2 mg/5 ml,Syrup
+175,766,10 mg,Tablet (Modified Release)
+176,1334,600 mcg/spray,Nasal Spray
+177,14,0.30%,Gel
+178,446,90 mg,Tablet
+179,446,60 mg,Tablet
+180,1069,50 mg,Tablet
+181,1069,5 mg/2 ml,IM/IV Injection
+182,1069,10 mg/5 ml,Syrup
+183,903,500 mg+100 mg,Chewable Tablet
+184,903,(500 mg+100 mg)/5 ml,Oral Suspension
+185,1451,(500 mg+267 mg+160 mg)/10 ml,Oral Suspension
+186,1451,(500 mg+213 mg+325 mg)/10 ml,Oral Suspension
+187,19,250 mg+400 mg,Chewable Tablet
+188,19,(175 mg+225 mg)/5 ml,Oral Suspension
+189,1200,600 mg+400 iu,Tablet
+190,1200,500 mg+200 iu,Tablet
+191,1772,600 mg+400 iu,Tablet
+192,1772,500 mg+200 iu,Tablet
+193,919,50 mg,Capsule
+194,919,150 mg,Capsule
+195,919,75 mg,Capsule
+196,232,250 mg/5 ml,Powder for Suspension
+197,232,500 mg,Capsule
+198,14,0.10%,Gel
+199,270,(1500 mg+250 mg)/5 ml,Oral Solution
+200,664,250 mg,Tablet
+201,751,200 mg/5 ml,Oral Suspension
+202,860,120 mg/5 ml,Oral Suspension
+203,1398,500 mg,Tablet
+204,1398,750 mg,Tablet
+205,743,30%+10%+4%,Cream
+206,729,15%+10%,Cream
+207,6,600 mg,Dispersible Tablet
+208,949,150 mg,Tablet
+209,870,500 mg/vial,IV Infusion
+210,870,100 mg/vial,IV Infusion
+211,644,6 mg,Tablet
+212,644,12 mg,Tablet
+213,1472,0.50%,Lotion
+214,1379,250 mg,Capsule
+215,15,10 mg,Tablet
+216,473,500 mg,Capsule
+217,44,6.25 mg,Tablet
+218,20,400 mg+400 mg+30 mg,Chewable Tablet
+219,20,(400 mg+400 mg+30 mg)/5 ml,Oral Suspension
+220,1346,5 mg/5 ml,Oral Solution
+221,1457,20 mg,Tablet
+222,1457,12.5 mg/5 ml,Oral Solution
+223,913,1 mg,Tablet
+224,1167,250 iu/vial,IV Infusion
+225,73,250 iu/vial,Injection
+226,913,2.5 mg,Tablet (Extended Release)
+227,913,5 mg,Tablet (Extended Release)
+228,913,2 mg,Tablet
+229,139,0.15%,Ophthalmic Solution
+230,419,0.05%,Ophthalmic Solution
+231,63,5 mg+50 mg,Tablet
+232,63,5 mg+25 mg,Tablet
+233,62,5 mg,Tablet
+234,1871,6.25 mg,Tablet
+235,69,250 mg,Capsule
+236,226,250 mg,Tablet
+237,369,900 mg+100 mg,Tablet
+238,49,60 mg,Tablet
+239,17,100 mg,Tablet
+240,488,30 mg,Capsule
+241,674,40 mg/5 ml,Syrup
+242,92,10 mg,Tablet
+243,92,20 mg,Tablet
+244,648,10 mg,Tablet
+245,433,40 mg/vial,IV Injection
+246,433,40 mg,Tablet (Enteric Coated)
+247,433,20 mg,Tablet (Enteric Coated)
+248,18,1 mg,Tablet (Extended Release)
+249,18,2 mg,Tablet (Extended Release)
+250,226,500 mg,Tablet
+251,53,75 mg,Capsule (Sustained Release)
+252,53,15 mg/5 ml,Syrup
+253,335,0.5 mg,Tablet
+254,1471,1 mg+500 mg,Tablet (Extended Release)
+255,1471,2 mg+500 mg,Tablet (Extended Release)
+256,524,3 mg,Tablet
+257,524,4 mg,Tablet
+258,878,45.5 mg/2 ml,IM/IV Injection
+259,878,22.7 mg,Tablet
+260,50,100 mg,Capsule
+261,1318,2 mg/5 ml,Syrup
+262,884,45 mg/ ml,Intratracheal Suspension
+263,369,450 mg+50 mg,Tablet
+264,53,6 mg/ ml,Pediatric Drops
+265,51,5 mg,Tablet
+266,970,5 mg,Tablet
+267,970,10 mg,Tablet
+268,69,125 mg/1.25 ml,Pediatric Drops
+269,485,0.5 mg+10 mg,Tablet
+270,478,0.01%+4%+0.05%,Cream
+271,64,5 mg+20 mg,Capsule
+272,64,5 mg+10 mg,Capsule
+273,64,2.5 mg+10 mg,Capsule
+274,64,10 mg+20 mg,Capsule
+275,1433,2.5 mg+5 mg,Tablet
+276,62,10 mg,Tablet
+277,263,250 mg/5 ml,Powder for Suspension
+278,263,500 mg,Tablet
+279,263,250 mg,Tablet
+280,263,750 mg,Tablet
+281,721,500 mg,Tablet
+282,721,50 mg/5 ml,Oral Suspension
+283,623,370 mg/ ml,Injection
+284,623,300 mg/ ml,Injection
+285,446,120 mg,Tablet
+286,622,12.5 mg+5 mg,Tablet
+287,1003,15 mg,Tablet
+288,1003,7.5 mg,Tablet
+289,232,250 mg,Capsule
+290,232,125 mg/5 ml,Powder for Suspension
+291,751,400 mg,Tablet
+292,752,100 mg+100 mg,Vaginal Tablet
+293,922,5 mg,Tablet
+294,386,5 mg,Tablet
+295,763,15 mg,Tablet
+296,763,7.5 mg,Tablet
+297,515,400 mg,Tablet
+298,1649,50 mg,Tablet
+299,1649,100 mg,Tablet
+300,1649,200 mg,Tablet
+301,225,2 gm/vial,IV Injection
+302,59,150 mg/3 ml,IV Injection
+303,55,10%,IV Infusion
+304,1890,8%,IV Infusion
+305,55,5%,IV Infusion
+306,57,7%+10%,IV Infusion
+307,58,100 mg,Tablet
+308,58,125 mg/5 ml,IV Injection
+309,60,25 mg,Tablet
+310,60,10 mg,Tablet
+311,67,5 mg+160 mg,Tablet
+312,67,10 mg+160 mg,Tablet
+313,67,5 mg+80 mg,Tablet
+314,61,5%,Oral Paste
+315,1828,5 mg,Tablet
+316,1828,2.5 mg,Tablet
+317,487,0.5 mg+10 mg,Tablet
+318,1649,5 mg/2 ml,IV Infusion
+319,984,25 mg,Tablet
+320,70,(1 gm+200 mg)/20 ml,IV Injection
+321,70,875 mg+125 mg,Tablet
+322,70,500 mg+125 mg,Tablet
+323,70,(125 mg+31.25 mg)/5 ml,Powder for Suspension
+324,751,200 mg,Tablet
+325,281,0.05%,Cream
+326,751,800 mg,Tablet
+327,751,500 mg/100 ml,IV Infusion
+328,69,250 mg/5 ml,Powder for Suspension
+329,70,(400 mg+57.50 mg)/5 ml,Powder for Suspension
+330,860,665 mg,Tablet (Extended Release)
+331,861,500 mg+65 mg,Tablet
+332,71,500 mg/vial,IM/IV Injection
+333,71,125 mg/5 ml,Oral Suspension
+334,71,250 mg,Capsule
+335,71,500 mg,Capsule
+336,71,250 mg/vial,Injection
+337,71,500 mg/vial,Injection
+338,69,500 mg/vial,IM/IV Injection
+339,648,30 mg/ ml,IM/IV Injection
+340,648,60 mg/2 ml,IM/IV Injection
+341,283,25 mg,Tablet
+342,795,500 mg,Tablet (Sustained Release)
+343,432,375 mg+20 mg,Tablet (Delayed Release)
+344,432,500 mg+20 mg,Tablet (Delayed Release)
+345,795,10% w/w,Gel
+346,1098,100 mg,Capsule (Sustained Release)
+347,1098,100 mg,Suppository
+348,1098,100 mg/2 ml,IM/IV Injection
+349,1098,50 mg,Capsule
+350,575,100 mg/2 ml,IM/IV Injection
+351,72,1 mg,Tablet
+352,576,(5 mg+30 mg)/ gm,Cream
+353,1604,25 mg/ ml,IM Injection
+354,215,500 mg/vial,IM/IV Injection
+355,86,75 mg+75 mg,Tablet
+356,286,75 mg,Tablet
+357,718,25 mg+50 mg,Tablet
+358,232,125 mg/1.25 ml,Pediatric Drops
+359,1099,500 mg,Tablet
+360,1099,500 mg/5 ml,IM/IV Injection
+361,825,40 mg/vial,IV Injection
+362,825,20 mg,Capsule (Delayed Release)
+363,34,5 mg/ ml,Injection
+364,34,2.5 mg,Tablet
+365,409,5 mg,Tablet
+366,409,10 mg,Tablet
+367,860,500 mg,Tablet
+368,860,80 mg/ ml,Pediatric Drops
+369,23,6 mg/2 ml,IV Injection
+370,474,50 mg,Tablet
+371,474,150 mg,Tablet
+372,88,50 mg,Tablet
+373,1064,500 mg/vial,IV Injection
+374,1064,1 gm/vial,IV Injection
+375,153,0.5%+8%,Intraspinal Injection
+376,1260,(7 gm+19 gm)/118 ml,Rectal Saline
+377,406,200 mg/10 ml,IV Injection or Infusion
+378,406,100 mg/5 ml,IV Injection or Infusion
+379,1055,40 mg,Capsule
+380,430,10 mg,Tablet
+381,430,5 mg,Tablet
+382,981,50 mg,Tablet
+383,981,100 mg,Tablet
+384,981,25 mg,Tablet
+385,143,3 mg,Tablet
+386,136,5 mg+6.25 mg,Tablet
+387,136,2.5 mg+6.25 mg,Tablet
+388,135,2.5 mg,Tablet
+389,135,5 mg,Tablet
+390,135,10 mg,Tablet
+391,588,10 mg,Tablet
+392,588,20 mg,Tablet
+393,473,125 mg/5 ml,Powder for Suspension
+394,473,250 mg,Capsule
+395,1108,35 mg,Tablet (Modified Release)
+396,195,25 mg,Tablet
+397,550,50 mg+12.5 mg,Tablet
+398,699,50 mg,Tablet
+399,532,2.6 mg,Tablet (Sustained Release)
+400,750,50 mg,Tablet
+401,85,75 mg,Tablet (Enteric Coated)
+402,1124,240 mg,Tablet
+403,1124,80 mg,Tablet
+404,1124,40 mg,Tablet
+405,1108,20 mg,Tablet
+406,550,100 mg+12.5 mg,Tablet
+407,550,100 mg+25 mg,Tablet
+408,699,100 mg,Tablet
+409,699,25 mg,Tablet
+410,1590,0.5 mg,Sublingual Tablet
+411,1635,1 mg+0.5 mg,Tablet
+412,359,0.10%,Ophthalmic Solution
+413,1052,1%,Cream
+414,1860,10 mg,Tablet
+415,88,100 mg,Tablet
+416,356,(75 mg+20 mg)/2 ml,IM Injection
+417,357,1% w/w,Gel
+418,273,300 mg,Capsule
+419,196,200 mg,Tablet (Controlled Release)
+420,196,100 mg/5 ml,Oral Suspension
+421,949,75 mg/5 ml,Syrup
+422,202,50 mg+0.50 mg+61.80 mg,Capsule (Timed Release)
+423,1092,200 mg,Tablet
+424,1849,40 mg,Tablet
+425,99,80 mg,Tablet
+426,949,50 mg/2 ml,IM/IV Injection
+427,1563,100 iu/ ml,SC Injection
+428,1563,40 iu/ ml,SC Injection
+429,608,100 iu/ ml,SC Injection
+430,1225,50%+50% in 100 iu/ ml,SC Injection
+431,1225,30%+70% in 100 iu/ ml,SC Injection
+432,1225,30%+70% in 40 iu/ ml,SC Injection
+433,827,8 mg/4 ml,IM/IV Injection
+434,827,16 mg,Suppository
+435,827,4 mg,Tablet
+436,827,8 mg,Tablet
+437,827,4 mg/5 ml,Oral Solution
+438,1591,50 mg/10 ml,IV Infusion
+439,1589,400 mcg/spray,Topical Spray
+440,756,7.5 mg,Tablet
+441,756,15 mg/3 ml,IM/IV Injection
+442,756,15 mg,Tablet
+443,99,40 mg,Tablet
+444,2031,100 mg+50 iu+10 mg,Topical Gel
+445,895,0.5 mg,Tablet
+446,1114,150 mg,Tablet
+447,1114,300 mg,Tablet
+448,1855,2%,Cream
+449,1019,1000 mg,Tablet
+450,996,(2.6 mg+0.0325 mg)/spray,Nasal Spray
+451,1139,0.05%,Nasal Drop
+452,1139,0.10%,Nasal Drop
+453,20,(200 mg+400 mg+30 mg)/5 ml,Oral Suspension
+454,19,(200 mg+400 mg)/5 ml,Oral Suspension
+455,1162,200 mg+200 mg,Tablet
+456,14,0.10%,Cream
+457,912,10 mg,Tablet
+458,912,5 mg,Tablet
+459,92,40 mg,Tablet
+460,1184,50 mg,Tablet
+461,1452,(100 mg+1.1 mg+14 mg)/5 ml,Syrup
+462,849,5 mg,Tablet
+463,950,500 mg,Tablet (Extended Release)
+464,1400,2.5 mg,Tablet
+465,1400,5 mg,Tablet
+466,918,5 mg,Tablet
+467,724,160 mg,Tablet
+468,724,200 mg/5 ml,Oral Suspension
+469,1378,30 mg,Tablet
+470,1378,10 mg,Tablet
+471,467,150 mg+0.5 mg+61.8 mg,Capsule (Timed Release)
+472,3,200 mg,Tablet (Sustained Release)
+473,394,100 mg,Capsule
+474,1657,50 mg+12.5 mg,Capsule
+475,1657,100 mg+25 mg,Capsule
+476,1657,200 mg+50 mg,Capsule
+477,358,75 mg+200 mcg,Tablet
+478,918,20 mg,Tablet
+479,907,5% w/w,Ointment
+480,907,10% w/v,Solution
+481,465,200 mg/5 ml,Syrup
+482,724,40 mg,Tablet
+483,45,20%,Topical Solution
+484,615,100 unit/ ml,SC Injection
+485,968,500 mcg,Tablet
+486,738,50 mg+850 mg,Tablet
+487,738,50 mg+500 mg,Tablet
+488,1125,50 mg,Tablet
+489,264,0.3%+0.1%,Ophthalmic Solution
+490,266,0.30%,Ophthalmic Ointment
+491,266,0.30%,Ophthalmic Solution
+492,74,40 mg,Capsule
+493,572,80 mg+12.5 mg,Tablet
+494,572,40 mg+12.5 mg,Tablet
+495,66,5 mg+40 mg,Tablet
+496,66,5 mg+80 mg,Tablet
+497,1038,80 mg,Tablet
+498,1038,40 mg,Tablet
+499,1038,20 mg,Tablet
+500,565,75 mg+12.5 mg,Tablet
+501,565,150 mg+12.5 mg,Tablet
+502,626,150 mg,Tablet
+503,626,75 mg,Tablet
+504,197,100 mcg/ ml,IV Injection
+505,191,16 mg,Tablet
+506,239,0.5%+70%,Hand Rub
+507,907,5% v/v,Ophthalmic Solution
+508,536,(30 mg+100 mg+1.25 mg)/5 ml,Syrup
+509,900,85 gm,Powder for Solution
+510,205,1%,Ophthalmic Solution
+511,1113,10% w/w,Cream
+512,207,0.25%+0.3%,Ophthalmic Gel
+513,1029,10 mg,Tablet
+514,75,2 mg,Tablet
+515,75,10 mg,Tablet
+516,75,15 mg,Tablet
+517,75,5 mg/5 ml,Oral Solution
+518,75,5 mg,Tablet
+519,82,50 mg,Tablet
+520,208,12.5 mg,Tablet
+521,208,25 mg,Tablet
+522,208,6.25 mg,Tablet
+523,427,125 mg/5 ml,Powder for Suspension
+524,1434,0.5 mg,Tablet
+525,81,20 mg+120 mg,Tablet
+526,889,4 mg/2 ml,IV Injection
+527,1029,20 mg,Tablet
+528,237,1%,Ophthalmic Ointment
+529,463,308 mg+350 mcg,Tablet
+530,125,0.05%+1%+0.1%,Cream
+531,997,2%,Ophthalmic Solution
+532,403,1%+0.1%,Cream
+533,1103,0.10%,Cream
+534,1103,0.10%,Ointment
+535,127,0.1%+1%,Ointment
+536,124,0.1%+0.5%,Ophthalmic Solution
+537,124,0.1%+0.5%,Ophthalmic Ointment
+538,1615,0.10%,Ointment
+539,1615,0.10%,Cream
+540,252,200000 iu/ ml,IM Injection
+541,252,20000 iu,Capsule
+542,252,40000 iu,Capsule
+543,252,2000 iu,Tablet
+544,83,4%+0.001%,Injection
+545,1365,49 mg+51 mg,Tablet
+546,1365,24 mg+26 mg,Tablet
+547,1365,97 mg+103 mg,Tablet
+548,1372,250 mg,Tablet
+549,1372,150 mg,Tablet
+550,688,2 mg/ ml,IV Infusion
+551,688,400 mg,Tablet
+552,688,100 mg/5 ml,Powder for Suspension
+553,688,600 mg,Tablet
+554,225,1 gm/vial,IV Injection
+555,225,250 mg/vial,IM Injection
+556,225,500 mg/vial,IM Injection
+557,225,1 gm/vial,IM Injection
+558,225,250 mg/vial,IV Injection
+559,225,500 mg/vial,IV Injection
+560,13,3%,Ophthalmic Ointment
+561,7,500 mg/vial,IV Infusion
+562,731,500 mg/vial,IV Injection or Infusion
+563,731,1 gm/vial,IV Injection or Infusion
+564,1815,15 mcg/2 ml,Nebuliser Solution
+565,648,10 mg/ ml,IM/IV Injection
+566,768,5 mg,Flash Tablet
+567,768,4 mg,Flash Tablet
+568,768,4 mg,Chewable Tablet
+569,672,2.5 mg,Tablet
+570,1049,(25 mcg+250 mcg)/puff,Inhaler
+571,1049,(25 mcg+125 mcg)/puff,Inhaler
+572,1049,50 mcg+500 mcg,Inhalation Capsule
+573,1049,50 mcg+100 mcg,Inhalation Capsule
+574,1062,300 mg,Tablet (Sustained Release)
+575,1062,200 mg,Tablet (Sustained Release)
+576,1062,400 mg,Tablet (Sustained Release)
+577,907,1% w/v,Mouthwash
+578,907,5% w/v,Lotion
+579,7,250 mg/vial,IV Infusion
+580,81,(15 mg+90 mg)/5 ml,Syrup
+581,268,20 mg,Tablet
+582,1117,80 mg,Capsule
+583,876,5% w/w,Cream
+584,284,2 mg,Tablet
+585,284,1 mg,Tablet
+586,284,0.5 mg,Tablet
+587,1049,50 mcg+250 mcg,Inhalation Capsule
+588,115,1.25 gm/5 ml,Lotion
+589,342,300 mg,Tablet
+590,1355,0.20%,Ophthalmic Solution
+591,1355,0.10%,Ophthalmic Solution
+592,262,20 mg+40 mg,Tablet
+593,1479,0.25%,Ophthalmic Solution
+594,253,250 mg+200 mg,Tablet
+595,587,10 mg,Tablet
+596,587,25 mg,Tablet
+597,587,10 mg/5 ml,Syrup
+598,253,750 mg+600 mg,Tablet
+599,358,50 mg+200 mcg,Tablet
+600,1392,11 mg,Tablet (Extended Release)
+601,1392,5 mg,Tablet
+602,354,750 mg+50 mg,Tablet
+603,549,25 mg,Tablet
+604,1313,1.50%,Ophthalmic Solution
+605,680,500 mg,Tablet
+606,653,3.35 gm/5 ml,Oral Solution
+607,273,150 mg,Capsule
+608,1135,100 mg+200 mg+200 mcg,Tablet
+609,433,20 mg,Capsule (Delayed Release)
+610,433,40 mg,Capsule (Delayed Release)
+611,1137,250 mg,Chewable Tablet
+612,392,400 mg,Tablet
+613,392,200 mg,Tablet
+614,392,100 mg/5 ml,Syrup
+615,1137,500 mg/5 ml,Injection
+616,1137,100 mg/5 ml,Syrup
+617,1592,(100 mcg+6 mcg)/puff,Inhaler
+618,1592,(200 mcg+6 mcg)/puff,Inhaler
+619,549,50 mg,Tablet
+620,418,15 mg/5 ml,Syrup
+621,1062,120 mg/5 ml,Syrup
+622,1317,100 mcg/puff,Inhaler
+623,329,2.5 mg/5 ml,Syrup
+624,344,30 mg,Capsule (Delayed Release)
+625,344,60 mg,Capsule (Delayed Release)
+626,158,50 mg,Tablet (Sustained Release)
+627,158,5 mg/ ml,Pediatric Drops
+628,158,7.5 mg/5 ml,Syrup
+629,100,250 mg,Tablet
+630,100,1 gm/vial,IV Infusion
+631,100,250 mg/vial,IV Infusion
+632,100,500 mg/vial,IV Infusion
+633,87,2 mg,Capsule
+634,87,4 mg,Capsule
+635,825,40 mg,Capsule (Delayed Release)
+636,1318,4 mg,Tablet
+637,418,30 mg,Tablet
+638,92,80 mg,Tablet
+639,323,400 mg,Dispersible Tablet
+640,323,100 mg,Dispersible Tablet
+641,1318,2 mg,Tablet
+642,862,325 mg+37.5 mg,Tablet
+643,1544,0.30%,Ophthalmic Solution
+644,89,50 mg+25 mg,Tablet
+645,89,100 mg+25 mg,Tablet
+646,144,0.09%,Ophthalmic Solution
+647,94,1%,Ophthalmic Ointment
+648,94,1%,Ophthalmic Solution
+649,94,0.6 mg/ ml,Injection
+650,93,25 mg/2.5 ml,IV Injection
+651,2049,20 mg+10 mg,Tablet
+652,2049,10 mg+10 mg,Tablet
+653,491,27.5 mcg/spray,Nasal Spray
+654,901,0.4%+0.3%,Ophthalmic Solution
+655,859,20 mg,Tablet (Enteric Coated)
+656,859,40 mg,Tablet (Enteric Coated)
+657,70,250 mg+125 mg,Tablet
+658,91,10 mg,Capsule
+659,801,250 mg,Tablet
+660,895,1.5 mg,Tablet
+661,717,50 mg,Tablet
+662,644,3 mg,Tablet
+663,1072,0.004%+0.5%,Ophthalmic Solution
+664,1101,0.00%,Ophthalmic Solution
+665,131,400 mg/16 ml,IV Infusion
+666,131,100 mg/4 ml,IV Infusion
+667,248,50 mg/5 ml,Syrup
+668,248,250 mg,Tablet
+669,70,(500 mg+100 mg)/10 ml,IV Injection
+670,707,480 mg+20 mg,Chewable Tablet
+671,707,(480 mg+20 mg)/5 ml,Oral Suspension
+672,19,175 mg+225 mg,Chewable Tablet
+673,19,(250 mg+400 mg)/5 ml,Oral Suspension
+674,1128,5 mg,Tablet
+675,654,150 mg,Tablet
+676,878,75 mg,Tablet
+677,227,500 mg+125 mg,Tablet
+678,227,(125 mg+31.25 mg)/5 ml,Powder for Suspension
+679,227,250 mg+62.5 mg,Tablet
+680,105,25 mg,Tablet
+681,655,150 mg+300 mg,Tablet
+682,925,25 mg,Tablet
+683,67,10 mg+320 mg,Tablet
+684,957,550 mg,Tablet
+685,226,750 mg/vial,IM/IV Injection
+686,226,1.5 gm/vial,IV Injection
+687,226,125 mg,Tablet
+688,227,125 mg+31.25 mg,Tablet
+689,215,1 gm/vial,IM/IV Injection
+690,2027,150 mg+100 mg,Tablet
+691,1383,5 mg,Tablet
+692,1383,1 mg,Tablet
+693,975,25 mcg/puff,Inhaler
+694,355,5 mg,Tablet
+695,2034,100 mg,Capsule
+696,98,137 mcg/spray,Nasal Spray
+697,97,20%,Cream
+698,1300,(137 mcg+50 mcg)/spray,Nasal Spray
+699,109,100 mcg/puff,Inhaler
+700,109,250 mcg/puff,Inhaler
+701,100,500 mg,Capsule
+702,1865,1%,Ophthalmic Solution
+703,1634,40 mg+12.5 mg,Tablet
+704,100,1 gm/sachet,Powder for Suspension
+705,888,15 mg,Tablet
+706,888,30 mg,Tablet
+707,142,1%,Ophthalmic Suspension
+708,643,100 mg,Capsule
+709,101,1 gm/5 ml,IM/IV Injection
+710,141,1%+0.2%,Ophthalmic Suspension
+711,1318,5 mg/ ml,Respirator Solution
+712,1318,2.5 mg/3 ml,Respirator Solution
+713,735,15 mg+500 mg,Tablet
+714,103,(5 mg+250 iu)/ gm,Topical Powder
+715,1616,0.10%,Ophthalmic Solution
+716,389,2%+0.5%,Ophthalmic Solution
+717,735,15 mg+850 mg,Tablet
+718,105,5 mg,Tablet
+719,1824,9 billion,Capsule
+720,351,0.45%+5%,IV Infusion
+721,351,0.225%+5%,IV Infusion
+722,885,2 mg/0.2 ml,Injection
+723,1144,20 mg,Dispersible Tablet
+724,1144,10 mg/5 ml,Syrup
+725,103,(5 mg+500 iu)/ gm,Ointment
+726,69,500 mg,Tablet
+727,69,250 mg,Tablet
+728,788,2% w/w,Ointment
+729,1883,20 mg,Tablet
+730,1883,40 mg,Tablet
+731,269,500 mg,Tablet
+732,1226,0.1%+0.5%,Cream
+733,1060,250 mg,Capsule
+734,265,0.3%+1%,Ophthalmic Suspension
+735,1581,4 mg,Tablet
+736,1581,2 mg,Tablet
+737,453,40 mg,Tablet
+738,453,80 mg,Tablet
+739,413,1 mg,Tablet
+740,879,200 mg/ ml,Injection
+741,879,20 mg/5 ml,Oral Solution
+742,879,60 mg,Tablet
+743,879,30 mg,Tablet
+744,729,30%+8%,Cream
+745,280,0.05%,Cream
+746,1040,300 mg,Tablet
+747,1221,50 mcg/spray,Nasal Spray
+748,1303,(20 mg+10 mg+2.5 mg)/5 ml,Syrup
+749,1561,5 mg/ ml,IV Infusion
+750,1967,180 mg,Tablet
+751,822,40 mg,Tablet
+752,822,20 mg,Tablet
+753,1068,60 mg,Tablet
+754,1068,90 mg,Tablet
+755,105,5 mg/5 ml,Oral Solution
+756,734,500 mg,Tablet
+757,734,850 mg,Tablet
+758,1657,100 mg+25 mg,Dispersible Tablet
+759,1657,50 mg+12.5 mg,Dispersible Tablet
+760,1657,200 mg+50 mg,Dispersible Tablet
+761,382,2%+0.1%,Cream
+762,714,100 mg,Chewable Tablet
+763,714,500 mg,Chewable Tablet
+764,1288,25 mg/vial,IV Infusion
+765,1058,25 mg,Tablet
+766,1058,12.5 mg,Tablet
+767,964,1.5 mg,Capsule
+768,964,3 mg,Capsule
+769,110,12 lac units/vial,Injection
+770,113,6%+3%,Ointment
+771,114,4%,Cream
+772,986,1%,Cream
+773,274,1%+5%,Topical Gel
+774,1432,0.15%,Mouthwash
+775,1226,0.1%+0.5%,Ointment
+776,119,0.60%,Ophthalmic Solution
+777,118,1.50%,Ophthalmic Solution
+778,907,7.5% w/v,Surgical Scrub
+779,931,40 mg,Capsule (Timed Release)
+780,127,0.05%+1%,Cream
+781,1617,0.5 mg,Tablet
+782,1877,0.45 mg+20 mg,Tablet
+783,970,20 mg,Tablet
+784,88,25 mg,Tablet
+785,123,0.05%,Ointment
+786,123,0.05%,Cream
+787,1189,0.05%+2%,Scalp Lotion
+788,1189,0.05%+3%,Scalp Ointment
+789,750,100 mg,Tablet (Extended Release)
+790,750,50 mg,Tablet (Extended Release)
+791,750,25 mg,Tablet
+792,1259,0.50%,Ophthalmic Solution
+793,907,5% w/v,Solution
+794,1499,1 mg/1 ml,IV Infusion
+795,762,25 mg,Tablet (Extended Release)
+796,762,50 mg,Tablet (Extended Release)
+797,130,0.25%,Ophthalmic Solution
+798,121,8 mg,Tablet
+799,121,16 mg,Tablet
+800,263,250 mg/sachet,Oral Powder
+801,263,200 mg/100 ml,IV Infusion
+802,263,125 mg/sachet,Oral Powder
+803,1579,40 mg,Capsule
+804,1579,80 mg,Capsule
+805,126,0.05%+0.005%,Ointment
+806,1049,50 mcg+100 mcg,Inhaler
+807,1049,(25 mcg+50 mcg)/puff,Inhaler
+808,1049,50 mcg+250 mcg,Inhaler
+809,1049,50 mcg+500 mcg,Inhaler
+810,918,10 mg,Tablet
+811,1324,1%,Ophthalmic Suspension
+812,716,50 mg,Tablet
+813,1892,(9 mcg+4.8 mcg)/puff,Inhaler
+814,343,25 mg,Tablet
+815,1457,10 mg,Dispersible Tablet
+816,734,500 mg,Tablet (Extended Release)
+817,1641,180 mg,Tablet
+818,1641,90 mg,Tablet
+819,1377,5 mg,Tablet
+820,1377,10 mg,Tablet
+821,1289,50 mg,Tablet
+822,1488,1 gm/sachet,Oral Powder
+823,78,13.95 gm,Oral Powder
+824,1306,75%+0.125%+1.45%,Hand Rub
+825,1282,1%+0.5%,Ophthalmic Suspension
+826,271,250 mg,Tablet
+827,271,500 mg,Tablet
+828,271,125 mg/5 ml,Powder for Suspension
+829,140,0.2%+0.5%,Ophthalmic Solution
+830,1301,0.03%+0.5%,Ophthalmic Solution
+831,132,0.03%,Ophthalmic Solution
+832,1091,162 mg/0.9 ml,SC Injection
+833,499,15 mg,Tablet
+834,499,5 mg,Tablet
+835,20,200 mg+200 mg+30 mg,Chewable Tablet
+836,209,250 mg,Capsule
+837,1488,250 mg,Tablet
+838,1091,80 mg/4 ml,IV Infusion
+839,240,0.20%,Mouthwash
+840,881,125 mg/5 ml,Powder for Suspension
+841,881,250 mg,Tablet
+842,1135,(100 mg+100 mg+1 mg)/3 ml,IM Injection
+843,1099,500 mg,Capsule
+844,1091,400 mg/20 ml,IV Infusion
+845,136,10 mg+6.25 mg,Tablet
+846,135,1.25 mg,Tablet
+847,798,2.5 mg,Tablet
+848,798,5 mg,Tablet
+849,1091,200 mg/10 ml,IV Infusion
+850,1566,25 mg,Tablet
+851,1566,50 mg,Tablet
+852,1475,250 mg/5 ml,IV Injection
+853,134,87.5 mg/5 ml,Oral Suspension
+854,1433,5 mg+5 mg,Tablet
+855,37,70 mg+2800 iu,Tablet
+856,592,150 mg,Tablet
+857,592,3 mg/3 ml,IV Infusion
+858,137,15 unit/vial,Injection
+859,65,10 mg+40 mg,Tablet
+860,65,5 mg+40 mg,Tablet
+861,65,5 mg+20 mg,Tablet
+862,65,10 mg+20 mg,Tablet
+863,295,100 unit,Injection
+864,1387,2 gm/vial,IV Infusion
+865,1387,1 mg/vial,IV Infusion
+866,1368,5 mg/100 ml,IV Infusion
+867,186,400 mg,Tablet
+868,233,0.01%+8.714%,Oral Gel
+869,1977,25 mcg+100 mcg,Inhalation Capsule
+870,1977,25 mcg+200 mcg,Inhalation Capsule
+871,331,0.075 mg,Tablet
+872,1117,160 mg,Tablet
+873,1117,80 mg,Tablet
+874,139,0.20%,Ophthalmic Solution
+875,1566,75 mg,Tablet
+876,1566,100 mg,Tablet
+877,392,400 mg,Tablet (Sustained Release)
+878,1562,0.5 mg,Tablet
+879,1562,1 mg,Tablet
+880,1111,1 mg/5 ml,Syrup
+881,1111,2 mg,Tablet
+882,347,10 mg/5 ml,Syrup
+883,1318,8 mg,Capsule (Sustained Release)
+884,1319,50 mcg/puff,Inhaler
+885,1318,200 mcg,Inhalation Capsule
+886,890,(4 gm+0.5 gm)/vial,IV Infusion
+887,1566,10 mg/ ml,Oral Solution
+888,145,8 mg/5 ml,Syrup
+889,149,2.5 mg,Tablet
+890,145,8 mg,Tablet
+891,145,4 mg,Tablet
+892,150,400 mcg+12 mcg,Inhalation Capsule
+893,150,200 mcg+6 mcg,Inhalation Capsule
+894,146,1 mg/2 ml,Nebuliser Suspension
+895,146,0.5 mg/2 ml,Nebuliser Suspension
+896,1652,100 mcg/spray,Nasal Spray
+897,150,100 mcg+6 mcg,Inhalation Capsule
+898,1550,7.50%,Gel
+899,844,0.40%,Ophthalmic Solution
+900,152,0.50%,Injection
+901,151,1 mg,Tablet
+902,151,5 mg,Tablet
+903,151,2 mg/4 ml,IM/IV Injection
+904,593,300 mg,Capsule (Sustained Release)
+905,150,(80 mcg+4.5 mcg)/puff,Inhaler
+906,150,(160 mcg+4.5 mcg)/puff,Inhaler
+907,1653,9 mg,Tablet (Extended Release)
+908,146,0.25 mg/2 ml,Nebuliser Suspension
+909,1047,2%,Liquid Cleanser Soap
+910,159,1%,Cream
+911,588,20 mg/ ml,Injection
+912,1047,6.30%,Medicated Bar
+913,1487,80 mg,Capsule
+914,1487,20 mg,Capsule
+915,357,75 mg/3 ml,IM Injection
+916,174,1000 mg+327 mg+500 mg,Effervescent Tablet
+917,1005,400 mg,Tablet
+918,1382,140 mg,Capsule
+919,224,400 mg,Capsule
+920,224,90 mg/5 ml,Powder for Suspension
+921,1459,4%+2%+0.025%,Rectal Ointment
+922,1438,500 mg,Capsule
+923,196,200 mg,Tablet
+924,193,500 mg,Tablet
+925,166,0.25 mcg+252 mg,Tablet
+926,186,740 mg,Tablet
+927,1201,1358.196 mg+600 mg+400 iu,Effervescent Tablet
+928,173,250 mg,Chewable Tablet
+929,175,1000 mg+327 mg+500 mg+400 iu,Effervescent Tablet
+930,185,300 mg,Tablet
+931,163,15%+5%+5%,Lotion
+932,182,500 mg/5 ml,IM/IV Injection
+933,1046,12 mg/sachet,Oral Powder
+934,1046,8 mg,Tablet
+935,165,0.25 mcg,Capsule
+936,977,100 iu/ ml,Injection
+937,169,600 mg+400 iu,Tablet
+938,173,1000 mg,Chewable Tablet
+939,187,100 mg/2 ml,Injection
+940,2040,100 mg,Capsule
+941,277,10 mg,Tablet
+942,169,250 mg+250 iu,Chewing Gum Tablet
+943,499,10 mg/ ml,IM/IV Injection
+944,165,1 mcg/ ml,IV Injection
+945,1586,2 mg,Tablet
+946,1586,1 mg,Tablet
+947,754,2% w/w,Oral Gel
+948,1645,0.3%+1%+0.025%+2%,Ear Drop
+949,1776,8% w/v,Nail Lacquer
+950,293,0.77%,Cream
+951,474,200 mg,Capsule
+952,1238,200 mg,Tablet
+953,1238,100 mg,Tablet
+954,1781,0.025%+5%+1%+1.73%,Ear Drop
+955,819,100000 unit/ ml,Oral Suspension
+956,1667,1%,Shampoo
+957,474,200 mg,Tablet
+958,4,400 mg,Tablet (Delayed Release)
+959,245,100 mg,Tablet
+960,658,20 mg/ ml,IV Infusion
+961,193,150 mg,Tablet
+962,56,2 gm/10 ml,Injection
+963,56,1 gm/5 ml,Injection
+964,1411,500 mg/2 ml,IM Injection
+965,1411,250 mg/ ml,IM Injection
+966,1137,500 mg,Capsule (Timed Release)
+967,671,10 mg,Tablet
+968,208,3.125 mg,Tablet
+969,204,10 mg/ ml,IV Infusion
+970,201,250 mg/5 ml,Syrup
+971,201,125 mg/5 ml,Syrup
+972,201,375 mg,Capsule
+973,200,5 mg,Tablet
+974,200,10 mg,Tablet
+975,1401,250 mcg/ ml,Injection
+976,368,60 mg,Tablet
+977,368,30 mg,Tablet
+978,496,400 mg+400 iu+2 mg,Tablet
+979,574,80 mg+12.5 mg,Tablet
+980,574,160 mg+12.5 mg,Tablet
+981,59,200 mg,Tablet
+982,195,50 mg,Tablet
+983,387,200 mg/5 ml,IV Injection
+984,1839,120 mg,Tablet (Sustained Release)
+985,1839,90 mg,Tablet (Sustained Release)
+986,708,400 mg/5 ml,Oral Suspension
+987,1448,5 mg+12.5 mg,Tablet
+988,798,10 mg,Tablet
+989,677,330 mg,Tablet
+990,677,500 mg/5 ml,Oral Solution
+991,206,0.5%+0.9%,Ophthalmic Solution
+992,1827,200 mg+50 mg,Tablet (Controlled Release)
+993,1437,250 mg,Tablet
+994,241,0.3%+3%,Solution
+995,242,0.1%+0.5%,Cream
+996,1456,66%+3.5%,Hand Rub
+997,711,20%,IV Infusion
+998,947,2.5 mg,Tablet
+999,565,300 mg+12.5 mg,Tablet
+1000,626,300 mg,Tablet
+1001,195,12.5 mg,Tablet
+1002,1676,110 mcg+50 mcg,Inhalation Capsule
+1003,1676,27.5 mcg+15.6 mcg,Inhalation Capsule
+1004,601,150 mcg,Inhalation Capsule
+1005,601,75 mcg,Inhalation Capsule
+1006,1238,200 mg/5 ml,Powder for Suspension
+1007,1238,50 mg,Tablet
+1008,400,10 mg,Tablet
+1009,351,0.9%+5%,IV Infusion
+1010,1128,10 mg/2 ml,Injection
+1011,350,10%,IV Infusion
+1012,350,5%,IV Infusion
+1013,215,2 gm/vial,IV Injection
+1014,217,100 mg/ ml,Pediatric Drops
+1015,1137,1000 mg,Effervescent Tablet
+1016,1137,500 mg,Chewable Tablet
+1017,211,250 mg/5 ml,Powder for Suspension
+1018,1137,500 mg,Oral Powder
+1019,1454,500 mg/vial,IM/IV Injection
+1020,1454,1 gm/vial,IM/IV Injection
+1021,223,500 mg/vial,IM/IV Injection
+1022,223,1 gm/vial,IM/IV Injection
+1023,223,250 mg/vial,IM/IV Injection
+1024,224,180 mg/5 ml,Powder for Suspension
+1025,231,125 mg/5 ml,Powder for Suspension
+1026,231,500 mg,Capsule
+1027,1415,2 gm/vial,IM/IV Injection
+1028,1415,500 mg/vial,IM/IV Injection
+1029,1415,1 gm/vial,IM/IV Injection
+1030,231,250 mg,Capsule
+1031,220,80 mg/5 ml,Powder for Suspension
+1032,220,40 mg/5 ml,Powder for Suspension
+1033,220,20 mg/ ml,Pediatric Drops
+1034,220,100 mg,Capsule
+1035,220,200 mg,Tablet
+1036,212,400 mg,Tablet
+1037,212,200 mg,Tablet
+1038,278,(0.5 mg+5 mg+1 lac iu)/ gm,Ointment
+1039,278,(0.5 mg+5 mg+1 lac iu)/ gm,Cream
+1040,220,200 mg,Capsule
+1041,280,0.05%,Ointment
+1042,218,1 gm/10 ml,IM/IV Injection
+1043,218,250 mg/5 ml,IM/IV Injection
+1044,218,500 mg/10 ml,IM/IV Injection
+1045,218,2 mg/10 ml,IM/IV Injection
+1046,220,100 mg,Tablet
+1047,1850,500 mg,Tablet
+1048,1850,125 mg/5 ml,Powder for Suspension
+1049,1850,250 mg,Tablet
+1050,209,375 mg,Capsule
+1051,717,50 mg,Chewable Tablet
+1052,2060,400 mcg+12 mcg,Inhalation Capsule
+1053,1362,55 mcg/spray,Nasal Spray
+1054,1395,200 mg,Tablet
+1055,789,500 mg,Tablet
+1056,1801,200 mg,Tablet
+1057,1801,400 mg,Tablet
+1058,228,100 mg,Capsule
+1059,228,200 mg,Capsule
+1060,954,200 mg,Capsule
+1061,1033,100 mg,Tablet (Extended Release)
+1062,1033,75 mg,Tablet
+1063,1033,50 mg,Tablet
+1064,366,0.25 mg/5 ml,Oral Solution
+1065,1640,150 mg,Capsule
+1066,332,0.03 mg+0.15 mg,Tablet
+1067,232,1 gm/vial,IM/IV Injection
+1068,232,500 mg/vial,IM/IV Injection
+1069,267,1 mg/ ml,IV Infusion
+1070,563,0.5 ml/dose,IM Injection
+1071,457,0.50 mg,Tablet
+1072,457,0.25 mg,Tablet
+1073,457,0.75 mg,Tablet
+1074,226,250 mg/vial,IM/IV Injection
+1075,1162,250 mg+200 mg,Tablet
+1076,234,10 mg,Capsule
+1077,1840,80 mcg/actuation,Solution for Inhalation
+1078,1840,160 mcg/actuation,Solution for Inhalation
+1079,1290,5 mg/ ml,IV Infusion
+1080,235,250 mcg/vial,SC Injection
+1081,1435,0.5%+0.1%+0.393%,IV Infusion
+1082,237,0.50%,Ophthalmic Solution
+1083,1847,250 mg,Capsule
+1084,243,5%+1%,Ear Drop
+1085,1847,125 mg/5 ml,Oral Suspension
+1086,238,0.1%+0.5%,Ophthalmic Solution
+1087,1790,500 mg,Capsule
+1088,851,250 mg,Capsule
+1089,33,2%+0.0005%,Injection
+1090,1630,2%,Injection
+1091,323,250 mg,Dispersible Tablet
+1092,323,500 mg,Dispersible Tablet
+1093,255,(500 mg+500 mg)/vial,IV Injection
+1094,269,500 mg/4 ml,IM/IV Injection
+1095,1884,100 mg,Tablet
+1096,254,50 mcg/spray,Nasal Spray
+1097,293,1%,Cream
+1098,1029,5 mg,Tablet
+1099,547,5000 iu/vial,IM Injection
+1100,828,1.5 ml/vial,Oral Suspension
+1101,54,250 mg/2 ml,IM/IV Injection
+1102,1447,0.5%+0.1%,Ophthalmic Solution
+1103,1542,0.5%+0.4%,Ophthalmic Solution
+1104,1329,0.50%,Ophthalmic Solution
+1105,256,100 mg,Tablet
+1106,263,500 mg,Tablet (Extended Release)
+1107,537,0.10%,Cream
+1108,261,15 mg,Tablet
+1109,480,0.03%,Cream
+1110,1827,100 mg+25 mg,Tablet (Controlled Release)
+1111,341,0.1%+0.3%,Ophthalmic Solution
+1112,1089,0.30%,Ophthalmic Solution
+1113,275,1.2%+0.025%,Topical Gel
+1114,273,300 mg/2 ml,IM/IV Injection
+1115,273,600 mg/4 ml,IM/IV Injection
+1116,1881,80 mg,Capsule (Extended Release)
+1117,1881,40 mg,Capsule (Extended Release)
+1118,263,400 mg/100 ml,IV Infusion
+1119,263,1000 mg,Tablet (Extended Release)
+1120,268,10 mg,Tablet
+1121,255,(250 mg+250 mg)/vial,IV Injection
+1122,263,200 mg/5 ml,Powder for Suspension
+1123,1606,210 mg,Tablet
+1124,675,250 mg,Tablet
+1125,675,500 mg,Tablet
+1126,1845,1% w/w,Cream
+1127,288,1%,Ear Drop
+1128,289,1%,Topical Solution
+1129,3,200 mg,Tablet (Extended Release)
+1130,1607,3 gm/100 ml,Mouthwash
+1131,221,200 mg+125 mg,Tablet
+1132,221,100 mg+62.5 mg,Tablet
+1133,1775,5% w/v,Nail Lacquer
+1134,411,2000 anti-xa iu/0.2 ml,SC Injection
+1135,1834,2%,Vaginal Cream
+1136,324,2 mg+0.035 mg,Tablet
+1137,1588,1%,Lotion
+1138,273,75 mg/5 ml,Powder for Suspension
+1139,279,0.05%+3%,Ointment
+1140,281,0.05%,Ointment
+1141,248,80 mg/5 ml,Syrup
+1142,1822,0.025%+3%,Cream
+1143,276,1%+0.02%,Ear Drop
+1144,1022,200 mg,Tablet
+1145,1022,100 mg,Tablet
+1146,357,50 mg,Dispersible Tablet
+1147,357,50 mg,Suppository
+1148,357,25 mg,Suppository
+1149,357,12.5 mg,Suppository
+1150,611,30%+70%,SC Injection
+1151,285,0.1 mg,Tablet
+1152,284,2.5 mg/ ml,Pediatric Drops
+1153,290,1%+1%,Cream
+1154,1150,200 mg/ ml,Injection
+1155,1150,50 mg/ ml,Injection
+1156,1150,10 mg,Tablet
+1157,1504,100 iu/ ml,SC Injection
+1158,473,250 mg/5 ml,Powder for Suspension
+1159,12,200 mg,Tablet
+1160,12,400 mg,Tablet
+1161,9,5% w/w,Cream
+1162,1582,0.05%,Scalp Solution
+1163,1785,200 mg,Vaginal Suppository
+1164,1264,500 mg/100 ml,Solution
+1165,574,160 mg+25 mg,Tablet
+1166,1621,0.50%,Ophthalmic Solution
+1167,1012,200 mg,Tablet
+1168,1455,(200 mg+15 mg+15 mg)/5 ml,Syrup
+1169,300,600 iu+85 iu+0.3 iu,Capsule
+1170,697,10 mg+240 mg,Tablet (Extended Release)
+1171,697,5 mg+120 mg,Tablet (Extended Release)
+1172,942,20 mg,Tablet (Enteric Coated)
+1173,942,20 mg,Capsule (Delayed Release)
+1174,1784,(100 mcg+20 mcg)/puff,Inhaler
+1175,303,0.6 mg,Tablet
+1176,715,135 mg,Tablet
+1177,1429,1 m iu,IM/IV Injection
+1178,1429,4.5 m iu,IM/IV Injection
+1179,361,10 mg,Tablet
+1180,361,10 mg/5 ml,Syrup
+1181,719,500 mcg,Tablet
+1182,650,15%,Gel
+1183,552,0.2%+0.36%+1%,Ophthalmic Solution
+1184,706,400 mg,Chewable Tablet
+1185,630,50 mg/ ml,Pediatric Drops
+1186,282,50 mg,Tablet
+1187,734,1000 mg,Tablet (Extended Release)
+1188,1031,0.4 mg+0.5 mg,Capsule
+1189,117,(3 lac unit+1 lac unit)/vial,Injection
+1190,1578,0.05%+0.75%+2%+1%,Cream
+1191,625,(2.5 mg+500 mcg)/ ml,Respirator Solution
+1192,1187,1%,Cream
+1193,523,30 mg,Tablet (Extended Release)
+1194,523,60 mg,Tablet (Extended Release)
+1195,630,50 mg/5 ml,Syrup
+1196,1146,4 mg/5 ml,IV Infusion
+1197,297,25 mg,Tablet
+1198,297,100 mg,Tablet
+1199,1004,300 mg,Tablet (Controlled Release)
+1200,1004,500 mg,Tablet (Controlled Release)
+1201,1004,200 mg,Tablet (Controlled Release)
+1202,1004,200 mg/5 ml,Syrup
+1203,1062,200 mg,Tablet (Controlled Release)
+1204,1062,300 mg,Tablet (Controlled Release)
+1205,1062,400 mg,Tablet (Controlled Release)
+1206,523,60 mg,Tablet (Modified Release)
+1207,337,0.10%,Ophthalmic Solution
+1208,806,10 mg,Tablet
+1209,1152,5 mg,Tablet
+1210,1152,7.5 mg,Tablet
+1211,2044,1000+327 mg+500 mg+400 i.u.,Effervescent Tablet
+1212,326,6 mg,Tablet
+1213,1190,1%,Cream
+1214,918,5 mg/5 ml,Oral Solution
+1215,918,2 mg,Tablet
+1216,584,200 mg,Tablet
+1217,2047,10 mg,Tablet
+1218,2047,5 mg,Tablet
+1219,2047,2.5 mg,Tablet
+1220,1545,5%,Ophthalmic Solution
+1221,326,24 mg,Tablet
+1222,59,100 mg,Tablet
+1223,1464,150 mg/ ml,Injection
+1224,1336,20 mg,MUPS Tablet
+1225,326,6 mg/5 ml,Oral Suspension
+1226,575,10 mg,Tablet
+1227,1102,0.03%,Cream
+1228,169,600 mg+400 iu,Effervescent Tablet
+1229,604,1.25 mg+4 mg,Tablet
+1230,875,8 mg,Tablet
+1231,875,4 mg,Tablet
+1232,1468,5 mg+5 mg,Tablet
+1233,1468,5 mg+10 mg,Tablet
+1234,1118,500 mg/vial,IV Infusion
+1235,1118,1 gm/vial,IV Infusion
+1236,466,150 mg+0.5 mg,Capsule (Timed Release)
+1237,4,800 mg,Tablet (Delayed Release)
+1238,1659,40 mg/vial,IM/IV Injection
+1239,305,5%+10%,Lotion
+1240,306,10%,Lotion
+1241,998,4%,Ophthalmic Solution
+1242,306,10%,Cream
+1243,1127,2 mg/vail,Injection
+1244,1127,1 mg/vail,Injection
+1245,1803,2% w/w,Ointment
+1246,1597,8%,Vaginal Gel
+1247,1356,1 mg,Capsule
+1248,1356,0.5 mg,Capsule
+1249,857,325 mg,Tablet
+1250,427,250 mg,Tablet
+1251,361,20 mg/2 ml,IM Injection
+1252,1204,1 gm/vial,IV Infusion
+1253,1204,200 mg/vial,IV Infusion
+1254,923,5 mg,Tablet
+1255,923,10 mg/2 ml,IM/IV Injection
+1256,1341,0.01%,Ointment
+1257,1341,0.05%,Cream
+1258,1648,0.25%,Cream
+1259,315,1000 mg/vial,IV Infusion
+1260,315,100 mg/vial,IV Infusion
+1261,315,500 mg/vial,IV Infusion
+1262,1861,100 mg,Capsule
+1263,312,10 mg,Tablet
+1264,1901,10 mg/ ml,IV Infusion
+1265,1195,0.05%,Ophthalmic Emulsion
+1266,1033,100 mg,Tablet
+1267,311,1 mg/ ml,IM Injection
+1268,583,1000 mcg/ ml,IM Injection
+1269,311,250 mcg/ ml,IM/SC Injection
+1270,1045,16.7%+16.7%,Topical Solution
+1271,1390,125 mg,Capsule
+1272,252,50000 iu,Capsule
+1273,252,2000 iu,Capsule
+1274,252,1000 iu,Tablet
+1275,414,25 mg,Tablet
+1276,758,200 mg+200 mcg,Tablet
+1277,764,200 mcg,Tablet
+1278,764,100 mcg,Tablet
+1279,764,600 mcg,Tablet
+1280,518,200 mg/vial,IV Infusion
+1281,518,1 gm/vial,IV Infusion
+1282,335,5 mg/ ml,IM/IV Injection
+1283,252,800 iu,Capsule
+1284,252,1000 iu,Capsule
+1285,78,10.25 gm,Oral Powder
+1286,883,100 mg,Tablet
+1287,995,0.90%,Nasal Drop
+1288,891,800 mg,Tablet
+1289,252,2000 iu,Dispersible Tablet
+1290,164,0.005% w/w,Ointment
+1291,2071,45 mg,Tablet
+1292,316,60 mg,Tablet
+1293,1388,200 mg/vial,IV Infusion
+1294,1304,110 mg,Capsule
+1295,1304,75 mg,Capsule
+1296,1304,150 mg,Capsule
+1297,252,200 iu/ ml,Pediatric Drops
+1298,1206,0.5 ml,Injection
+1299,319,25 mg,Capsule
+1300,1292,100 mg,Tablet
+1301,319,50 mg,Capsule
+1302,1627,2%,Shampoo
+1303,318,100 mg,Capsule
+1304,318,200 mg,Capsule
+1305,362,2 mg,Tablet
+1306,164,0.005% w/w,Cream
+1307,1376,40 mcg/0.4 ml,SC Injection
+1308,1376,60 mcg/0.3 ml,SC Injection
+1309,1376,25 mcg/0.42 ml,SC Injection
+1310,1376,100 mcg/0.5 ml,SC Injection
+1311,320,30 mg,Tablet
+1312,320,60 mg,Tablet
+1313,1550,5%,Gel
+1314,339,5 mg,Tablet
+1315,339,10 mg,Tablet
+1316,1143,40%,Ointment
+1317,833,600 mg,Tablet
+1318,376,80 mg/vial,IV Infusion
+1319,1230,20 mg/4 ml,IV Infusion
+1320,1292,20 mg,Tablet
+1321,1292,50 mg,Tablet
+1322,1292,140 mg,Tablet
+1323,1302,60 mg+400 mg,Tablet
+1324,322,7.5 mg,Tablet (Extended Release)
+1325,6,100 mg/sachet,Effervescent Granules
+1326,109,50 mcg/puff,Inhaler
+1327,337,0.05%,Ophthalmic Ointment
+1328,793,50 mg/ ml,IM Injection
+1329,6,600 mg,Effervescent Tablet
+1330,252,1000 iu/5 ml,Oral Solution
+1331,380,10 mg,Dispersible Tablet
+1332,326,30 mg,Tablet
+1333,325,500 mg,Tablet
+1334,933,50 mg/ ml,Oral Suspension
+1335,933,125 mg,Tablet
+1336,1975,300 mg/vial,IV Infusion
+1337,1664,10 mg,Vaginal Tablet
+1338,791,300 mg/5 ml,Oral Suspension
+1339,791,500 mg,Tablet
+1340,252,2000 iu,Flash Tablet
+1341,860,1000 mg,Tablet
+1342,1106,1 mg,Tablet
+1343,1106,2 mg,Tablet
+1344,1106,5 mg,Tablet
+1345,398,20 mg,Capsule (Delayed Release)
+1346,398,60 mg,Capsule (Delayed Release)
+1347,284,0.25 mg,Tablet
+1348,69,1 gm/vial,IM/IV Injection
+1349,1658,14 mg+10 mg,Capsule (Extended Release)
+1350,1658,28 mg+10 mg,Capsule (Extended Release)
+1351,727,5 mg,Tablet
+1352,1323,8 mg,Tablet
+1353,1323,4 mg,Tablet
+1354,1323,16 mg,Tablet
+1355,1323,2 mg,Tablet
+1356,746,40 mg/ ml,Injection
+1357,746,80 mg/2 ml,Injection
+1358,155,150 mg,Tablet (Sustained Release)
+1359,582,4%,Cream
+1360,1970,25 mg,Tablet
+1361,674,40 mg,Tablet
+1362,327,120 mg/1.7 ml,SC Injection
+1363,327,60 mg/ ml,SC Injection
+1364,1052,250 mg,Tablet
+1365,509,2%+1%,Cream
+1366,1879,500 mg/5 ml,IV Injection
+1367,1879,1000 mg/10 ml,IV Injection
+1368,1879,100 mg/ ml,IV Injection
+1369,821,10 mg,Tablet
+1370,821,5 mg,Tablet
+1371,597,25 mg,Tablet
+1372,747,500 mg/vial,IM/IV Injection
+1373,10,5%+1%,Cream
+1374,291,500 mg,Vaginal Tablet
+1375,12,800 mg,Tablet
+1376,1402,0.25%,Cream
+1377,329,0.5 mg/ ml,Pediatric Drops
+1378,1465,500 mg/vial,Injection
+1379,1028,0.03%,Ointment
+1380,1227,1.30%,Liquid
+1381,296,0.3%+0.3%,Cream
+1382,1227,4.80%,Liquid
+1383,1095,4 mg,Capsule (Extended Release)
+1384,1095,2 mg,Capsule (Extended Release)
+1385,1095,2 mg,Tablet
+1386,1095,1 mg,Tablet
+1387,1403,200 mcg/2 ml,IV Infusion
+1388,333,0.05%,Gel
+1389,1805,0.02 mg+0.15 mg,Tablet
+1390,341,0.1%+0.3%,Ophthalmic Ointment
+1391,338,0.3%+0.1%,Ophthalmic Solution
+1392,12,200 mg/5 ml,Oral Suspension
+1393,342,200 mg,Tablet
+1394,342,400 mg,Tablet
+1395,342,100 mg/5 ml,Oral Suspension
+1396,1774,60 mg+1200 mg,Tablet
+1397,350,25%,IV Infusion
+1398,351,0.18%+4.3%,IV Infusion
+1399,527,5 mg,Tablet
+1400,734,500 mg,Tablet (Sustained Release)
+1401,573,25 mg+50 mg,Tablet
+1402,947,5 mg,Tablet
+1403,527,5 mg,Tablet (Extended Release)
+1404,527,2.5 mg,Tablet
+1405,621,350 mg/ ml,IV Injection
+1406,952,1 mg,Tablet
+1407,84,18 mg,Tablet
+1408,608,40 iu/ ml,SC Injection
+1409,1225,50%+50% in 40 iu/ ml,SC Injection
+1410,759,50 mg,Tablet
+1411,759,25 mg,Tablet
+1412,511,287 mg/ ml,IV Injection
+1413,357,100 mg,Suppository
+1414,1443,10 mg+10 mg,Tablet (Delayed Release)
+1415,1443,20 mg+20 mg,Tablet (Extended Release)
+1416,522,5 mg,Tablet
+1417,691,10 mg,Tablet
+1418,691,5 mg,Tablet
+1419,357,100 mg,Retard Tablet
+1420,357,25 mg,Tablet
+1421,1097,20 mg,Tablet
+1422,367,250 mg/5 ml,Oral Suspension
+1423,367,500 mg,Tablet
+1424,366,0.20 mg,Capsule
+1425,365,0.05%,Ophthalmic Emulsion
+1426,475,0.30%,Ophthalmic Solution
+1427,525,30 mg+2 mg,Tablet
+1428,525,30 mg+4 mg,Tablet
+1429,1360,18 mcg,Inhalation Capsule
+1430,1266,200 mcg,Tablet
+1431,1266,300 mcg,Tablet
+1432,601,300 mcg,Inhalation Capsule
+1433,1466,50 mcg,Inhalation Capsule
+1434,1839,90 mg,Tablet (Controlled Release)
+1435,1839,60 mg,Tablet (Controlled Release)
+1436,882,0.8%+5%,Ophthalmic Solution
+1437,1109,1%,Ophthalmic Solution
+1438,1117,320 mg,Tablet
+1439,388,500 mg/vial,IV Infusion
+1440,1864,2 mg+2 mg,Tablet
+1441,885,10 mg/ ml,Injection
+1442,1626,1 mg,Capsule
+1443,506,40 mg+50 mg,Tablet
+1444,26,250 mg,Tablet
+1445,506,20 mg+50 mg,Tablet
+1446,883,30 mg/5 ml,Oral Suspension
+1447,1117,40 mg,Tablet
+1448,361,20 mg,Tablet
+1449,85,100 mg,Tablet (Enteric Coated)
+1450,85,300 mg,Tablet (Enteric Coated)
+1451,284,1 mg/ ml,IM/IV Injection
+1452,231,125 mg/1.25 ml,Pediatric Drops
+1453,376,20 mg/vial,IV Infusion
+1454,375,12.5 mg/ ml,IV Injection
+1455,473,500 mg/vial,IM/IV Injection
+1456,1098,100 mg,Tablet (Sustained Release)
+1457,1297,(200 mg+250 mg)/5 ml,Oral Suspension
+1458,378,120 mg,Tablet
+1459,380,30 mg,Suppository
+1460,380,15 mg,Suppository
+1461,1098,100 mg,Capsule
+1462,1098,100 mg,Tablet (Prolonged Release)
+1463,907,6% w/w,Cream
+1464,370,50 mg,Tablet
+1465,744,250 mg,Tablet
+1466,391,5%,Cream
+1467,394,50 mg,Capsule
+1468,397,40 mg,Tablet
+1469,935,60 mg,Tablet
+1470,388,250 mg/vial,IV Infusion
+1471,392,400 mg,Tablet (Controlled Release)
+1472,1791,(100 mcg+5 mcg)/puff,Inhaler
+1473,1791,(200 mcg+5 mcg)/puff,Inhaler
+1474,828,3 ml/vial,Oral Suspension
+1475,667,90 mg+400 mg,Tablet
+1476,689,(300 mg+1.25 ml)/5 ml,Oral Emulsion
+1477,398,20 mg,Tablet (Delayed Release)
+1478,398,30 mg,Tablet (Delayed Release)
+1479,398,60 mg,Tablet (Delayed Release)
+1480,251,25 mg,Tablet
+1481,972,5 mg/5 ml,Oral Solution
+1482,399,0.5 mg,Capsule
+1483,455,25 mcg/hour,Transdermal Patch
+1484,455,50 mcg/hour,Transdermal Patch
+1485,949,50 mg/100 ml,IV Infusion
+1486,133,5 mg,Tablet
+1487,217,500 mg/5 ml,Powder for Suspension
+1488,145,16 mg,Tablet
+1489,1162,250 mg+200 mg,Capsule
+1490,126,0.05%+0.005%,Topical Suspension
+1491,1097,5 mg,Tablet
+1492,1097,2.5 mg,Tablet
+1493,721,250 mg,Tablet
+1494,1636,(1 gm + 1.3 gm)/50 gm,Topical Gel
+1495,1032,0.4 mg,Capsule (Modified Release)
+1496,78,19.95 gm,Oral Powder
+1497,355,10 mg,Suppository
+1498,355,10 mg/2 ml,IM/IV Injection
+1499,427,500 mg,Tablet
+1500,795,125 mg/5 ml,Oral Suspension
+1501,681,1.5 mg,Tablet
+1502,401,10 mg,Dispersible Tablet
+1503,85,81 mg,Tablet (Enteric Coated)
+1504,402,1%,Cream
+1505,402,1%,Vaginal Cream
+1506,402,150 mg,Vaginal Tablet
+1507,947,1.25 mg,Tablet
+1508,1854,0.05%,Cream
+1509,1854,0.05%,Ointment
+1510,1882,0.10%,Cream
+1511,444,600 mg,Tablet (Extended Release)
+1512,444,300 mg,Capsule
+1513,800,30 mg,Tablet
+1514,467,150 mg+0.5 mg+61.8 mg,Capsule (Extended Release)
+1515,473,250 mg/vial,IM/IV Injection
+1516,957,200 mg,Tablet
+1517,1029,2.5 mg,Tablet
+1518,675,500 mg/5 ml,Oral Solution
+1519,904,500 mg/5 ml,Syrup
+1520,904,600 mg,Tablet
+1521,1647,150 mg,Tablet
+1522,1647,200 mg,Tablet
+1523,1505,80 mg/2 ml,IM/IV Injection
+1524,919,100 mg,Capsule
+1525,860,120 mg/5 ml,Syrup
+1526,414,50 mg,Tablet
+1527,832,5 mg/ ml,IV Infusion
+1528,1404,13.90%,Cream
+1529,2046,25 mg+5 mg,Tablet
+1530,2046,10 mg+5 mg,Tablet
+1531,860,500 mg,Suppository
+1532,860,250 mg,Suppository
+1533,250,25 mg/5 ml,Syrup
+1534,681,0.75 mg,Tablet
+1535,1469,100 mg,Tablet
+1536,1469,75 mg,Tablet
+1537,1174,50 mcg,Tablet
+1538,860,125 mg,Suppository
+1539,74,125 mg,Capsule
+1540,827,4 mg,Flash Tablet
+1541,827,8 mg,Flash Tablet
+1542,827,4 mg,Dispersible Tablet
+1543,1439,50%+50%,Ointment
+1544,1968,200 mg,Capsule
+1545,1778,10%+5%+10%,Cream
+1546,1439,3%+8%,Lotion
+1547,1439,6%+15%,Cream
+1548,1307,0.50%,Ophthalmic Solution
+1549,1364,25% w/w,Cream
+1550,684,2.5%+2.5%,Cream
+1551,1204,50 mg,Tablet
+1552,1204,500 mg/vial,IV Infusion
+1553,1004,200 mg,Tablet
+1554,1099,250 mg,Capsule
+1555,198,200 mg+50 mg+200 mg,Tablet
+1556,198,150 mg+37.5 mg+200 mg,Tablet
+1557,198,100 mg+25 mg+200 mg,Tablet
+1558,459,500 mg/10 ml,IV Injection or Infusion
+1559,454,200 mg,Capsule
+1560,1041,20 mg,Tablet
+1561,596,100 mg,Capsule
+1562,1782,(19 gm+7 gm)/118 ml,Rectal Saline
+1563,1141,20 mg,Tablet
+1564,27,50 mg,Tablet
+1565,813,5 mg,Tablet
+1566,1474,2 billion/5 ml,Oral Suspension
+1567,663,15 mg,Capsule (Delayed Release)
+1568,663,30 mg,Capsule (Delayed Release)
+1569,420,2 mg/ ml,IV Infusion
+1570,418,25 mg/5 ml,Injection
+1571,1566,50 mg/5 ml,IV Injection
+1572,675,500 mg,Tablet (Extended Release)
+1573,675,750 mg,Tablet (Extended Release)
+1574,675,1000 mg,Tablet (Extended Release)
+1575,675,500 mg/5 ml,IV Infusion
+1576,456,100 mg/5 ml,IV Infusion
+1577,456,50 mg,Capsule
+1578,429,3000 iu,IV/SC Injection
+1579,429,5000 iu,IV/SC Injection
+1580,429,4000 iu,IV/SC Injection
+1581,429,2000 iu,IV/SC Injection
+1582,1142,5 mg,Capsule
+1583,1142,10 mg,Capsule
+1584,727,10 mg,Tablet
+1585,1541,5%,Ophthalmic Solution
+1586,1016,1.5 million unit,Powder for Injection
+1587,422,2000 iu,IV/SC Injection
+1588,422,3000 iu,IV/SC Injection
+1589,422,4000 iu,IV/SC Injection
+1590,422,10000 iu,IV/SC Injection
+1591,417,50 mg,Tablet
+1592,429,10000 iu,IV/SC Injection
+1593,1294,250 mg,Tablet
+1594,259,5 mg+5 mg+10 mg+10 mg,Suppository
+1595,259,(5 mg+5 mg+10.5 mg+10 mg)/ gm,Ointment
+1596,1284,300 mg,Capsule
+1597,1798,100 mg/vial,IV Infusion
+1598,426,150 mg,Tablet
+1599,428,3%,Lotion
+1600,427,200 mg/5 ml,Pediatric Drops
+1601,426,100 mg,Tablet
+1602,2058,5 mg,Tablet
+1603,1262,1 gm/vial,IM/IV Injection
+1604,1424,2%,Cream
+1605,570,40 mg+12.5 mg,Tablet
+1606,570,20 mg+12.5 mg,Tablet
+1607,966,50 mg/5 ml,IV Injection
+1608,431,400 mg,Tablet
+1609,1828,1.25 mg,Tablet
+1610,1669,20 mg,MUPS Tablet
+1611,1669,40 mg,MUPS Tablet
+1612,822,10 mg,Tablet
+1613,433,20 mg/vial,IV Injection
+1614,433,20 mg,Oral Powder
+1615,1462,20 mg+1000 mg+500 mg,Tablet
+1616,1631,25 mg/0.5 ml,SC Injection
+1617,1631,50 mg/ ml,SC Injection
+1618,304,0.625 mg,Tablet
+1619,1780,0.625 mg/ gm,Vaginal Cream
+1620,498,500 mg+22.5 mg,Capsule
+1621,2043,200 mg,Tablet
+1622,817,5 mg,Tablet
+1623,1096,25 mg,Tablet
+1624,1096,50 mg,Tablet
+1625,444,600 mg,Tablet (Sustained Release)
+1626,1480,5 mg/5 ml,Oral Solution
+1627,1852,50 mg,Tablet
+1628,1480,10 mg,Tablet
+1629,680,750 mg,Tablet
+1630,680,250 mg,Tablet
+1631,680,500 mg/100 ml,IV Infusion
+1632,1004,250 mg/5 ml,Syrup
+1633,1004,250 mg,Tablet
+1634,1374,3 gm/sachet,Oral Powder
+1635,614,100 iu/ ml,SC Injection
+1636,964,13.3 mg/24 h (15 cm),Transdermal Patch
+1637,964,4.6 mg/24 h (5 cm),Transdermal Patch
+1638,964,9.5 mg/24 h (10 cm),Transdermal Patch
+1639,964,4.5 mg,Capsule
+1640,680,125 mg/5 ml,Oral Solution
+1641,1476,(14 mg+6.5 mg+2 mg)/5 ml,Syrup
+1642,898,6%+0.9%,IV Infusion
+1643,139,0.03%,Ophthalmic Solution
+1644,1572,99.05%,Ophthalmic Solution
+1645,1543,2%,Viscoelastic Solution
+1646,1867,(10 mg+3.5 gm+12 gm)/sachet,Oral Powder
+1647,1867,(10 mg+3.5 gm+12 gm)/160 ml,Powder for Solution
+1648,589,150 mcg,Chewable Tablet
+1649,449,10 mg,Tablet
+1650,1182,320 mg,Tablet
+1651,507,2%+0.1%,Cream
+1652,1001,2%,Ointment
+1653,1001,2%,Cream
+1654,1181,250 mg,Tablet
+1655,474,200 mg/100 ml,IV Infusion
+1656,492,50 mcg/spray,Nasal Spray
+1657,1151,0.11 gm/ ml,Pediatric Drops
+1658,452,20 mg,Tablet
+1659,452,40 mg/5 ml,Powder for Suspension
+1660,452,40 mg,Tablet
+1661,226,250 mg/5 ml,Powder for Suspension
+1662,1166,1 mg,Tablet
+1663,1166,2 mg,Tablet
+1664,1166,5 mg,Tablet
+1665,451,250 mg,Tablet
+1666,1903,1000 iu/5 ml,IM Injection
+1667,951,10%,IV Infusion
+1668,1076,1%,Ophthalmic Ointment
+1669,440,0.3 mg+0.03 mg+75 mg,Tablet
+1670,463,200 mg+200 mcg,Capsule
+1671,459,100 mg/2 ml,IV Injection or Infusion
+1672,459,1 gm/20 ml,IV Injection or Infusion
+1673,435,1 mg,Tablet
+1674,1608,0.10%,Vaginal Cream
+1675,461,48 mg+0.5 mg+22.5 mg,Tablet
+1676,1837,1.8%+1%+0.4%,Vaginal Gel
+1677,1060,500 mg,Capsule
+1678,1010,200 mg,Tablet
+1679,486,25 mg/ ml,IM/SC Injection
+1680,454,145 mg,Tablet
+1681,463,200 mg+200 mcg,Tablet
+1682,244,50 mg+0.5 mg,Capsule
+1683,455,100 mcg/2 ml,Injection
+1684,1584,600 mg,Vaginal Tablet
+1685,458,2% w/w,Vaginal Cream
+1686,971,50 mg/5 ml,Powder for Suspension
+1687,463,200 mg+400 mcg,Tablet
+1688,406,50 mg/2.5 ml,IV Injection or Infusion
+1689,463,200 mg+500 mcg,Capsule
+1690,498,5 mg+20 mg,Tablet
+1691,407,47 mg+0.5 mg+22.5 mg,Tablet
+1692,971,300 mg,Tablet
+1693,1673,188 mg+0.50 mg+61.8 mg,Tablet
+1694,463,200 mg+500 mcg,Capsule (Timed Release)
+1695,462,100 mg/5 ml,Oral Suspension
+1696,467,150 mg+0.5 mg+61.8 mg,Capsule (Sustained Release)
+1697,463,200 mg+200 mcg,Capsule (Timed Release)
+1698,463,200 mg+350 mcg,Tablet
+1699,971,150 mg,Tablet
+1700,2048,100 mg,Tablet
+1701,810,100 mg,Tablet
+1702,1773,2.5% w/w,Gel
+1703,464,300 mg/5 ml,Syrup
+1704,1502,3.5 gm/5.4 gm,Effervescent Powder
+1705,470,300 mcg/0.5 ml,IV/SC Injection
+1706,725,3 mg,Tablet
+1707,363,100 mg,Tablet
+1708,1644,150 mg,Capsule
+1709,1644,100 mg,Capsule
+1710,1363,5 mg,Tablet
+1711,1502,3.5 gm/sachet,Effervescent Powder
+1712,661,10 gm/sachet,Oral Powder
+1713,2055,20 mg,Tablet
+1714,2055,10 mg,Tablet
+1715,942,10 mg,Sprinkle Capsule
+1716,1795,80 mg/vial,SC Injection
+1717,1795,120 mg/vial,SC Injection
+1718,477,5 mg,Tablet
+1719,477,10 mg,Tablet
+1720,1006,400 mg+100 mg,Tablet
+1721,427,250 mg/5 ml,Powder for Suspension
+1722,751,500 mg,Tablet
+1723,751,0.75%,Vaginal Gel
+1724,751,250 mg,Tablet
+1725,988,40 mg,Chewable Tablet
+1726,312,5 mg,Tablet
+1727,1540,40 mg,Capsule (Delayed Release)
+1728,472,200 mg,Tablet
+1729,472,100 mg,Tablet
+1730,1460,(50 mcg+5 mcg)/puff,Inhaler
+1731,1460,(125 mcg+5 mcg)/puff,Inhaler
+1732,1460,(250 mcg+10 mcg)/puff,Inhaler
+1733,1625,400 mg/250 ml,IV Infusion
+1734,836,200 mg/100 ml,IV Infusion
+1735,836,400 mg,Tablet
+1736,836,200 mg,Tablet
+1737,1643,125 mcg/metered dose,Inhaler
+1738,1643,250 mcg/metered dose,Inhaler
+1739,985,4 mg,Capsule
+1740,985,8 mg,Capsule
+1741,1313,0.50%,Ophthalmic Solution
+1742,776,400 mg,Tablet
+1743,1329,0.50%,Ophthalmic Ointment
+1744,494,50 mg,Tablet
+1745,484,20 mg/ ml,Injection
+1746,484,1 mg,Tablet
+1747,484,40 mg/2 ml,Injection
+1748,484,0.5 mg,Tablet
+1749,263,250 mg/5 ml,Tablet
+1750,1105,1%,Ophthalmic Solution
+1751,1258,50 mg/2 ml,IV Infusion
+1752,1258,10 mg,Tablet
+1753,551,0.1%+0.5%,Ophthalmic Solution
+1754,1156,50000 iu,Capsule
+1755,1000,0.02%,Mouthwash
+1756,481,2%,Ophthalmic Solution
+1757,633,100 ml,Solution for Inhalation
+1758,493,20 mg,Capsule
+1759,495,5 mg,Tablet
+1760,1410,75 iu/vial,IM/SC Injection
+1761,466,150 mg+0.5 mg,Capsule (Sustained Release)
+1762,497,25 mg+2.5 mg+1 mg,Tablet
+1763,734,750 mg,Tablet (Extended Release)
+1764,501,2.5 mg/0.5 ml,Ophthalmic Solution
+1765,317,7500 iu/0.3 ml,SC Injection
+1766,317,5000 iu/0.2 ml,SC Injection
+1767,883,150 mg/2 ml,Injection
+1768,595,2 gm/vial,IV Infusion
+1769,1632,20 mcg/80 mcl,SC Injection
+1770,505,40 mg,Tablet
+1771,504,10 %w/v,IV Infusion
+1772,960,1 mg/ ml,Oral Solution
+1773,960,4 mg,Tablet
+1774,960,2 mg,Tablet
+1775,960,1 mg,Tablet
+1776,867,6 mg/0.6 ml,SC Injection
+1777,508,1%,Viscous Eye Drop
+1778,1410,150 iu/vial,IM/SC Injection
+1779,505,20 mg/2 ml,IM/IV Injection
+1780,505,20 mg/5 ml,Syrup
+1781,505,250 mg,Tablet
+1782,1326,2%,Cream
+1783,578,2%+1%,Cream
+1784,480,0.03%,Ointment
+1785,731,250 mg/vial,IV Injection or Infusion
+1786,226,1 gm/vial,IM/IV Injection
+1787,815,0.20%,Cream
+1788,287,1%,Ophthalmic Ointment
+1789,110,6 lac units/vial,Injection
+1790,1458,10 mg,Tablet
+1791,1458,5 mg,Tablet
+1792,509,2%+1%,Ointment
+1793,1972,2%+0.1%,Cream
+1794,19,250 mg+500 mg,Chewable Tablet
+1795,19,(200 mg+125 mg)/5 ml,Oral Suspension
+1796,16,200 mg,Chewable Tablet
+1797,225,2 gm/vial,IM Injection
+1798,566,25000 iu/5 ml,Injection
+1799,540,5 mg,Tablet
+1800,1505,40 mg/2 ml,IM/IV Injection
+1801,1384,0.30%,Ophthalmic Solution
+1802,425,0.125 mg,Tablet
+1803,425,0.2 mg/ ml,Injection
+1804,335,4 mg/ ml,IM/IV Injection
+1805,803,0.5 mg/ ml,Injection
+1806,710,2.5 gm/5 ml,IM/IV Injection
+1807,1551,4 gm/100 ml,IV Infusion
+1808,645,50 mg/ ml,IM/IV Injection
+1809,1309,250 mcg/ ml,Nebuliser Solution
+1810,171,667 mg,Tablet
+1811,936,25 mg,Tablet
+1812,955,5 mg,Tablet
+1813,1062,300 mg,Tablet
+1814,1481,3%,Ointment
+1815,919,25 mg,Capsule
+1816,510,300 mg,Tablet
+1817,510,100 mg,Tablet
+1818,919,82.5 mg,Tablet (Controlled Release)
+1819,919,165 mg,Tablet (Controlled Release)
+1820,919,330 mg,Tablet (Controlled Release)
+1821,1144,20 mg,Tablet
+1822,1489,5 ml/ampoule,Liquid
+1823,1603,0.5 ml,IM Injection
+1824,513,0.15%,Ophthalmic Gel
+1825,147,0.1%+1%+2%,Ointment
+1826,514,0.30%,Ophthalmic Solution
+1827,1019,500 mg,Tablet
+1828,1451,250 mg+133.5 mg+80 mg,Chewable Tablet
+1829,515,200 mg,Tablet
+1830,514,0.50%,Ophthalmic Solution
+1831,1168,300 mg,Capsule
+1832,517,250 mg,Tablet
+1833,1426,1000 mg/40 ml,Injection
+1834,1385,0.10%,Ointment
+1835,1190,1%,Ointment
+1836,520,0.3%+1%,Ear Drop
+1837,1071,0.50%,Ophthalmic Solution
+1838,1505,20 mg/2 ml,IM/IV Injection
+1839,1384,0.30%,Ophthalmic Ointment
+1840,1544,0.30%,Ophthalmic Gel
+1841,1385,0.30%,Cream
+1842,1089,0.30%,Ophthalmic Ointment
+1843,520,0.3%+1%,Cream
+1844,1385,0.30%,Ointment
+1845,521,2%,Topical Solution
+1846,1492,7.10%,Topical Solution
+1847,241,1.5%+15%,Solution
+1848,1823,70%,Hand Rub
+1849,345,0.2%+0.2%,Ophthalmic Solution
+1850,192,8 mg+12.5 mg,Tablet
+1851,191,8 mg,Tablet
+1852,523,30 mg,Capsule (Controlled Release)
+1853,737,50 mg+1000 mg,Tablet (Extended Release)
+1854,737,50 mg+500 mg,Tablet
+1855,1285,2.5 mg+1000 mg,Tablet
+1856,737,50 mg+1000 mg,Tablet
+1857,737,50 mg+500 mg,Tablet (Extended Release)
+1858,990,50 mg,Tablet
+1859,990,100 mg,Tablet
+1860,529,500 mg,Tablet
+1861,990,25 mg,Tablet
+1862,27,100 mg,Tablet
+1863,1613,2%+3%+3.1%+0.12%,Cream
+1864,952,2 mg,Tablet
+1865,952,0.5 mg,Tablet
+1866,734,500 mg,OROS Tablet
+1867,500,300 iu/vial,Injection
+1868,978,2.5 mg,Tablet
+1869,978,5 mg,Tablet
+1870,531,2.30 gm,Suppository
+1871,531,1.15 gm,Suppository
+1872,610,100 iu/ ml,SC Injection
+1873,2028,25 mcg/ ml,Respirator Solution
+1874,1793,1 mg/8.5 ml,IV Injection
+1875,533,1.50%,Irrigation Solution
+1876,670,34 m iu/vial,SC Injection
+1877,17,300 mg,Tablet
+1878,702,8 mcg,Capsule
+1879,702,24 mcg,Capsule
+1880,500,450 iu/vial,Injection
+1881,434,2 mg,Tablet
+1882,538,0.05%,Cream
+1883,538,0.05%,Ointment
+1884,1797,1 mg/2 ml,IV Infusion
+1885,761,2%,Scalp Solution
+1886,761,5%,Scalp Solution
+1887,1831,3.50%,IV Infusion
+1888,1456,66.5%+3.5%,Hand Rub
+1889,1639,0.01% + 0.045%,Lotion
+1890,560,50 mg,Tablet
+1891,560,15 mg,Tablet
+1892,560,7.5 mg,Tablet
+1893,541,1.87 gm/ ml,Solution for Inhalation
+1894,334,50 mg,Tablet (Extended Release)
+1895,659,1 gm/sachet,Oral Powder
+1896,1203,1 gm/sachet,Oral Powder
+1897,540,5 mg/ ml,IM Injection
+1898,76,30 mg+1000 mg+500 mg,Tablet
+1899,714,100 mg/5 ml,Oral Suspension
+1900,547,10000 iu/vial,IM Injection
+1901,1002,0.20%,Intra-articular Injection
+1902,542,1440 unit/1 ml,IM Injection
+1903,542,720 unit/0.5 ml,IM Injection
+1904,544,2%,Ophthalmic Solution
+1905,543,10 mcg/0.5 ml,IM Injection
+1906,543,20 mcg/ ml,IM Injection
+1907,460,33 mg,Tablet
+1908,1100,600 mg/5 ml,SC Injection
+1909,1100,440 mg/20 ml,IV Infusion
+1910,1440,150 mg,Tablet
+1911,1312,100 mg,Tablet
+1912,594,0.10%,Ophthalmic Solution
+1913,1486,40 mg,Tablet
+1914,1339,150 mg+100 mg,Tablet
+1915,1440,3 gm/sachet,Oral Powder
+1916,1440,5 gm/10 ml,IV Injection
+1917,1106,2 mg/5 ml,Syrup
+1918,1493,1%,Cream
+1919,1494,4%,Hand Rub
+1920,1973,0.5 ml/prefilled syringe,SC Injection
+1921,559,10 mcg/0.5 ml,Injection
+1922,249,10 mg/ ml,Injection
+1923,1848,1 gm,Tablet
+1924,1347,75 iu/vial,IM/SC Injection
+1925,617,75%+25%,SC Injection
+1926,616,100 unit/ ml,SC Injection
+1927,548,250 mg/5 ml,IV Injection or Infusion
+1928,548,500 mg/10 ml,IV Injection or Infusion
+1929,530,(0.75 ml+1.93 ml)/5 ml,Syrup
+1930,617,50%+50%,SC Injection
+1931,595,1 gm/vial,IV Infusion
+1932,1355,0.20%,Ophthalmic Gel
+1933,1585,96%+3%+98%,Hand Rub
+1934,586,500 mg,Capsule
+1935,575,20 mg,Tablet
+1936,1196,12 ml/100 ml,Solution
+1937,603,1.5 mg,Tablet (Sustained Release)
+1938,1544,0.50%,Ophthalmic Solution
+1939,816,2 mg/2 ml,IV Infusion
+1940,591,0.3%+0.22%,Ophthalmic Gel
+1941,756,5 mg/ ml,IM/IV Injection
+1942,596,400 mg,Tablet
+1943,596,100 mg,Tablet
+1944,605,25 mg,Capsule
+1945,548,5 gm/100 ml,IV Injection or Infusion
+1946,548,2.5 gm/50 ml,IV Injection or Infusion
+1947,733,400 mg/4 ml,IV Injection
+1948,595,2 gm & 1600 mg,IV Infusion
+1949,595,1 gm & 800 mg,IV Infusion
+1950,599,6 mg,Tablet
+1951,599,2 mg,Tablet
+1952,1023,20%,Ophthalmic Solution
+1953,1023,10%,Ophthalmic Solution
+1954,477,5 mg,Capsule
+1955,1423,5%,Cream
+1956,605,75 mg,Capsule (Sustained Release)
+1957,1149,7.5 mg,Tablet
+1958,695,2 mg,Capsule
+1959,1556,0.5 ml/vial,SC Injection
+1960,1430,180 iu/ ml,Injection
+1961,96,50 mg,Tablet
+1962,604,0.625 mg+2 mg,Tablet
+1963,604,1.25 mg+2 mg,Tablet
+1964,1802,100 mg,Suppository
+1965,854,10 iu/ ml,IM/IV Injection
+1966,50,50 mg/5 ml,Syrup
+1967,734,750 mg,Long Acting Tablet
+1968,734,500 mg,Long Acting Tablet
+1969,734,1000 mg,Long Acting Tablet
+1970,422,5000 iu,IV/SC Injection
+1971,1015,25 mg,Tablet
+1972,1015,100 mg,Tablet
+1973,1348,400 mg,Tablet
+1974,728,50 mcg/0.5 ml,SC Injection
+1975,1470,14%+2%+2%,Topical Gel
+1976,350,100%,Oral Powder
+1977,1399,50 mg,Capsule
+1978,1399,150 mg,Tablet
+1979,424,2 mg/ ml,IV Injection
+1980,1184,50 mg,Tablet (Immediate Release)
+1981,1225,25%+75% in 100 iu/ ml,SC Injection
+1982,619,4.5 m iu/0.5 ml,SC Injection
+1983,424,0.75 mg/ ml,IV Injection
+1984,1555,150 mg/prefilled syringe,IM Injection
+1985,1555,100 mg/prefilled syringe,IM Injection
+1986,1555,75 mg/prefilled syringe,IM Injection
+1987,1090,300 mg/5 ml,Nebuliser Solution
+1988,715,200 mg,Capsule (Sustained Release)
+1989,625,(2.5 mg+500 mcg)/3 ml,Nebuliser Solution
+1990,624,20 mcg/puff,Inhaler
+1991,625,(2.5 mg+500 mcg)/ ml,Nebuliser Solution
+1992,1811,7 mg,Sublingual Tablet
+1993,1296,80 mg,Tablet
+1994,643,200 mg,Capsule
+1995,1506,1%+3%,Cream
+1996,1102,0.05%,Topical Gel
+1997,636,300 mg+150 mg,Capsule
+1998,636,150 mg+100 mg,Capsule
+1999,1630,1%,Injection
+2000,1629,2%,Gel
+2001,1630,4%,Injection
+2002,1222,2%+0.00125%,Injection
+2003,685,10 mg/spray,Topical Spray
+2004,1467,5 mg,Tablet
+2005,1286,60 mg/1.5 ml,IV Infusion
+2006,941,300 mg/5 ml,Injection
+2007,941,300 mg,Tablet
+2008,920,15 mg,Tablet
+2009,1880,1440 ml/ba g,Emulsion for infusion
+2010,1889,1026 ml/ba g,Emulsion for infusion
+2011,1620,11.25%,Gel
+2012,1427,160 mg/vial,IV Infusion
+2013,1427,100 mg/vial,IV Infusion
+2014,1574,99.934% w/w,Powder for Suspension
+2015,891,500 mg/5 ml,Syrup
+2016,1399,100 mg,Tablet
+2017,589,300 mcg,Chewable Tablet
+2018,982,800 mg,Tablet
+2019,1622,0.50%,Ophthalmic Solution
+2020,647,100 mg/2 ml,IM Injection
+2021,904,150 mg/ ml,Injection
+2022,974,2%,Lotion
+2023,974,12%,Cream
+2024,974,6%,Cream
+2025,647,50 mg,Tablet (Enteric Coated)
+2026,647,100 mg,Tablet (Enteric Coated)
+2027,649,1 mg,Capsule
+2028,646,200 mg,Tablet
+2029,1662,600 mg,Tablet
+2030,647,100 mg,Suppository
+2031,647,100 mg,Capsule (Sustained Release)
+2032,963,2.5 mg,Tablet
+2033,963,20 mg,Tablet
+2034,963,10 mg,Tablet
+2035,963,15 mg,Tablet
+2036,271,500 mg/vial,IV Injection
+2037,271,250 mg/5 ml,Powder for Suspension
+2038,271,500 mg,Tablet (Extended Release)
+2039,1600,1%,Hand Rub
+2040,148,50 mg+1 mg,Tablet
+2041,303,0.5 mg,Tablet
+2042,647,200 mg,Capsule (Timed Release)
+2043,647,100 mg,Capsule (Timed Release)
+2044,652,2 mg,Tablet
+2045,693,0.30%,Ophthalmic Solution
+2046,652,4 mg,Tablet
+2047,1575,0.50%,Ophthalmic Suspension
+2048,345,0.1%+0.3%,Ophthalmic Solution
+2049,651,100 mg,Tablet
+2050,651,200 mg,Tablet
+2051,1821,5 mg/ ml,IV Injection or Infusion
+2052,656,5 mg,Dispersible Tablet
+2053,656,50 mg,Tablet
+2054,656,25 mg,Tablet
+2055,1151,9000 iu,Chewable Tablet
+2056,656,2 mg,Dispersible Tablet
+2057,660,5%+2.5%,Lotion
+2058,700,0.5%+0.3%,Ophthalmic Suspension
+2059,1389,4 mg,Capsule
+2060,1844,250 mg,Chewable Tablet
+2061,703,20 mg,Tablet
+2062,703,40 mg,Tablet
+2063,2072,50 mg,Tablet
+2064,2072,100 mg,Tablet
+2065,58,350 mg,Retard Tablet
+2066,661,10 gm/15 ml,Oral Solution
+2067,980,12 mg,Tablet
+2068,1441,31.25 mg/5 ml,Syrup
+2069,669,10 mg,Capsule
+2070,669,25 mg,Capsule
+2071,1389,10 mg,Capsule
+2072,1144,4.05 mg/5 ml,Syrup
+2073,284,0.5 mg,Dispersible Tablet
+2074,842,600 mg,Tablet
+2075,842,300 mg,Tablet
+2076,730,50 mg,Tablet
+2077,236,2 mg,Tablet
+2078,493,80 mg,Tablet (Extended Release)
+2079,613,100 iu/ ml,SC Injection
+2080,1449,15 gm/sachet,Oral Powder
+2081,1114,250 mg/5 ml,Oral Suspension
+2082,1285,5 mg+1000 mg,Tablet (Extended Release)
+2083,1285,2.5 mg+1000 mg,Tablet (Extended Release)
+2084,650,15%,Ointment
+2085,893,2 mg,Tablet
+2086,692,400 mg,Tablet (Extended Release)
+2087,692,400 mg,Tablet (Sustained Release)
+2088,1322,(91 mg+42 mg+63 mg)/100 ml,Mouthwash
+2089,3,100 mg,Tablet (Sustained Release)
+2090,284,2 mg,Dispersible Tablet
+2091,284,1 mg,Dispersible Tablet
+2092,642,2.5 mg,Tablet
+2093,1320,400 mg,Tablet
+2094,693,0.30%,Ophthalmic Ointment
+2095,2067,100 mg,Tablet
+2096,696,10 mg,Dispersible Tablet
+2097,698,4 mg/ ml,IM/IV Injection
+2098,550,25 mg+12.5 mg,Tablet
+2099,825,40 mg/sachet,Oral Powder
+2100,825,20 mg/sachet,Oral Powder
+2101,825,10 mg,Capsule (Delayed Release)
+2102,1336,40 mg,MUPS Tablet
+2103,825,20 mg,Tablet (Enteric Coated)
+2104,1321,0.5%+0.3%,Ophthalmic Suspension
+2105,1575,0.50%,Ophthalmic Gel
+2106,430,20 mg,Tablet
+2107,1575,1%,Ophthalmic Suspension
+2108,698,1 mg,Tablet
+2109,2052,4 mg,Tablet
+2110,673,11.25 mg,IM/SC Injection
+2111,673,3.75 mg,IM/SC Injection
+2112,891,1200 mg,Tablet
+2113,948,0.5 mg/0.05 ml,Intravitreal Injection
+2114,1473,1%,Cream
+2115,712,25 mg,Tablet
+2116,768,4 mg/3.5 gm,Oral Powder
+2117,919,82.5 mg,Tablet (Extended Release)
+2118,705,5 mg,Tablet
+2119,1677,0.05 mg+2.5 mg,Tablet
+2120,704,408 mg,Capsule
+2121,1342,2 mg/2 ml,Nebuliser Suspension
+2122,919,165 mg,Tablet (Extended Release)
+2123,1342,0.5 mg/2 ml,Nebuliser Suspension
+2124,768,10 mg,Chewable Tablet
+2125,1327,50 mcg/spray,Nasal Spray
+2126,2050,10 mg,Tablet
+2127,962,1400 mg/11.7 ml,SC Injection
+2128,428,2%,Lotion
+2129,962,10 mg/ ml,IV Infusion
+2130,1853,365 mg,Tablet
+2131,706,400 mg/5 ml,Oral Suspension
+2132,1893,(5 gm+20 gm)/100 ml,Syrup
+2133,459,750 mg/15 ml,IV Injection or Infusion
+2134,938,500 mg+25 mg,Tablet
+2135,1587,100 mg+40 mg,Tablet
+2136,1807,0.03 mg+0.15 mg+75 mg,Tablet
+2137,835,1000 mg,Capsule
+2138,748,5 mg/5 ml,Syrup
+2139,748,10 mg,Tablet
+2140,816,4 mg/4 ml,IV Infusion
+2141,340,(1 mg+3500 iu+6000 iu)/ ml,Ophthalmic Solution
+2142,1032,0.4 mg,Tablet
+2143,1144,20 mg/5 ml,Syrup
+2144,748,10 mg/2 ml,Injection
+2145,1841,70%+15%+15%,Ointment
+2146,719,500 mcg/ ml,IM/IV Injection
+2147,719,500 mcg,Chewable Tablet
+2148,719,1.5 mg,Tablet
+2149,1835,5 mg,Tablet
+2150,415,20 gm,Gel
+2151,720,150 mg/ ml,IM Injection
+2152,1835,10 mg,Tablet
+2153,528,2.5 mg+500 mg,Tablet
+2154,528,2.5 mg+250 mg,Tablet
+2155,723,250 mg,Tablet
+2156,1429,2 m iu,IM/IV Injection
+2157,1429,3 m iu,IM/IV Injection
+2158,528,5 mg+500 mg,Tablet
+2159,726,15 mg,Tablet
+2160,922,12.5 mg/ ml,Injection
+2161,1328,0.10%,Ointment
+2162,1328,0.10%,Cream
+2163,864,20 mg,Tablet
+2164,1463,(14 mg+2 mg)/5 ml,Syrup
+2165,1868,200 mcg,Capsule
+2166,1557,0.5 ml/vial,SC Injection
+2167,747,1 gm/vial,IM/IV Injection
+2168,122,6 mg,Tablet
+2169,1043,5%+1%,Oral Solution
+2170,1067,2.5 mg,Tablet
+2171,749,5 mg,Tablet
+2172,750,100 mg,Tablet
+2173,1792,5 mg/ ml,IV Injection
+2174,734,1000 mg,Tablet (Sustained Release)
+2175,1482,200 mcg/ ml,IM/IV Injection
+2176,1482,125 mcg,Tablet
+2177,739,10 mg,Tablet
+2178,739,2.5 mg,Tablet
+2179,750,5 mg/5 ml,IV Injection
+2180,1870,10 mg,Tablet
+2181,1870,5 mg,Tablet
+2182,745,10 mg,Tablet
+2183,748,1 mg/ ml,Pediatric Drops
+2184,1164,0.05%+0.1%+2.5%,Rectal Ointment
+2185,739,15 mg,Tablet
+2186,578,2%+1%,Ointment
+2187,1637,400 mg,Vaginal Pessary
+2188,924,200 mg,Capsule
+2189,924,100 mg,Capsule
+2190,757,200 mg,Tablet
+2191,1061,50 mg,Capsule
+2192,2039,0.02%+0.31%+1%,Intracameral Injection
+2193,1806,0.075 mg,Tablet
+2194,1857,50 mg,Capsule
+2195,760,50 mg,Tablet
+2196,760,12.5 mg,Tablet
+2197,162,1 mg+100 mg,Tablet
+2198,764,200 mg,Tablet
+2199,1147,2.5 mg,Tablet
+2200,58,600 mg,Tablet (Sustained Release)
+2201,58,175 mg,Retard Tablet
+2202,1601,50 mg,Capsule
+2203,1794,120 mcg,Sublingual Tablet
+2204,1794,60 mcg,Sublingual Tablet
+2205,763,30 mg,Tablet
+2206,871,0.10%,Ophthalmic Solution
+2207,741,100 µ g/0.3 ml,IV/SC Injection
+2208,741,75 µ g/0.3 ml,IV/SC Injection
+2209,741,50 µ g/0.3 ml,IV/SC Injection
+2210,762,25 mg,Tablet (Prolonged Release)
+2211,765,1 mg,Tablet
+2212,765,10 mg/vial,Injection
+2213,765,2 mg/vial,Injection
+2214,483,20 mg,Capsule
+2215,1371,6 mg,Tablet (Extended Release)
+2216,1371,3 mg,Tablet (Extended Release)
+2217,767,220 mcg,Inhalation Capsule
+2218,639,50 mg,Capsule (Sustained Release)
+2219,639,50 mg,Tablet
+2220,774,25%,Solution
+2221,818,10 mg,Tablet
+2222,2056,0.2%+2%,Topical Gel
+2223,69,875 mg,Tablet
+2224,739,50 mg/2 ml,Injection
+2225,775,15 mg,Tablet
+2226,775,5 mg/5 ml,Oral Solution
+2227,775,10 mg,Tablet
+2228,69,250 mg/vial,IM/IV Injection
+2229,6,600 mg/3 ml,Nebuliser Solution
+2230,157,2 mg,Tablet
+2231,1442,360 mg,Tablet (Delayed Release)
+2232,1442,180 mg,Tablet (Delayed Release)
+2233,1109,0.50%,Ophthalmic Solution
+2234,1851,10 mg/ ml,Ophthalmic Solution
+2235,1094,100 mg,Tablet
+2236,1211,(100 mg+2.5 mg)/ ml,IM Injection
+2237,2066,30%+70%,SC Injection
+2238,819,500000 unit,Tablet
+2239,249,10 mg,Tablet
+2240,796,5%,Ophthalmic Suspension
+2241,804,0.30%,Ophthalmic Suspension
+2242,790,20 mg/2 ml,IM/IV Injection
+2243,1293,100 mg/vial,IV Infusion
+2244,1409,2%,Cream
+2245,790,20 mg/ ml,IM/IV Injection
+2246,790,10 mg/ ml,IM/IV Injection
+2247,791,250 mg/5 ml,Oral Suspension
+2248,1247,0.025%+0.3%,Ophthalmic Solution
+2249,794,0.005%+0.02%,Ophthalmic Solution
+2250,1340,10 mg/ ml,IV Infusion
+2251,795,550 mg,Tablet
+2252,795,275 mg,Tablet
+2253,534,1 mg,Tablet
+2254,2032,1.5 mg+5 mg,Tablet (Modified Release)
+2255,1396,100 mg,Tablet
+2256,1396,50 mg,Tablet
+2257,534,1 mg/ ml,Injection
+2258,102,(3.5 mg+400 iu+5000 iu)/ gm,Ointment
+2259,846,0.05%,Nasal Spray
+2260,1873,3.0%+3.0%+0.5%+0.1%+1.0%,Topical Solution
+2261,261,30 mg,Tablet
+2262,1027,100 mg/2 ml,IM/IV Injection
+2263,949,300 mg,Tablet
+2264,804,0.10%,Ophthalmic Suspension
+2265,491,200 mcg,Inhalation Capsule
+2266,491,100 mcg,Inhalation Capsule
+2267,919,330 mg,Tablet (Extended Release)
+2268,919,100 mg/5 ml,Oral Solution
+2269,1042,(100 mg+50 mg+100 mg)/2 ml,Injection
+2270,1508,27.2 mg/5 ml,IV Infusion
+2271,470,120 mcg/0.2 ml,IV/SC Injection
+2272,1838,0.02% + 0.005%,Ophthalmic Solution
+2273,1928,0.02%,Ophthalmic Solution
+2274,1063,100 mg/ ml,IM/IV Injection
+2275,2054,600 mg,Retard Tablet
+2276,334,100 mg,Tablet (Extended Release)
+2277,607,750 mg,Tablet
+2278,607,500 mg,Tablet
+2279,805,50 mg,Tablet (Extended Release)
+2280,805,500 mg,Tablet (Extended Release)
+2281,806,20 mg,Tablet
+2282,814,25 mg/5 ml,Oral Suspension
+2283,814,100 mg,Capsule (Sustained Release)
+2284,808,250 mg/ ml,Injection
+2285,1461,57.3%+42.5%+0.2%,Ophthalmic Ointment
+2286,807,10 mg,Tablet (Sustained Release)
+2287,807,10 mg,Capsule
+2288,532,6.4 mg,Retard Tablet
+2289,532,2.6 mg,Retard Tablet
+2290,807,20 mg,Tablet (Sustained Release)
+2291,814,50 mg,Capsule
+2292,814,100 mg,Tablet
+2293,811,30 mg,Tablet
+2294,1799,0.5 ml/prefilled syringe,IM Injection
+2295,809,200 mg,Capsule
+2296,1858,100 mg,Capsule
+2297,1305,0.40%,Ointment
+2298,814,50 mg,Capsule (Sustained Release)
+2299,532,6.4 mg,Tablet (Controlled Release)
+2300,532,2.6 mg,Tablet (Controlled Release)
+2301,1809,40 mg/4 ml,IV Infusion
+2302,532,2.6 mg,Capsule (Sustained Release)
+2303,1148,10 mg,Tablet
+2304,397,40 mg/2 ml,Injection
+2305,1628,2% w/w,Cream
+2306,866,400 mg,Tablet
+2307,1809,100 mg/10 ml,IV Infusion
+2308,668,100 mg,Tablet
+2309,668,20 mg,Tablet
+2310,668,10 mg,Tablet
+2311,120,6 mg+200 mg+50 mg,Capsule
+2312,1122,10 mg/vial,IV Injection
+2313,1184,25 mg,Tablet
+2314,1651,12.50%,Cream
+2315,373,100 mg,Capsule
+2316,1565,5%,Ointment
+2317,1147,2.5 mg/spray,Nasal Spray
+2318,1352,0.90%,IV Infusion
+2319,1009,5 mg/1.5 ml,SC Injection
+2320,995,0.90%,Nasal Spray
+2321,818,25 mg,Capsule
+2322,818,10 mg,Capsule
+2323,989,10 mg,Tablet
+2324,1244,1 mg/vial,IV Injection
+2325,577,(10 mg+3400 units+10000 units)/ ml,Ear Drop
+2326,802,(3.5 mg+10000 iu+10 mg)/ gm,Cream
+2327,1582,0.05%,Lotion
+2328,1582,0.05%,Topical Spray
+2329,1582,0.05%,Shampoo
+2330,1333,0.30%,Ophthalmic Solution
+2331,847,1 mg/ ml,Injection
+2332,847,10 mg,Tablet
+2333,1642,1%+100000 iu,Tablet
+2334,144,0.07%,Ophthalmic Solution
+2335,820,50 mcg/ ml,Injection
+2336,820,100 mcg/ ml,Injection
+2337,854,5 iu/ ml,IM/IV Injection
+2338,827,2 mg/ ml,IM/IV Injection
+2339,814,100 mg,Tablet (Sustained Release)
+2340,224,200 mg,Capsule
+2341,821,5 mg,Dispersible Tablet
+2342,821,10 mg,Dispersible Tablet
+2343,1200,500 mg+400 iu,Tablet
+2344,821,20 mg,Tablet
+2345,829,60 mg,Capsule
+2346,40,0.25 mcg,Capsule
+2347,827,4 mg,Oral Soluble Film
+2348,2059,150 mcg+50 mcg+160 mcg,Inhalation Capsule
+2349,1477,0.24%,Ophthalmic Solution
+2350,855,6 mg/ ml,IV Infusion
+2351,827,8 mg,Dispersible Tablet
+2352,827,8 mg,Oral Soluble Film
+2353,250,50 mg/2 ml,IM Injection
+2354,250,100 mg,Tablet
+2355,250,50 mg,Tablet
+2356,886,2%,Ophthalmic Solution
+2357,455,100 mcg,Tablet
+2358,825,40 mg,Tablet (Enteric Coated)
+2359,881,500 mg,Tablet
+2360,1602,0.1%+0.5%,Ophthalmic Solution
+2361,79,0.05%+0.04%,Ophthalmic Solution
+2362,130,0.50%,Ophthalmic Solution
+2363,830,500 mg,Tablet
+2364,868,180 mcg/0.5 ml,SC Injection
+2365,868,135 mcg/0.5 ml,SC Injection
+2366,1209,1 dose=2 drop=0.1 ml,Pediatric Drops
+2367,111,20% w/w,Dental Gel
+2368,851,500 mg,Tablet
+2369,736,2 mg+500 mg,Tablet
+2370,1493,1%,Oral Gel
+2371,111,20%,Dental Gel
+2372,2038,20 mg+750 mg+50 mg+0.75 mg,Tablet
+2373,1969,0.25 mg/dose,SC Injection
+2374,1969,0.50 mg/dose,SC Injection
+2375,831,75 mg,Capsule
+2376,252,1000 iu,Dispersible Tablet
+2377,1859,60 mg,Tablet
+2378,194,0.025% w/w,Cream
+2379,169,600 mg+400 iu,Chewable Tablet
+2380,169,500 mg+200 iu,Chewable Tablet
+2381,1669,40 mg/vial,IV Injection
+2382,282,100 mg,Tablet
+2383,442,0.0375 mg+0.75 mg,Tablet
+2384,1548,600 mg+400 iu,Tablet
+2385,1548,500 mg+200 iu,Tablet
+2386,1156,200000 iu,Capsule
+2387,1176,250 mcg/0.5 ml,Injection
+2388,1346,10 mg,Tablet
+2389,1346,25 mg,Tablet
+2390,843,1%,Cream
+2391,842,150 mg,Tablet
+2392,842,600 mg,Tablet (Extended Release)
+2393,842,300 mg,Tablet (Extended Release)
+2394,842,150 mg,Tablet (Extended Release)
+2395,114,5%,Topical Gel
+2396,114,2.50%,Topical Gel
+2397,873,400 mg,Tablet (Controlled Release)
+2398,843,1%,Lotion
+2399,584,400 mg,Tablet
+2400,928,0.50%,Ophthalmic Solution
+2401,859,40 mg/vial,IV Injection
+2402,856,0.5 mg,Tablet
+2403,856,0.25 mg/5 ml,IV Injection
+2404,1371,1.5 mg,Tablet (Extended Release)
+2405,856,0.075 mg/1.5 ml,IV Injection
+2406,856,0.5 mg,Capsule
+2407,856,0.5 mg,Dispersible Tablet
+2408,858,4 mg/2 ml,Injection
+2409,953,1%,Ointment
+2410,942,10 mg,Tablet (Enteric Coated)
+2411,863,1 mcg,Capsule
+2412,911,180 mcg,Tablet
+2413,911,88 mcg,Tablet
+2414,1850,250 mg/5 ml,Powder for Suspension
+2415,1850,500 mg,Capsule
+2416,865,200 mg,Tablet
+2417,864,10 mg,Tablet
+2418,176,1000 ml,Dialysis Solution
+2419,1665,75 mcg/0.3 ml,IV/SC Injection
+2420,1665,50 mcg/0.3 ml,IV/SC Injection
+2421,875,2 mg,Tablet
+2422,116,10 lac unit/vial,Injection
+2423,116,5 lac unit/vial,Injection
+2424,1808,100 mg/4 ml,IV Infusion
+2425,881,250 mg/5 ml,Powder for Suspension
+2426,872,30 mg/ ml,Injection
+2427,4,2 gm/sachet,Microgranules
+2428,4,1 gm/sachet,Microgranules
+2429,84,25 mg,Tablet
+2430,452,10 mg/ ml,IV Injection
+2431,1863,4 mg,Tablet
+2432,1863,2 mg,Tablet
+2433,1595,(150 iu+75 iu)/vial,IV/SC Injection
+2434,969,2 mg,Tablet
+2435,969,0.25 mg,Tablet
+2436,1406,420 mg/14 ml,IV Infusion
+2437,853,3%+0.013%,Ointment
+2438,877,50 mg/ ml,Injection
+2439,1170,25 mg/ ml,Injection
+2440,1170,50 mg/2 ml,Injection
+2441,372,(2.711 gm+1.2 gm)/5 ml,Oral Solution
+2442,1344,5 mg,Tablet
+2443,886,1%,Ophthalmic Solution
+2444,886,4%,Ophthalmic Solution
+2445,1407,267 mg,Tablet
+2446,907,6% w/w,Ointment
+2447,929,200 mg/20 ml,Emulsion for infusion
+2448,896,0.5 ml,IM/SC Injection
+2449,887,1%,Cream
+2450,555,(25 iu+1700 iu+5000 iu)/ ml,Ophthalmic Solution
+2451,104,(500 iu+10000 iu)/ gm,Ophthalmic Ointment
+2452,1817,500000 units/vial,Injection
+2453,838,(5 mg+3.5 mg+10000 iu)/ ml,Ophthalmic Suspension
+2454,902,1%,Shampoo
+2455,1862,100 mg,Tablet (Delayed Release)
+2456,1485,45 mg,Tablet
+2457,1485,15 mg,Tablet
+2458,907,10% w/w,Vaginal Gel
+2459,907,1.25% v/v,Ophthalmic Solution
+2460,910,1000 mg/ ml,IV Injection or Infusion
+2461,907,5% w/w,Oral Powder
+2462,907,2.5% v/v,Topical Spray
+2463,918,15 mg/5 ml,Oral Solution
+2464,1323,5 mg,Tablet
+2465,947,10 mg,Tablet
+2466,947,5 mg,Capsule
+2467,947,2.5 mg,Capsule
+2468,947,10 mg,Capsule
+2469,947,1.25 mg,Capsule
+2470,713,0.5 ml,IM/SC Injection
+2471,1614,20 billion,Capsule
+2472,862,325 mg+37.50 mg,Tablet
+2473,2042,10 billion,Capsule
+2474,647,200 mg,Capsule (Controlled Release)
+2475,647,100 mg,Capsule (Controlled Release)
+2476,483,20 mg/5 ml,Oral Suspension
+2477,2008,10 billion,Capsule
+2478,927,15 mg,Tablet
+2479,1028,0.10%,Ointment
+2480,979,500 mg,Tablet
+2481,1029,40 mg,Tablet
+2482,471,5 mg,Tablet
+2483,490,250 mg,Tablet
+2484,979,1000 mg,Tablet
+2485,1056,250 iu/ ml,IM Injection
+2486,571,2.5 mg+12.5 mg,Tablet
+2487,1051,2 mg,Capsule
+2488,1051,1 mg,Capsule
+2489,1788,7%+10%,IV Infusion
+2490,1789,6.53 gm/100 ml,IV Infusion
+2491,1407,801 mg,Tablet
+2492,1407,534 mg,Tablet
+2493,1407,267 mg,Capsule
+2494,1826,50 mg,Tablet
+2495,1319,1.25 mg/3 ml,Nebuliser Solution
+2496,1319,0.63 mg/3 ml,Nebuliser Solution
+2497,1319,0.31 mg/3 ml,Nebuliser Solution
+2498,77,20 mg+500 mg+1000 mg,Tablet
+2499,1177,100 iu,Injection
+2500,1177,50 iu,Injection
+2501,138,62.50 mg,Tablet
+2502,936,20 mg,Tablet
+2503,940,50 mg,Tablet (Extended Release)
+2504,940,100 mg,Tablet
+2505,940,25 mg,Tablet
+2506,940,200 mg,Tablet (Extended Release)
+2507,940,200 mg,Tablet
+2508,940,300 mg,Tablet (Extended Release)
+2509,940,50 mg,Tablet (Sustained Release)
+2510,940,300 mg,Tablet (Sustained Release)
+2511,940,200 mg,Tablet (Sustained Release)
+2512,942,20 mg,MUPS Tablet
+2513,944,2.5 iu/ ml,IM/SC Injection
+2514,945,30 mg/sachet,Oral Powder
+2515,945,10 mg/sachet,Oral Powder
+2516,945,100 mg,Capsule
+2517,571,5 mg+25 mg,Tablet
+2518,1408,8 mg,Tablet
+2519,950,500 mg,Tablet (Sustained Release)
+2520,1496,1 mg,Tablet
+2521,1496,0.5 mg,Tablet
+2522,423,10000 iu/0.6 ml,IV/SC Injection
+2523,423,5000 iu/0.3 ml,IV/SC Injection
+2524,423,2000 iu/0.3 ml,IV/SC Injection
+2525,1220,1 mg,Tablet
+2526,205,0.50%,Ophthalmic Solution
+2527,1381,40 mg,Tablet
+2528,1969,1.34 mg/ ml,SC Injection
+2529,1088,2 mg,Tablet
+2530,1441,125 mg/5 ml,Syrup
+2531,2061,120 mg,Tablet
+2532,580,0.5%+0.5%,Cream
+2533,1552,100 mg/20 ml,Intravitreal Injection
+2534,363,50 mg,Tablet
+2535,666,0.01%,Ophthalmic Solution
+2536,2051,100 mg,Tablet
+2537,2051,50 mg,Tablet
+2538,2051,20 mg,Tablet
+2539,860,60 mg,Suppository
+2540,982,800 mg,Oral Powder
+2541,1048,50 mg,Capsule
+2542,1020,500 mg,Tablet
+2543,1102,0.05%,Cream
+2544,640,20 mg,Capsule
+2545,640,10 mg,Capsule
+2546,1115,1 gm,Tablet
+2547,1610,75 iu/vial,SC Injection
+2548,546,300 mcg/2 ml,IM Injection
+2549,439,150 mg+75 mg+400 mg+275 mg,Tablet
+2550,635,150 mg+75 mg+400 mg,Tablet
+2551,636,450 mg+300 mg,Tablet
+2552,636,300 mg+150 mg,Tablet
+2553,956,450 mg,Tablet
+2554,1421,50 mg,Tablet
+2555,1569,200 mg+50 mg,Tablet
+2556,956,150 mg,Capsule
+2557,956,100 mg/5 ml,Syrup
+2558,380,10 mg/3 gm,Effervescent Granules
+2559,1450,35 mg+500 mg,Tablet
+2560,959,150 mg,Tablet
+2561,1553,50 mg/vial,Long Acting Injection
+2562,1553,37.5 mg/vial,Long Acting Injection
+2563,1553,25 mg/vial,Long Acting Injection
+2564,959,35 mg,Tablet
+2565,961,10 mg,Tablet
+2566,468,30 mg,Dispersible Tablet
+2567,477,10 mg,Capsule
+2568,965,5 mg,Tablet
+2569,227,(125 mg+31.25 mg)/sachet,Powder for Suspension
+2570,648,10 mg,Dispersible Tablet
+2571,1888,0.02 mg+3 mg+0.415 mg,Tablet
+2572,1888,0.03 mg+3 mg+0.415 mg,Tablet
+2573,969,1 mg,Tablet
+2574,2033,1332 mg/11.1 ml & 1332 mg/11.1 ml,Injection
+2575,2033,300 mg/2.5 ml & 300 mg/2.5 ml,Injection
+2576,1014,3 m iu,Tablet
+2577,568,1.5 ml/dose,Oral Suspension
+2578,335,6 mg/ ml,IM/IV Injection
+2579,335,6 mg,Tablet
+2580,1635,0.5 mg+0.25 mg,Tablet
+2581,1467,10 mg,Tablet
+2582,357,50 mg,Capsule (Timed Release)
+2583,618,100 iu/ ml,SC Injection
+2584,926,150 mg,Tablet
+2585,1020,500 mg,Suppository
+2586,1044,12.5 mg,Tablet
+2587,959,35 mg,Tablet (Delayed Release)
+2588,959,5 mg,Tablet
+2589,1194,100 mg,Capsule
+2590,1194,50 mg,Capsule
+2591,1194,25 mg,Capsule
+2592,371,200 mg,Capsule (Modified Release)
+2593,1829,20%+5%,Topical Spray
+2594,1624,20 gm/ ml,Shampoo
+2595,820,20 mg/5 ml,Injection
+2596,914,(100 mg+30 mg)/ gm,Medicated Bar
+2597,744,500 mg,Tablet
+2598,734,1000 mg,Tablet
+2599,1856,430 mg,Capsule
+2600,1037,600 mg,Tablet
+2601,71,125 mg/1.25 ml,Pediatric Drops
+2602,232,100 mg/ ml,Powder for Suspension
+2603,232,250 mg/vial,IM/IV Injection
+2604,1971,7 mg,Tablet
+2605,1971,3 mg,Tablet
+2606,241,0.5%+3%,Solution
+2607,1818,17 mg,Tablet
+2608,443,250 mg/5 ml,Syrup
+2609,983,250 mg/250 ml,Solution for Inhalation
+2610,737,100 mg+1000 mg,Tablet (Extended Release)
+2611,989,20 mg,Tablet
+2612,108,20 mg/vial,IV Infusion
+2613,1554,50 mg/0.5 ml,SC Injection
+2614,7,1 gm/vial,IV Infusion
+2615,1104,5 mg,Tablet
+2616,1104,1 mg,Tablet
+2617,960,4 mg,Dispersible Tablet
+2618,960,2 mg,Dispersible Tablet
+2619,960,1 mg,Dispersible Tablet
+2620,437,1 mg,Tablet
+2621,437,2 mg,Tablet
+2622,479,0.025%+0.5%,Ointment
+2623,479,0.025%+0.5%,Cream
+2624,488,15 mg,Capsule
+2625,390,6 mg,Tablet
+2626,992,7.50%,IV Infusion
+2627,1678,300 mg,Tablet
+2628,992,600 mg,Tablet
+2629,1678,600 mg,Tablet
+2630,1007,5 mg,Tablet
+2631,1007,10 mg,Tablet
+2632,95,8%+2%+3%+2%,Lotion
+2633,1567,7.5%+30.5%,Ointment
+2634,378,100 mg,Capsule
+2635,747,125 mg/vial,IM/IV Injection
+2636,746,40 mg/ ml,IM/IV Injection
+2637,1373,10 mg,Tablet
+2638,335,4 mg,Tablet
+2639,49,120 mg,Tablet
+2640,1011,80 mg,Tablet
+2641,1034,0.10%,Cream
+2642,25,25 mg,Capsule
+2643,25,10 mg,Capsule
+2644,299,12%+4%+2%,Scalp Ointment
+2645,298,10%,Cream
+2646,755,15%,Cream
+2647,1192,2%+2%+0.8%+3%,Lotion
+2648,1193,10%+7%+3.5%+1%,Cream
+2649,381,40 mg+80 mg+30 mg+20 mg,Cream
+2650,1195,0.90%,Ophthalmic Solution
+2651,1194,100 mg/ ml,Syrup
+2652,1015,50 mg,Tablet
+2653,1140,1000 iu/0.5 ml,IM/SC Injection
+2654,198,125 mg+31.25 mg+200 mg,Tablet
+2655,198,75 mg+18.75 mg+200 mg,Tablet
+2656,797,120 mg,Tablet
+2657,1596,3 mg/ampoule,IV Injection or Infusion
+2658,1019,1 gm/5 ml,Oral Suspension
+2659,398,30 mg,Capsule (Delayed Release)
+2660,1896,1%,Cream
+2661,1633,1 gm/tablet,Tablet
+2662,1633,1 gm/sachet,Oral Powder
+2663,1605,15.25%+0.39%+1.01%+0.15%+4.00%,Cream
+2664,1219,60 mg,Tablet
+2665,1025,10 mg/spray,Nasal Spray
+2666,1318,8 mg,Tablet (Sustained Release)
+2667,1836,1 gm/5 ml,Oral Solution
+2668,237,5%,Ophthalmic Solution
+2669,237,10%,Ophthalmic Solution
+2670,553,0.6 mg/3 ml,IM/IV Injection
+2671,553,0.2 mg/ ml,IM/IV Injection
+2672,1074,250 mg/ ml,IM Injection
+2673,884,25 mg/ ml,Intratracheal Suspension
+2674,438,400 mg,Tablet
+2675,198,50 mg+12.5 mg +200 mg,Tablet
+2676,199,100 mg+25 mg,Tablet
+2677,150,(400 mcg+12 mcg)/puff,Inhaler
+2678,150,(200 mcg+6 mcg)/puff,Inhaler
+2679,150,(100 mcg+6 mcg)/puff,Inhaler
+2680,2053,300 mg,Tablet
+2681,1046,25%,Liquid
+2682,1559,48 mg/10 ml,Intra-articular Injection
+2683,2041,40 mg+150 mg+120 mg,Tablet
+2684,1073,1 gm,Tablet
+2685,1073,500 mg,Tablet
+2686,1375,0.00%,Ophthalmic Solution
+2687,1030,10 mg,Tablet
+2688,1030,20 mg,Tablet
+2689,1077,200 mg/vial,IM/IV Injection
+2690,1296,40 mg,Tablet
+2691,1077,400 mg/vial,IM/IV Injection
+2692,890,(2 gm+0.25 gm)/vial,IV Infusion
+2693,637,5 mg+2 mg,Tablet
+2694,637,5 mg+1 mg,Tablet
+2695,1500,1200 mg/vial,IV Infusion
+2696,66,10 mg+40 mg,Tablet
+2697,572,80 mg+25 mg,Tablet
+2698,66,10 mg+80 mg,Tablet
+2699,1039,250 mg,Capsule
+2700,1039,100 mg,Capsule
+2701,1280,10 mg,Tablet
+2702,21,60 mg,Capsule
+2703,1051,5 mg,Tablet
+2704,1051,2 mg,Tablet
+2705,1866,15 mg/vial,IV Infusion
+2706,1053,1.5 mg/5 ml,Syrup
+2707,1052,1%,Topical Spray
+2708,1052,125 mg/sachet,Powder for Suspension
+2709,1239,50 mg/vial,IV Infusion
+2710,1974,0.5 ml/prefilled syringe,SC Injection
+2711,1053,2.5 mg,Tablet
+2712,1395,200 mg/vial,IV Infusion
+2713,251,15 mg,Tablet
+2714,1560,25 mg/10 ml,IV Injection
+2715,1062,300 mg,Capsule (Sustained Release)
+2716,1174,100 mcg,Tablet
+2717,1174,25 mcg,Tablet
+2718,1174,75 mcg,Tablet
+2719,1174,12.5 mcg,Tablet
+2720,1035,6 mg,Tablet
+2721,649,1 mg/5 ml,Tablet
+2722,1279,250 mg,Tablet
+2723,1107,100 mg,Tablet
+2724,1093,1%,Cream
+2725,1071,0.25%,Ophthalmic Solution
+2726,24,300 mg+150 mg+300 mg,Tablet
+2727,1187,6.50%,Ointment
+2728,1013,2 gm/vial,IM Injection
+2729,1819,37.5 mg/5 ml,IV Infusion
+2730,1819,6.75 mg/0.9 ml,IV Infusion
+2731,1295,1 mg/ ml,Injection
+2732,1033,50 mg,Tablet (Sustained Release)
+2733,1033,100 mg,Tablet (Sustained Release)
+2734,279,0.05%+6%,Ointment
+2735,1497,5 mg,Tablet
+2736,1497,20 mg,Tablet
+2737,1098,100 mg,Tablet
+2738,1098,50 mg,Tablet
+2739,2057,50 mg,Tablet
+2740,1099,250 mg/5 ml,IM/IV Injection
+2741,612,100 iu/ ml,SC Injection
+2742,1103,0.10%,Oral Paste
+2743,1978,25 mcg+62.5 mcg+100 mcg,Inhalation Capsule
+2744,788,2% w/w,Nasal Ointment
+2745,1976,(5.5 mcg+10.4 mcg+182 mcg)/actuation,Inhaler
+2746,1106,5 mg/5 ml,Syrup
+2747,1108,60 mg,Tablet (Modified Release)
+2748,842,60 mg/ ml,Oral Suspension
+2749,662,150 mg+300 mg+200 mg,Tablet
+2750,1812,20 mg,Tablet
+2751,1599,1.5 mg/0.5 ml,SC Injection
+2752,1599,0.75 mg/0.5 ml,SC Injection
+2753,1057,40 iu/0.5 ml,IM Injection
+2754,1187,300 mg,Suppository
+2755,1110,0.06%,Ophthalmic Solution
+2756,1112,25 mcg/0.5 ml,IM Injection
+2757,1070,50 mg/vial,IV Infusion
+2758,152,0.25%,Injection
+2759,814,50 mg,Tablet
+2760,22,250 mg,Tablet
+2761,1166,2.5 mg,Tablet
+2762,580,0.5%+0.5%,Ointment
+2763,1330,37.5 mg + 12.5 mg,Capsule
+2764,1330,75 mg+25 mg,Capsule
+2765,916,1080 mg,Tablet (Extended Release)
+2766,489,50 mg,Tablet
+2767,1886,15 mg,Tablet (Extended Release)
+2768,1231,500000 iu/10 ml,Injection
+2769,1098,50 mg,Retard Tablet
+2770,1098,100 mg,Retard Tablet
+2771,1832,1 mg,Tablet
+2772,1119,20 mg,Tablet
+2773,1119,10 mg,Tablet
+2774,1425,450 mg,Tablet
+2775,1120,0.5 mg,Tablet
+2776,1121,0.5 ml,SC Injection
+2777,1810,15 mg,Tablet
+2778,256,50 mg,Tablet
+2779,1075,3000 iu/ ml,IM Injection
+2780,1126,10 mg/10 ml,Injection
+2781,1123,75 mg,Tablet
+2782,1123,37.5 mg,Tablet
+2783,1123,75 mg,Capsule (Extended Release)
+2784,1124,180 mg,Tablet
+2785,1124,5 mg/2 ml,IV Infusion
+2786,2063,100 mg,Tablet
+2787,2063,50 mg,Tablet
+2788,2063,10 mg,Tablet
+2789,1796,10 mg,Capsule
+2790,690,6 mg/ ml,Injection
+2791,107,150 gm,Powder for Suspension
+2792,2068,20 mg,Tablet
+2793,2068,10 mg,Tablet
+2794,1127,2 mg/vial,Injection
+2795,1246,10 mg/ ml,Injection
+2796,521,1%,Topical Solution
+2797,1040,245 mg,Tablet
+2798,6,200 mg/sachet,Effervescent Granules
+2799,1155,2 mg/ ml,Injection
+2800,1069,20 mg,Suppository
+2801,252,10000 iu/ ml,Oral Solution
+2802,740,10 mg,Capsule
+2803,740,1%,Lotion
+2804,357,75 mg,Tablet (Sustained Release)
+2805,1453,1% w/w,Gel
+2806,357,1% v/v,Topical Spray
+2807,1238,200 mg/vial,IV Injection
+2808,1813,0.50%,Ear Drop
+2809,1489,10 ml/ampoule,Liquid
+2810,1318,5 mg/2.5 ml,Nebuliser Solution
+2811,1318,2.5 mg/3 ml,Nebuliser Solution
+2812,1318,0.5 mg/ ml,Injection
+2813,1318,5 mg/5 ml,Injection
+2814,1484,50 mg,Tablet
+2815,1484,100 mg,Tablet
+2816,665,0.005%+0.5%,Ophthalmic Solution
+2817,173,1000 mg,Tablet
+2818,453,120 mg,Tablet
+2819,1446,60 mg,Tablet
+2820,18,0.5 mg,Tablet (Extended Release)
+2821,824,150 mg/vial,SC Injection
+2822,1380,50 mg,Dispersible Tablet
+2823,1380,50 mg,Capsule
+2824,1287,100 mg/4 ml,IV Infusion
+2825,2029,(2 gm+0.5 gm)/vial,IV Infusion
+2826,1679,0.05%,Ophthalmic Solution
+2827,307,(25 mcg+100 mg+1 mg)/5 ml,Syrup
+2828,1800,1% w/w,Cream
+2829,1046,6.5 mg,Tablet
+2830,196,400 mg,Tablet (Controlled Release)
+2831,683,4 mg,Tablet
+2832,100,500 mg/ ml,IV Infusion
+2833,1850,250 mg,Capsule
+2834,1145,40 mg,Capsule
+2835,1145,20 mg,Capsule
+2836,865,400 mg,Tablet
+2837,1878,0.01%,Cream
+2838,857,325 mg,Capsule

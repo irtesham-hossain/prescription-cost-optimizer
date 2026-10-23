@@ -1,0 +1,241 @@
+manufacturer_id,name,quality_tier,size_class
+106,Incepta Pharmaceuticals Ltd.,1,large
+56,Opsonin Pharma Ltd.,1,large
+73,Square Pharmaceuticals Ltd.,1,large
+14,Beximco Pharmaceuticals Ltd.,1,large
+3,ACME Laboratories Ltd.,1,large
+2,ACI Limited,1,large
+25,Drug International Ltd.,1,large
+27,Eskayef Pharmaceuticals Ltd.,1,large
+10,Aristopharma Ltd.,1,large
+85,Healthcare Pharmaceuticals Ltd.,1,large
+64,Renata Limited,1,large
+35,Ibn Sina Pharmaceuticals Ltd.,1,large
+87,Popular Pharmaceuticals Ltd.,1,large
+29,General Pharmaceuticals Ltd.,1,large
+77,UniMed UniHealth,1,large
+13,Beacon Pharmaceuticals Ltd.,1,large
+47,Navana Pharmaceuticals Ltd.,1,large
+15,Biopharma Laboratories Ltd.,1,large
+31,Globe Pharmaceuticals Ltd.,1,large
+145,Pacific Pharmaceuticals Ltd.,1,large
+79,Ziska Pharmaceuticals Ltd.,2,medium
+58,Orion Pharma Ltd.,2,medium
+116,Kemiko Pharmaceuticals Ltd.,2,medium
+89,Synovia pharma plc,2,medium
+37,Jayson Pharmaceuticals Ltd.,2,medium
+48,NIPRO JMI Pharma Ltd.,2,medium
+95,Techno Drugs Ltd.,2,medium
+4,Alco Pharma Ltd.,2,medium
+112,Pharmasia Limited,2,medium
+62,Radiant Pharmaceuticals Ltd.,2,medium
+121,Euro Pharma Ltd.,2,medium
+119,Edruc Limited,2,medium
+83,Delta Pharma Ltd.,2,medium
+55,Opso Saline Ltd.,2,medium
+81,Asiatic Laboratories Ltd.,2,medium
+137,Gaco Pharmaceuticals Ltd.,2,medium
+32,Gonoshasthaya Pharma Ltd.,2,medium
+66,Rephco Pharmaceuticals Ltd.,2,medium
+98,Zenith Pharmaceuticals Ltd.,2,medium
+60,Pharmadesh Laboratories Ltd.,2,medium
+39,Jenphar Bangladesh Ltd.,2,medium
+90,Sharif Pharmaceuticals Ltd.,2,medium
+147,Rangs Pharmaceuticals Ltd.,2,medium
+43,Medimet Pharmaceuticals Ltd.,2,medium
+139,Sun Pharmaceutical Ltd.,2,medium
+107,Benham Pharmaceuticals Ltd.,2,medium
+94,Silva Pharmaceuticals Ltd.,2,medium
+136,Kumudini Pharma Ltd.,2,medium
+125,Somatec Pharmaceuticals Ltd.,2,medium
+19,Concord Pharmaceuticals Ltd.,2,medium
+6,Amico Laboratories Ltd.,2,medium
+96,The White Horse Pharma,2,medium
+42,Medicon Pharmaceuticals Ltd.,2,medium
+8,Apex Pharmaceuticals Ltd.,2,medium
+5,Ambee Pharmaceuticals Ltd.,2,medium
+18,Chemist Laboratories Ltd.,2,medium
+122,Nuvista Pharma Ltd.,2,medium
+168,SANDOZ (A Novartis Division),2,medium
+255,Team Pharmaceuticals Ltd.,2,medium
+23,Doctor’s Chemical Works Ltd.,2,medium
+40,Labaid Pharma Ltd.,3,small
+157,Ethical Drug Ltd.,3,small
+103,Ad-din Pharmaceuticals Ltd.,3,small
+133,Novo Healthcare and Pharma Ltd.,3,small
+123,Monicopharma Ltd.,3,small
+52,GlaxoSmithKline,3,small
+129,Leon Pharmaceuticals Ltd.,3,small
+33,Hudson Pharmaceuticals Ltd.,3,small
+22,Desh Pharmaceuticals Ltd.,3,small
+53,Nipa Pharmaceuticals Ltd.,3,small
+159,Silco Pharmaceutical Ltd.,3,small
+127,Everest Pharmaceuticals Ltd.,3,small
+63,Reman Drug Laboratories Ltd.,3,small
+11,Astra Biopharmaceuticals Ltd.,3,small
+16,Bristol Pharmaceuticals Ltd.,3,small
+126,Veritas Pharmaceuticals Ltd.,3,small
+207,One Pharma Ltd.,3,small
+108,Innovative Pharma (Albion),3,small
+124,Organic Health Care Ltd.,3,small
+51,Novartis (Bangladesh) Ltd.,3,small
+138,Supreme Pharmaceutical Ltd.,3,small
+292,Al-Madina Pharmaceuticals Ltd.,3,small
+153,Cosmic Pharma Ltd.,3,small
+69,Seema Pharmaceuticals Ltd.,3,small
+44,Millat Pharmaceuticals Ltd.,3,small
+158,Virgo Pharmaceuticals Ltd.,3,small
+24,Doctor TIMS Pharmaceuticals Ltd.,3,small
+45,Modern Pharmaceuticals Ltd.,3,small
+256,Sunman-Birdem Pharma Ltd.,3,small
+100,Hallmark Pharmaceuticals Ltd.,3,small
+171,Central Pharmaceuticals Ltd.,3,small
+7,Amulet Pharmaceuticals Ltd.,3,small
+9,Apollo Pharmaceutical Ltd.,3,small
+142,United Pharmaceuticals Ltd.,3,small
+120,Globex Pharmaceuticals Ltd.,3,small
+49,Novelta Bestway Pharma Ltd.,3,small
+130,Reliance Pharmaceuticals Ltd.,3,small
+114,Aexim Pharmaceuticals Ltd.,3,small
+201,Premier Pharmaceuticals Ltd.,3,small
+128,APC Pharma Ltd.,3,small
+278,D16 Pharma & Biotec,3,small
+117,Cosmo Pharma Ltd.,3,small
+30,Genvio Pharma Ltd.,3,small
+260,Orbit Pharmaceuticals Ltd.,3,small
+257,ZAS Corporation,3,small
+99,Indo Bangla Pharmaceutical,3,small
+46,Mystic Pharmaceuticals Ltd.,3,small
+131,Marker Pharma Ltd.,3,small
+170,MST Pharma,3,small
+216,Social Marketing Company,3,small
+251,Naafco Pharma Ltd.,3,small
+176,Janata Traders,3,small
+101,Decent Pharma Laboratories Ltd.,3,small
+102,Biogen Pharmaceuticals Ltd.,3,small
+59,Peoples Pharma Ltd.,3,small
+68,Salton Pharmaceuticals Ltd.,3,small
+72,Sonear Laboratories Ltd.,3,small
+261,Guardian Healthcare Ltd.,3,small
+67,Roche Bangladesh Ltd.,3,small
+331,Radiant Nutraceuticals Ltd.,3,small
+50,Novus Pharmaceuticals Ltd.,3,small
+109,Marksman Pharmaceuticals Ltd.,3,small
+143,Mundipharma (BD) Pvt. Ltd.,3,small
+173,Orion Infusion Ltd.,3,small
+268,Goodman Pharmaceuticals Ltd.,3,small
+289,Arges Life Science Limited,3,small
+186,Novo Nordisk Pharma (Pvt.) Ltd,3,small
+169,Bengal drugs Ltd.,3,small
+174,City Overseas Ltd.,3,small
+330,DBL Pharmaceuticals Ltd.,3,small
+273,Centeon Pharma Ltd.,3,small
+110,Belsen Pharmaceuticals Ltd.,3,small
+263,MedRx Life Science Ltd.,3,small
+276,Credence Pharmaceuticals Ltd.,3,small
+70,Skylab Pharmaceuticals Ltd.,3,small
+135,S.N. Pharmaceutical Ltd.,3,small
+134,Syntho Laboratories Ltd.,3,small
+41,Libra Infusions Ltd.,3,small
+246,Aztec Pharmaceuticals Ltd.,3,small
+202,Pharmik Laboratories Ltd.,3,small
+88,Prime Pharmaceuticals Ltd.,3,small
+245,Alkad Laboratories,3,small
+191,BOTS Pvt. Limited,3,small
+267,Get Well Limited,3,small
+275,Legends Pharma,3,small
+172,Servier Bangladesh Operation,3,small
+118,Oyster Pharmaceuticals Ltd.,3,small
+115,Allied Pharmaceuticals Ltd.,3,small
+290,International Agencies (Bd.) Limited,3,small
+217,Institute of Public Health (IPH),3,small
+262,Phoenix Chemical Laboratory,3,small
+259,RN Pharmaceuticals,3,small
+335,Royal Pharmaceutical Ltd.,3,small
+195,Pharmacil Limited,3,small
+258,AqVida bangladesh,3,small
+266,FnF Pharmaceuticals Ltd.,3,small
+253,Quality Pharmaceuticals Ltd.,3,small
+280,Purnava Limited,3,small
+161,Reckitt & Benckiser Ltd.,3,small
+336,Bronson Laboratories (BD) Ltd.,3,small
+269,Libra Pharmaceuticls Ltd.,3,small
+206,Momotaz Pharmaceuticals Ltd.,3,small
+304,Alien Pharma,3,small
+97,Ultra Pharma Ltd.,3,small
+212,Greenland Pharmaceuticals Ltd.,3,small
+205,Kawsar Chemicals,3,small
+338,River Pharma,3,small
+327,NEMUS Pharmaceutical Pvt. Ltd.,3,small
+305,Empiric Laboratories Ltd.,3,small
+279,Marie Stopes Bangladesh,3,small
+175,Pfizer,3,small
+316,Total Natural Company,3,small
+204,Unique Pharmaceuticals Ltd.,3,small
+303,West-Coast pharmaceutical works ltd.,3,small
+34,Hamdard Bangladesh,3,small
+301,Dabur India Limited,3,small
+315,HLL Lifecare Limited,3,small
+320,Gulf pharmaceutical industries,3,small
+218,Alpha Therapeutic Corporation,3,small
+149,Grifols Biologicals LLC,3,small
+150,Octapharma Pharmazeutica,3,small
+183,Eli Lilly and Company,3,small
+162,Cipla Limited,3,small
+198,"Allergan, Inc.",3,small
+297,"Lyomark Pharma, Germany",3,small
+298,"Hamlen Pharmaceuticals, Germany",3,small
+220,Fresenius Kabi,3,small
+284,Organon,3,small
+232,"Gedeon Richter, Hungary",3,small
+308,Boehringer Ingelheim,3,small
+329,ADM Protexin Ltd,3,small
+222,Nippon Kayaku Ltd.,3,small
+339,Pharma Resources,3,small
+194,Merck,3,small
+182,Lundbeck Pharmaceuticals Ltd.,3,small
+321,"Xellia Pharmaceuticals, Denmark",3,small
+294,Serum Institute of India,3,small
+181,Bristol Myers Squibb,3,small
+219,CSL Behring,3,small
+334,AqVida GmbH,3,small
+324,"Laboratoires Panpharma, France",3,small
+325,"Rotexmedica GmbH, Germany",3,small
+228,Chairon SPA,3,small
+286,Valneva,3,small
+233,Abbott Laboratories,3,small
+210,Stiefel Laboratories Ltd.,3,small
+238,Janssen-Cilag,3,small
+283,Baxter,3,small
+302,"C.B. Fleet Company, USA",3,small
+293,AstraZeneca pharmaceuticals,3,small
+141,Pharmachemie BV,3,small
+235,"Hexal AG, Germany",3,small
+214,Vifor International Ltd.,3,small
+296,Fabrique en France,3,small
+309,Ferring Pharmaceuticals Ltd.,3,small
+282,Genzyme Corporation,3,small
+151,Leo Pharmaceuticals Ltd.,3,small
+285,MSD,3,small
+209,Nicholas,3,small
+311,Eisai Pharmaceutical company,3,small
+314,Piramal Enterprises Ltd.,3,small
+300,"Kedrion Biopharma, Italy",3,small
+312,Johnson & Johnson,3,small
+319,Efroze Chemical Industries Ltd,3,small
+223,"Excella, Germany",3,small
+185,EGIS Pharmaceuticals Ltd.,3,small
+323,S.A. Alcon-Couvreur N.V.,3,small
+333,MERZ Pharma GmbH & Co.,3,small
+164,Kyowa Hakko Kogyo,3,small
+140,Choongwae Pharma Corporation,3,small
+291,"JEO MED, Turkey",3,small
+281,Biotest,3,small
+226,Gosun Pharma Corp.,3,small
+328,Mylan Pharmaceutical industry company,3,small
+299,"Piramal Critical Care, USA",3,small
+317,"Orion Corporation, Finland",3,small
+322,"Adienne Pharma, Switzerland",3,small
+239,"Laboratorio Varifarma, Argentina",3,small
+310,Chepla Pharm-Gmbh,3,small
+326,ACM laboratoire dermatologique,3,small

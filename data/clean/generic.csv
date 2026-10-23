@@ -1,0 +1,1712 @@
+generic_id,generic_name,no_substitute,drug_class
+31,Adalimumab,False,Immunosuppressant
+10,Acyclovir + Hydrocortisone,False,Hydrocortisone & Combined preparations
+9,Acyclovir (Topical),False,Topical Antiviral preparations
+12,Acyclovir (Oral),False,Herpes simplex & Varicella-zoster virus infections
+13,Acyclovir (Ophthalmic),False,Ophthalmic Anti-viral Products
+7,Acyclovir (Injection),False,Herpes simplex & Varicella-zoster virus infections
+22,Activated Charcoal,False,Antidote preparations
+2060,Aclidinium Bromide + Formoterol Fumarate,False,Combined bronchodilators
+25,Acitretin,False,Oral Retinoid preparations
+177,Acidic component [HCO3 Hemodialysis Solution],False,Haemodialysis solutions
+6,Acetylcysteine,False,Antidote preparations
+26,Acetazolamide,False,Carbonic anhydrase inhibitor
+184,Acetate Formulation [Hemodialysis Solution],False,Haemodialysis solutions
+21,Acemetacin,False,Non-steroidal Anti-inflammatory Drugs (NSAIDs)
+3,Aceclofenac,False,Drugs for Osteoarthritis
+1723,"Bandish [Oak Galls, Tannic acid]",False,Herbal and Nutraceuticals
+1619,Balarista,False,Herbal and Nutraceuticals
+1524,Bacopa extract [Natural memory enhancer],False,Herbal and Nutraceuticals
+1519,Aushokarist [Saraca Indica],False,Herbal and Nutraceuticals
+1758,Aswagandharista,False,Herbal and Nutraceuticals
+1757,Ashokarista,False,Herbal and Nutraceuticals
+1744,Arjunarista,False,Herbal and Nutraceuticals
+1745,Aravindasav,False,Herbal and Nutraceuticals
+1695,Antacid [Unani],False,Herbal and Nutraceuticals
+1719,Aniseed + Indian dill + Black cardamom + Peppermint,False,Herbal and Nutraceuticals
+1523,Andrographis paniculata,False,Herbal and Nutraceuticals
+1737,Ambergris + Salep + Galangal,False,Herbal and Nutraceuticals
+1699,Ambar Momiyaee,False,Herbal and Nutraceuticals
+1743,Amalaki Rasayana,False,Herbal and Nutraceuticals
+1742,Aloe indica+ Hyoscyamus niger + Piper nigrum,False,Herbal and Nutraceuticals
+17,Allopurinol,False,Drugs used in Gout
+2031,Allium cepa + Heparin + Allantoin,False,
+41,Alfuzosin Hydrochloride,False,BPH/ Urinary retention/ Urinary incontinence
+40,Alfacalcidol,False,Vitamin in bone formation
+37,Alendronic Acid + Vitamin D3,False,Combined preparations: Inhibiting bone resorption
+30,Alendronic acid,False,Bisphosphonate preparations
+1501,Alectinib,False,Protein kinase inhibitor
+29,Alcaftadine,False,Ophthalmic Anti-allergic preparations
+545,Albumin (Human),False,Plasma expanders
+16,Albendazole,False,Anthelmintic
+35,Agomelatine,False,Atypical anti-depressant drugs
+1287,Aflibercept,False,Cytotoxic Chemotherapy
+1849,Afatinib Dimaleate,False,Tyrosine Kinase Inhibitor
+1057,Adsorbed Tetanus Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+28,Adrenaline,False,Other adrenoceptor stimulants
+1768,Dasamularista,False,Herbal and Nutraceuticals
+1534,Curcuminoids [Curcuma Longa],False,Herbal and Nutraceuticals
+2064,Curcuma Longa [Turmeric Extract],False,Herbal and Nutraceuticals
+1533,Cranberry [Vaccinium macrocarpon],False,Herbal and Nutraceuticals
+1746,Compound Asparagus,False,Herbal and Nutraceuticals
+1549,Collagen II & GAGs,False,Herbal and Nutraceuticals
+302,Coenzyme Q10 [Ubidecarenone],False,Supplements & adjuvant therapy
+1612,Chirata [Swertia Chirata],False,Herbal and Nutraceuticals
+1702,Chebulic Myrobalan + Barberry,False,Herbal and Nutraceuticals
+1611,Carica Papaya Leaf Extract,False,Herbal and Nutraceuticals
+189,Camphor + Thymol + Menthol + Eucalyptus oil,False,Herbal and Nutraceuticals
+1756,Calendula Officinalis [Marigold],False,Herbal and Nutraceuticals
+1684,Buzuri,False,Herbal and Nutraceuticals
+1747,Brahmi Rasayan,False,Herbal and Nutraceuticals
+1538,Black Cohosh [Cimicifuga Racemosa],False,Herbal and Nutraceuticals
+1213,Amino Acid + Calcium,False,Drugs used in chronic kidney dialysis
+1890,Amino Acid,False,Parenteral nutritional preparations
+54,Amikacin,False,Aminoglycosides
+53,Ambroxol Hydrochloride,False,Cough expectorants & mucolytics
+51,Ambrisentan,False,Anti-hypertensive
+50,Amantadine Hydrochloride,False,Respiratory viral infections (Influenza)
+49,Alverine Citrate,False,Anticholinergics
+1297,Aluminium Oxide + Magnesium Trisilicate,False,Antacid with laxative action
+20,Aluminium Hydroxide + Magnesium Hydroxide + Simethicone,False,Antacids
+19,Aluminium Hydroxide + Magnesium Hydroxide,False,Antacids
+45,Aluminium Chloride Hexahydrate,False,Miscellaneous topical agents
+1829,Aluminium Chloride + Melaleuca Alternifolia Oil + Geothermal water,False,Miscellaneous topical agents
+1499,Alteplase,False,Fibrinolytics (Thrombolytics)
+18,Alprazolam,False,Benzodiazepine sedatives
+1167,Alphanate,False,Haemostatics
+1511,Ginkgo Biloba,False,Herbal and Nutraceuticals
+1683,Garlitab,False,Herbal and Nutraceuticals
+1412,Garlic Oil,False,Supplements & adjuvant therapy
+1491,Flaxseed oil [Linum Usitatissimum],False,Prostaglandin analogues
+1722,"Fishar [Snake root, Potassium, Magnesium]",False,Herbal and Nutraceuticals
+1536,Fermented soy [Lactobacillus Delbrueckii],False,Herbal and Nutraceuticals
+1766,"Fennel [Mouri, Gohkshura, Kasni]",False,Herbal and Nutraceuticals
+921,Evening primrose oil,False,Herbal and Nutraceuticals
+1709,Espand,False,Herbal and Nutraceuticals
+1517,Emblica officinalis + Piper longum,False,Herbal and Nutraceuticals
+1700,Emblic Myrobalan + Sesame,False,Herbal and Nutraceuticals
+1739,Emblic Myrobalan + Chebulic + Belleric,False,Herbal and Nutraceuticals
+1738,Emblic Myrobalan + Aswagandha + Grape,False,Herbal and Nutraceuticals
+1685,Ejaz,False,Herbal and Nutraceuticals
+1512,Echinacea,False,Herbal and Nutraceuticals
+1775,Amorolfine Hydrochloride (Nail Lacquer),False,Other preparations
+1648,Amorolfine Hydrochloride (cream),False,Topical Antifungal preparations
+67,Amlodipine Besilate + Valsartan,False,Combined antihypertensive preparations
+66,Amlodipine Besilate + Telmisartan,False,Combined antihypertensive preparations
+65,Amlodipine Besilate + Olmesartan Medoxomil,False,Combined antihypertensive preparations
+64,Amlodipine Besilate + Benazepril Hydrochloride,False,Combined antihypertensive preparations
+68,Amlodipine Besilate + Atorvastatin,False,Anti-anginal & lipid lowering drugs
+63,Amlodipine Besilate + Atenolol,False,Combined antihypertensive preparations
+62,Amlodipine Besilate,False,Calcium-channel blockers
+61,Amlexanox,False,
+622,Amitriptyline Hydrochloride + Chlordiazepoxide,False,Combined anxiolytics & anti-depressant drugs
+60,Amitriptyline Hydrochloride,False,Tricyclic Anti-depressant
+1649,Amisulpride,False,Atypical neuroleptic drugs
+59,Amiodarone Hydrochloride,False,Potassium channel blockers
+58,Aminophylline,False,Bronchodilator
+1706,Kabid Nawshadri,False,Herbal and Nutraceuticals
+1767,Jouban Satadal,False,Herbal and Nutraceuticals
+1521,Jogaraj Guggulu,False,Herbal and Nutraceuticals
+1755,Jirakaddarista,False,Herbal and Nutraceuticals
+1711,Jinsin,False,Herbal and Nutraceuticals
+1527,Jeerakaddarishta Carminative,False,Herbal and Nutraceuticals
+1749,Jamani Arka,False,Herbal and Nutraceuticals
+1720,"Jadwar [Denudatum, Saffron, Henbane]",False,Herbal and Nutraceuticals
+1646,Ispaghula Husk + Sonapata,False,Bulk-forming laxatives
+1310,Ispaghula Husk + Mebeverine Hydrochloride,False,Bulk-forming laxatives
+1531,Hingastak Churna,False,Herbal and Nutraceuticals
+1690,Herbal Multivitamin,False,Herbal and Nutraceuticals
+1688,Herbal gastric preparation,False,Herbal and Nutraceuticals
+1740,Herbal cough syrup [Vasakarista],False,Herbal and Nutraceuticals
+1769,Herbal cough syrup [Tulsi],False,Herbal and Nutraceuticals
+81,Artemether + Lumefantrine,False,Anti-malarial drugs
+80,Artemether,False,Anti-malarial drugs
+1372,Armodafinil,False,CNS stimulant drugs
+75,Aripiprazole,False,Atypical neuroleptic drugs
+1815,Arformoterol Tartrate,False,Bronchodilator
+1488,Arabinoxylan,False,Immunomodulator
+74,Aprepitant,False,Anti-emetic drugs
+1378,Apremilast,False,Disease-modifying antirheumatic drugs (DMARDs)
+1400,Apixaban,False,Fibrinolytics (Thrombolytics)
+1895,Apis mellifica + Gelsemium sempervirens + Gnaphalium,False,
+1666,Antioxidants and Micronutrients,False,Anti-oxidant Multivitamin Multimineral preparations
+73,Antihemophilic Factor [Factor VIII],False,Antihaemophilic factor
+1560,Anti-Thymocyte Globulin,False,"Vaccines, Anti-sera & Immunoglobulin"
+79,Antazoline + Tetryzoline,False,Other ophthalmic preparations
+1798,Anidulafungin,False,Echinocandins
+1518,Nabayas Louha Herbal Haematinic,False,Herbal and Nutraceuticals
+1741,"Mustakarista [Cyperus, Zingiber, Piper nigrum]",False,Herbal and Nutraceuticals
+1696,Mumshik,False,Herbal and Nutraceuticals
+1725,"Mudir [Aloe, Saffron, Ferrus sulphate]",False,Herbal and Nutraceuticals
+1750,Monjistha [Rubia cordifolia],False,Herbal and Nutraceuticals
+1223,Menthol + Camphor + Methyl Salicylate + Oleoresin Capsicum,False,Topical Analgesics
+1529,Menthol + Camphor + Eucalyptus Oil + Mint Oil,False,Herbal and Nutraceuticals
+1748,Mentha + Cinnamomum + Gaultheria + Capsicum,False,Herbal and Nutraceuticals
+1687,Marwareedi,False,Herbal and Nutraceuticals
+2062,Marine Collagen,False,Specific mineral preparations
+1692,Marham Kharish,False,Herbal and Nutraceuticals
+1846,Malus sylvestris,False,Herbal and Nutraceuticals
+1530,Mahadrakkharist [Grape extract],False,Herbal and Nutraceuticals
+1537,Lutein + Zeaxanthin,False,Herbal and Nutraceuticals
+1710,Liquorice + Cascara Sagrada + Belladona,False,Herbal and Nutraceuticals
+1679,Azelastine Hydrochloride (Eye drop),False,Anti-histamine Preparations
+97,Azelaic Acid,False,Acne treatment preparations
+96,Azathioprine,False,Cytotoxic immunosuppressants
+1383,Axitinib,False,Targeted Cancer Therapy
+1396,Avanafil,False,Drugs for Erectile Dysfunction
+94,Atropine Sulfate,False,Mydriatic and Cycloplegic agents
+93,Atracurium Besilate,False,Non depolarizing muscle relaxants
+1819,Atosiban Acetate,False,Other preparations
+92,Atorvastatin Calcium,False,Other Anti-anginal & Anti-ischaemic drugs
+2049,Atorvastatin + Ezetimibe,False,Other lipid regulating drugs
+91,Atomoxetine Hydrochloride,False,CNS stimulant drugs
+1500,Atezolizumab,False,"Vaccines, Anti-sera & Immunoglobulin"
+89,Atenolol + Chlorthalidone,False,Combined antihypertensive preparations
+88,Atenolol,False,Beta-adrenoceptor blocking drugs
+87,Astaxanthin,False,Supplements & adjuvant therapy
+1528,Red Clover Isoflavones,False,Herbal and Nutraceuticals
+1736,"Qurs Mulayin [Scammony, Lavender, Fennel]",False,Herbal and Nutraceuticals
+1988,Pumpkin [Cucurbita pepo],False,Herbal and Nutraceuticals
+1503,Psyllium [Ispaghula Husk] + Senna Extract,False,Bulk-forming laxatives
+1498,Probiotic Combination [4 Billion],False,Herbal and Nutraceuticals
+1887,Probiotic Combination [3.2 Billion],False,Herbal and Nutraceuticals
+2069,Probiotic Combination [2.3 Billion],False,Herbal and Nutraceuticals
+2070,Probiotic Combination [2 Billion],False,Herbal and Nutraceuticals
+1539,Proanthocyanidins,False,Herbal and Nutraceuticals
+1762,Prasarani Sandhan,False,Herbal and Nutraceuticals
+874,Peppermint Oil,False,Anticholinergics (antimuscarinics)/ Anti-spasmodics
+1689,Penitab,False,Herbal and Nutraceuticals
+1694,Pechish,False,Herbal and Nutraceuticals
+1522,Patrangasav,False,Herbal and Nutraceuticals
+1514,Panax Ginseng,False,Herbal and Nutraceuticals
+1781,Beclomethasone Dipropionate + Chloramphenicol + Clotrimazole + Lidocaine,False,Anti-fungal or anti-bacterial ear drops
+1221,Beclomethasone Dipropionate (Nasal Spray),False,Nasal Steroid Preparations
+109,Beclomethasone Dipropionate (Inhaler),False,Respiratory corticosteroids
+1592,Beclometasone Dipropionate + Formoterol Fumarate,False,Respiratory corticosteroids
+108,Basiliximab,False,Cytotoxic immunosuppressants
+107,Barium Sulfate,False,Contrast medium for diagnostic procedures
+1581,Baricitinib,False,Immunosuppressant
+106,Bambuterol Hydrochloride,False,Short-acting selective & β2-adrenoceptor stimulants
+1883,Baloxavir Marboxil,False,Respiratory viral infections (Influenza)
+994,Balanced Salt Solution,False,Irrigation during various surgical procedures
+105,Baclofen,False,Centrally acting Skeletal Muscle Relaxants
+104,Bacitracin Zinc + Polymyxin B Sulfate,False,Ophthalmic antibacterial drugs
+1474,Bacillus Clausii spores,False,
+101,Aztreonam,False,Other beta-lactam Antibiotics
+1865,Azithromycin Dihydrate (Ophthalmic),False,Macrolides
+1765,Stevia Rebaudiana,False,Herbal and Nutraceuticals
+1516,St. John’s Wort,False,Herbal and Nutraceuticals
+1513,Spirulina,False,Herbal and Nutraceuticals
+987,Silymarin [Milk thistle],False,"Cholagogues, Cholelitholytics & Hepatic Protectors"
+1770,Sharbat Musaffi,False,Herbal and Nutraceuticals
+1825,Sharbat Amla,False,Herbal and Nutraceuticals
+1761,Saw palmetto (500 mg),False,Herbal and Nutraceuticals
+1532,Saw Palmetto (160 mg),False,Herbal and Nutraceuticals
+1763,Saribadyarista,False,Herbal and Nutraceuticals
+1691,Sanoon Babla,False,Herbal and Nutraceuticals
+1764,Sanjivani Rasayan,False,Herbal and Nutraceuticals
+1728,Sana + Revand Chini + Neem + Chirata + Tulsi,False,Herbal and Nutraceuticals
+1714,Salep + Coconut + Poppy Seeds + Almond,False,Herbal and Nutraceuticals
+1729,"Salajeet [Mineral Pitch, Red Sage]",False,Herbal and Nutraceuticals
+1721,Saffron + Sand Lizard + Nutmeg fruit,False,Herbal and Nutraceuticals
+126,Betamethasone + Calcipotriol,False,Betamethasone & Combined preparations
+1617,Betamethasone,False,Corticosteroid
+122,Betahistine Mesylate,False,Drugs used in meniere's diseases
+121,Betahistine Dihydrochloride,False,Drugs used in meniere's diseases
+120,Betacarotene + Vitamin C + Vitamin E,False,Anti-oxidant Multivitamin preparations
+119,Besifloxacin,False,Ophthalmic antibacterial drugs
+118,Bepotastine Besilate,False,Ophthalmic Anti-allergic preparations
+116,Benzyl Penicillin,False,Benzylpenicillin & Phenoxymethyl penicillin
+115,Benzyl Benzoate,False,Parasiticidal preparations
+1276,Benzyl Alcohol,False,Other scalp preparations
+1432,Benzydamine Hydrochloride,False,Topical anti-inflammatory preparations
+114,Benzoyl Peroxide,False,Acne treatment preparations
+113,Benzoic Acid + Salicylic Acid,False,Other Antifungal preparations
+1254,Benzocaine + Camphor + Methanol + Phenol,False,Topical Local Anesthetics
+1470,Benzocaine + Butamben + Tetracaine Hydrochloride,False,Topical Local Anesthetics
+1671,β-Sitosterol,False,Herbal and Nutraceuticals
+1520,Yohimbine Hydrochloride,False,Herbal and Nutraceuticals
+1704,White Damar + Acacia + Bole Rubra,False,Herbal and Nutraceuticals
+1138,Vitamin E [Alpha Tocopherol Acetate],False,Vitamin-E Preparations
+1672,Vitamin D3 + Vitamin K1 + Vitamin K2,False,Herbal and Nutraceuticals
+1751,Vaskar Laban [Piper + Zingiber + Cinnamomum],False,Herbal and Nutraceuticals
+1681,Valerian Root,False,Herbal and Nutraceuticals
+1842,Tocotrienol + Tocopherol,False,Herbal and Nutraceuticals
+1724,"Tila Jadeed [Madar, Mace arillus, Nutmeg nut]",False,Herbal and Nutraceuticals
+1843,Tart Cherry,False,Herbal and Nutraceuticals
+1682,Tabkheer,False,Herbal and Nutraceuticals
+1735,"Suzark [Chir Pine, Chickpea, Pearl]",False,Herbal and Nutraceuticals
+1734,Suranjan,False,Herbal and Nutraceuticals
+1820,Steviol Glycoside,False,Herbal and Nutraceuticals
+111,Benzocaine,False,Local & Surface anesthesia
+110,Benzathine Penicillin,False,Long acting penicillin
+133,Bisacodyl,False,Stimulant purgatives
+611,Biphasic Insulin Aspart [rDNA],False,Combination Insulin
+1301,Bimatoprost + Timolol,False,Other ophthalmic preparations
+132,Bimatoprost,False,Drugs for miotics and glaucoma
+1457,Bilastine,False,Non-sedating antihistamines
+993,Bicarbonate Component [HCO3 Hemodialysis Solution],False,Haemodialysis solutions
+1289,Bicalutamide,False,Hormonal Chemotherapy
+1579,Betrixaban,False,Anti-platelet drugs
+131,Bevacizumab,False,Targeted Cancer Therapy
+130,Betaxolol Hydrochloride,False,Drugs for miotics and glaucoma
+1615,Betamethasone Valerate,False,Corticosteroid
+1616,Betamethasone Sodium Phosphate,False,Corticosteroid
+1189,Betamethasone Dipropionate + Salicylic Acid,False,Topical anti-inflammatory preparations
+123,Betamethasone Dipropionate,False,Corticosteroid
+1226,Betamethasone + Neomycin Sulphate (Topical),False,Aural steroid & antibiotic combined preparations
+1164,Betamethasone + Phenylephrine + Lignocaine,False,Phlebotonic & Vascular protecting preparation
+124,Betamethasone + Neomycin Sulphate (E/E),False,Ophthalmic steroid - antibiotic combined preparations
+1242,Betamethasone + Gentamicin,False,Other Topical corticosteroids
+127,Betamethasone + Clotrimazole,False,Betamethasone & Combined preparations
+125,Betamethasone + Clotrimazole + Gentamicin,False,Betamethasone & Combined preparations
+1600,Benzalkonium chloride,False,Bleaching and Disinfectants
+1288,Bendamustine,False,Cytotoxic Chemotherapy
+1713,Saffron + Mace arillus + Nutmeg fruit,False,Herbal and Nutraceuticals
+1967,Bempedoic acid,False,
+1787,Saccharomyces Boulardii,False,Herbal and Nutraceuticals
+1753,Rohitakarista,False,Herbal and Nutraceuticals
+1726,Rhubarb + Ginger,False,Herbal and Nutraceuticals
+1707,Rehmin,False,Herbal and Nutraceuticals
+100,Azithromycin Dihydrate,False,
+1634,Azilsartan Medoxomil + Chlorthalidone,False,Combined antihypertensive preparations
+145,Bromhexine Hydrochloride,False,Cough expectorants & mucolytics
+144,Bromfenac Sodium,False,Ophthalmic Non-Steroid drugs
+148,Bromelain + Trypsin,False,Enzymes
+143,Bromazepam,False,Benzodiazepine sedatives
+1566,Brivaracetam,False,Adjunct anti-epileptic drugs
+141,Brinzolamide + Brimonidine Tartrate,False,Drugs for miotics and glaucoma
+1282,Brinzolamide + Timolol,False,Drugs for miotics and glaucoma
+142,Brinzolamide,False,Drugs for miotics and glaucoma
+140,Brimonidine Tartrate + Timolol Maleate,False,Drugs for miotics and glaucoma
+139,Brimonidine Tartrate,False,Drugs for miotics and glaucoma
+1641,Brigatinib,False,Cytotoxic Chemotherapy
+1562,Brexpiprazole,False,Benzodiazepine antagonist
+1387,Bortezomib,False,Targeted Cancer Therapy
+138,Bosentan Monohydrate,False,Anti-hypertensive
+137,Bleomycin Sulfate,False,Cytotoxic Chemotherapy
+1475,Bivalirudin,False,Anti-platelet drugs
+135,Bisoprolol Hemifumarate,False,Anti adrenergic agent (Beta blockers)
+136,Bisoprolol Fumarate + Hydrochlorothiazide,False,Combined antihypertensive preparations
+1433,Bisoprolol Fumarate + Amlodipine Besilate,False,Anti-hypertensive
+134,Bismuth Subsalicylate,False,
+99,Azilsartan Medoxomil,False,Angiotensin-ll receptor blocker
+1300,Azelastine Hydrochloride + Fluticasone Propionate,False,Nasal Steroid Preparations
+98,Azelastine Hydrochloride (Nasal Spray),False,Nasal Anti-histamine preparations
+1727,Nux-vomica + Black Pepper + Long Pepper,False,Herbal and Nutraceuticals
+1760,Nimbadi Churna,False,Herbal and Nutraceuticals
+1525,Nigella Sativa [Black Seed Oil],False,Herbal and Nutraceuticals
+1759,Neem,False,Herbal and Nutraceuticals
+1693,Natural medicine for diabetes,False,Herbal and Nutraceuticals
+1299,Aspirin + Dipyridamole,False,Anti-platelet drugs
+85,Aspirin,False,Anti-platelet drugs
+164,Calcipotriol Monohydrate,False,Topical Vitamin D & related preparations
+163,Calamine + Zinc Oxide + Glycerine,False,Local Antipruritic
+2035,Caffeine Citrate,False,Painkiller Muscle Relaxant
+1487,Cabozantinib,False,Tyrosine Kinase Inhibitor
+1434,Cabergoline,False,Antiparkinson drugs
+1286,Cabazitaxel,False,Cytotoxic Chemotherapy
+1397,Butoconazole Nitrate,False,Drugs used in Vaginal and Vulval condition
+159,Butenafine Hydrochloride,False,Topical Antifungal preparations
+158,Butamirate Citrate,False,Cough suppressant
+157,Busulfan,False,Cytotoxic Chemotherapy
+155,Bupropion Hydrochloride,False,Atypical anti-depressant drugs
+153,Bupivacaine Hydrochloride + Dextrose,False,Regional anesthesia
+152,Bupivacaine Hydrochloride,False,Regional anesthesia
+151,Bumetanide,False,Loop diuretics
+150,Budesonide + Formoterol Fumarate,False,
+1653,Budesonide (Tablet),False,Ulcerative Colitis
+146,Budesonide (Nebuliser Suspension),False,Nasal Decongestants & Other Nasal Preparations
+1652,Budesonide (Nasal Spray),False,Nasal Decongestants & Other Nasal Preparations
+1654,Budesonide (Inhaler),False,Nasal Decongestants & Other Nasal Preparations
+149,Bromocriptine Mesylate,False,Antiparkinson drugs
+84,Aspartame,False,Oral nutritional preparations
+83,Articaine Hydrochloride + Epinephrine,False,Local & Surface anesthesia
+82,Artesunate,False,Anti-malarial drugs
+1732,Licorice + Yellow Silk Cotton + Mastic tree,False,Herbal and Nutraceuticals
+1731,Licorice + Vasaka + Basil + Peppermint,False,Herbal and Nutraceuticals
+1697,Lavendar [Lavendula stoechas],False,Herbal and Nutraceuticals
+1730,Kusta Qalyee [Calcined stannum],False,Herbal and Nutraceuticals
+1698,Khakshi,False,Herbal and Nutraceuticals
+72,Anastrozole,False,Hormonal Chemotherapy
+71,Ampicillin Sodium,False,
+1239,Amphotericin B,False,Other Antifungal preparations
+186,Calcium Orotate,False,Minerals in bone formation
+2044,Calcium Lactate Gluconate + Coral Calcium + Vitamin C + Vitamin D3,False,Specific mineral & vitamin combined preparations
+1201,Calcium Lactate Gluconate + Calcium Carbonate + Vitamin D3,False,Specific mineral & vitamin combined preparations
+175,Calcium Lactate Gluconate + Calcium Carbonate + Vitamin C + Vitamin D3,False,Specific mineral & vitamin combined preparations
+174,Calcium Lactate Gluconate + Calcium Carbonate + Vitamin C,False,Specific mineral & vitamin combined preparations
+185,Calcium Lactate,False,Minerals in bone formation
+182,Calcium Gluconate,False,Minerals in bone formation
+499,Calcium Folinate [Folinic Acid],False,Supportive Care Therapy
+1459,Calcium Dobesilate + Lidocaine + Dexamethasone,False,Drugs used in Ano-rectal region
+1438,Calcium Dobesilate,False,Vaso Protective
+168,Calcium Carbonate + Vitamin D3 + Multimineral,False,Specific mineral & vitamin combined preparations
+169,Calcium Carbonate [Elemental source] + Vitamin D3,False,Specific mineral & vitamin combined preparations
+1548,Calcium Carbonate [Eggshell Source] + Vitamin D3,False,Specific mineral & vitamin combined preparations
+1200,Calcium Carbonate [Coral source] + Vitamin D3,False,Specific mineral & vitamin combined preparations
+1772,Calcium Carbonate [Algae source] + Vitamin D3,False,Specific mineral & vitamin combined preparations
+173,Calcium Carbonate,False,Minerals in bone formation
+171,Calcium Acetate,False,
+167,Calcium + Vitamin D3 + Vitamin C + Vitamin E + Multimineral,False,Specific mineral & vitamin combined preparations
+166,Calcitriol + Calcium Citrate,False,Specific mineral & vitamin combined preparations
+165,Calcitriol,False,Vitamin in bone formation
+69,Amoxicillin Trihydrate,False,Broad spectrum penicillins
+70,Amoxicillin + Clavulanic Acid,False,Broad spectrum penicillins
+1712,Herbal cough syrup [Glycyrrhiza Glabra],False,Herbal and Nutraceuticals
+1515,Herbal cough syrup [Adhatoda Vasica],False,Herbal and Nutraceuticals
+2065,Hazmina,False,Herbal and Nutraceuticals
+1771,Habb-e-Nishat,False,Herbal and Nutraceuticals
+1703,Guggul + Barberry + Chebulic Myrobalan,False,Herbal and Nutraceuticals
+56,Aminocaproic acid,False,Anti-fibrinolytic drugs
+1662,Amino Acid Keto Analogues,False,Other genito-urinary preparations
+57,Amino Acid + Glucose + Electrolytes,False,Parenteral nutritional preparations
+1788,Amino Acid + Dextrose + Eloctrolytes,False,Parenteral nutritional preparations
+205,Carboxymethylcellulose Sodium,False,
+1401,Carboprost Tromethamine,False,Drugs acting on the Uterus
+204,Carboplatin,False,Cytotoxic Chemotherapy
+203,Carbonyl Iron + Folic Acid + Zinc Sulfate + Vitamin B Complex + Vitamin C,False,"Iron, Vitamin & Mineral Combined preparation"
+202,Carbonyl Iron + Folic Acid + Zinc Sulfate,False,"Iron, Vitamin & Mineral Combined preparation"
+244,Carbonyl Iron + Folic Acid,False,Iron & Vitamin Combined preparations
+201,Carbocisteine,False,Cough expectorants & mucolytics
+200,Carbimazole,False,Anti-thyroid drugs
+197,Carbetocin,False,Drugs acting on the Uterus
+196,Carbamazepine,True,Primary anti-epileptic drugs
+195,Captopril,False,Angiotensin-converting enzyme (ACE) inhibitors
+194,Capsaicin,False,Topical Analgesics
+247,Caprylic + Capric Triglyceride,False,Emollients & combined preparations
+193,Capecitabine,False,Cytotoxic Chemotherapy
+192,Candesartan Cilexetil + Hydrochlorothiazide,False,Combined antihypertensive preparations
+191,Candesartan Cilexetil,False,Angiotensin-ll receptor blocker
+245,Canagliflozin Hemihydrate,False,Sodium-glucose Cotransporter-2 (SGLT2) Inhibitors
+246,Camphor + Menthol + Oil Clove + Oil Eucalyptus + Oil Turpentine,False,Topical Analgesics
+1574,Calcium Polystyrene Sulfonate,False,Hyperkalaemia Products
+187,Calcium Pantothenate,False,Minerals in bone formation
+55,Amino Acid + D-Sorbitol + Electrolytes,False,Parenteral nutritional preparations
+1708,Dinar,False,Herbal and Nutraceuticals
+1718,Devil’s Cotton + Ashoka bark + Aswagandha,False,Herbal and Nutraceuticals
+1786,Devil's Claw,False,Herbal and Nutraceuticals
+1701,Datura + Rhubarb + Ginger,False,Herbal and Nutraceuticals
+1733,Date palm + Betel nut + Acacia,False,Herbal and Nutraceuticals
+2054,Alpha Lipoic Acid,False,
+1871,Alogliptin Benzoate,False,Dipeptidyl Peptidase-4 (DPP-4) inhibitor
+44,Almotriptan,False,5-HT Agonists
+39,Almitrine Bismesylate + Raubasine,False,Cerebral vasodilator & Neurosensory oxygenator drugs
+1369,Allylestrenol,False,Female Sex hormones
+1850,Cefprozil,False,Second generation Cephalosporins
+221,Cefpodoxime Proxetil + Clavulanic Acid,False,Third generation Cephalosporins
+220,Cefpodoxime Proxetil,False,Third generation Cephalosporins
+219,Cefpirome Sulphate,False,Fourth generation Cephalosporins
+1274,Cefoxitin,False,Second generation Cephalosporins
+218,Cefotaxime,False,Third generation Cephalosporins
+1415,Cefoperazone Sodium,False,Third generation Cephalosporins
+217,Cefixime Trihydrate,False,Third generation Cephalosporins
+215,Cefepime Hydrochloride,False,Fourth generation Cephalosporins
+212,Cefditoren,False,Third generation Cephalosporins
+211,Cefdinir,False,Third generation Cephalosporins
+1454,Cefazolin Sodium,False,First generation Cephalosporins
+210,Cefadroxil Monohydrate,False,First generation Cephalosporins
+209,Cefaclor Monohydrate,False,Second generation Cephalosporins
+2033,Casirivimab + Imdevimab,False,
+208,Carvedilol,False,Alpha adrenoceptor blocking drugs
+1621,Carmellose Sodium,False,Drugs for Dry eyes
+1437,Carisoprodol,False,Locally acting Skeletal Muscle Relaxants
+207,Carboxymethylcellulose Sodium + Hypromellose,False,Drugs for Dry eyes
+206,Carboxymethylcellulose Sodium + Glycerin,False,Drugs for Dry eyes
+1966,Bitter Melon [Korola],False,Herbal and Nutraceuticals
+1535,Biotin,False,Herbal and Nutraceuticals
+1526,Bilberry fruit [Vaccinium myrtillus L],False,Herbal and Nutraceuticals
+1717,Belgiri [Bael fruit + Connessi bark],False,Herbal and Nutraceuticals
+1686,Barsina,False,Herbal and Nutraceuticals
+1893,Adhatoda vasica + Centella asiatica,False,
+23,Adenosine,False,Paroxysmal supraventricular tachycardia (PSVT)
+15,Adefovir Dipivoxil,False,Hepatic viral infections (Hepatitis B)
+11,Adapalene + Benzoyl peroxide,False,Topical retinoid and related preparations
+14,Adapalene,False,Topical retinoid and related preparations
+1705,Aloe + Black Pepper + Henbane,False,Herbal and Nutraceuticals
+243,Chloramphenicol + Lidocaine Hydrochloride,False,Aural Anti-bacterial preparations
+1847,Chloramphenicol (Oral),False,Macrolides
+237,Chloramphenicol (Ophthalmic),False,Macrolides
+236,Chlorambucil,False,Cytotoxic Chemotherapy
+1290,Cetuximab,False,Targeted Cancer Therapy
+235,Cetrorelix Acetate,False,Drugs affecting (inhibiting) gonadotrophin
+1477,Cetirizine Hydrochloride (Ophthalmic),False,Ophthalmic Anti-allergic preparations
+234,Cetirizine Hydrochloride,False,Sedating Anti-histamine
+233,Cetalkonium Chloride + Choline Salicylate,False,Non-steroidal Anti-inflammatory Drugs (NSAIDs)
+1640,Ceritinib,False,
+231,Cephalexin,False,First generation Cephalosporins
+232,Cephradine,False,First generation Cephalosporins
+1801,Celiprolol Hydrochloride,False,Beta-blockers
+228,Celecoxib,False,Drugs for Osteoarthritis
+227,Cefuroxime Axetil + Clavulanic Acid,False,Second generation Cephalosporins
+226,Cefuroxime Axetil,False,Second generation Cephalosporins
+225,Ceftriaxone Sodium,False,Third generation Cephalosporins
+224,Ceftibuten Dihydrate,False,Third generation Cephalosporins
+223,Ceftazidime Pentahydrate,False,Third generation Cephalosporins
+2029,Ceftazidime + Avibactam,False,
+1716,Almond + Coconut + Edible Pine + Salep,False,Herbal and Nutraceuticals
+1715,Acacia + Dates + Asparagus + Edible Pine,False,Herbal and Nutraceuticals
+1752,Abhayarista,False,Herbal and Nutraceuticals
+1833,23 herb formula to increase breast milk,False,Herbal and Nutraceuticals
+27,Acarbose,False,Alpha-Glucosidase inhibitor
+2040,Acalabrutinib,False,Tyrosine Kinase Inhibitor
+1294,Abiraterone Acetate,False,Cytotoxic Chemotherapy
+2043,Abemaciclib,False,Protein kinase inhibitor
+24,Abacavir + Lamivudine + Zidovudine,False,Drugs for HIV / Anti-retroviral drugs
+1776,Ciclopirox Olamine (Nail Lacquer),False,Other preparations
+293,Ciclopirox Olamine (Cream),False,Topical Antifungal preparations
+254,Ciclesonide (Nasal Spray),False,Respiratory corticosteroids
+1840,Ciclesonide (Inhalation Aerosol),False,Respiratory corticosteroids
+1176,Choriogonadotropin Alpha,False,Female Sex hormones
+905,Cholera Saline,False,Intravenous fluid preparations
+251,Chlorthalidone,False,Thiazide diuretics & related drugs
+250,Chlorpromazine Hydrochloride,False,Anti-emetic drugs
+249,Chlorpheniramine Maleate,False,Sedating Anti-histamine
+296,Chloroxylenol + Triclosan,False,Chlorhexidine & Chloroxylenol preparations
+1227,Chloroxylenol,False,Chlorhexidine & Chloroxylenol preparations
+248,Chloroquine Phosphate,False,Anti-malarial drugs
+1642,Chlorhexidine hydrochloride + Nystatin,False,Chlorhexidine & Chloroxylenol preparations
+242,Chlorhexidine Hydrochloride + Cetrimide,False,Chlorhexidine & Chloroxylenol preparations
+239,Chlorhexidine Gluconate + Isopropyl alcohol,False,Chlorhexidine & Chloroxylenol preparations
+241,Chlorhexidine Gluconate + Cetrimide,False,Chlorhexidine & Chloroxylenol preparations
+1492,Chlorhexidine Gluconate [7.1%],False,Bleaching and Disinfectants
+1494,Chlorhexidine Gluconate [4%],False,Other antibacterial preparation
+1493,Chlorhexidine Gluconate [1%],False,Other antibacterial preparation
+240,Chlorhexidine Gluconate [0.2%],False,Other antibacterial preparation
+1845,Clascoterone,False,Acne treatment preparations
+271,Clarithromycin,False,Macrolides
+1441,Citric Acid Monohydrate,False,Cough suppressant
+269,Citicoline Sodium,False,CNS stimulant drugs
+268,Citalopram Hydrobromide,False,SSRIs & related anti-depressant drugs
+267,Cisplatin,False,Cytotoxic Chemotherapy
+265,Ciprofloxacin + Hydrocortisone Acetate,False,Aural steroid & antibiotic combined preparations
+264,Ciprofloxacin + Dexamethasone,False,Aural steroid & antibiotic combined preparations
+266,Ciprofloxacin (Ophthalmic),False,Aural Anti-bacterial preparations
+263,Ciprofloxacin,False,Anti-diarrhoeal Antimicrobial drugs
+1884,Ciprofibrate,False,
+262,Cinnarizine + Dimenhydrinate,False,Anti vertigo drugs
+261,Cinnarizine,False,Anti vertigo drugs
+260,Cinchocaine Hydrochloride,False,Local & Surface anesthesia
+1224,Cinchocaine + Hydrocortisone + Neomycin + Esculin,False,Compound steroidal preparations
+259,Cinchocaine + Hydrocortisone + Framycetin + Esculin,False,Compound steroidal preparations
+258,Cinacalcet,False,Calcium Regulator
+256,Cilostazol,False,Peripheral Vasodilator drugs: Intermittent Claudication
+1377,Cilnidipine,False,Calcium-channel blockers
+1667,Ciclopirox Olamine (Shampoo),False,Topical Antifungal preparations
+295,Clostridium Botulinum Toxin Type A Neurotoxin,False,"Vaccines, Anti-sera & Immunoglobulin"
+286,Clopidogrel Bisulphate,False,Anti-platelet drugs
+86,Clopidogrel + Aspirin,False,Anti-platelet drugs
+285,Clonidine Hydrochloride,False,Centrally acting antihypertensive drugs (central sympatholytic)
+284,Clonazepam,False,Adjunct anti-epileptic drugs
+283,Clomipramine Hydrochloride,False,Tricyclic & related anti-depressant drugs
+282,Clomiphene Citrate,False,Drugs for Infertility
+281,Clobetasone Butyrate,False,Clobetasol / Clobetasone & Combined Preparations
+279,Clobetasol Propionate + Salicylic Acid,False,Clobetasol / Clobetasone & Combined Preparations
+1578,Clobetasol Propionate + Ofloxacin + Ornidazole + Terbinafine,False,Clobetasol / Clobetasone & Combined Preparations
+278,Clobetasol Propionate + Neomycin Sulphate + Nystatin,False,Clobetasol / Clobetasone & Combined Preparations
+280,Clobetasol Propionate (Topical Preparation),False,Other Topical corticosteroids
+1582,Clobetasol Propionate (Scalp Preparation),False,Other Topical corticosteroids
+277,Clobazam,False,Benzodiazepine hypnotics
+276,Clioquinol + Flumetasone Pivalate,False,Aural steroid & antibiotic combined preparations
+275,Clindamycin + Tretinoin,False,Topical antibiotic & retinoid preparations
+274,Clindamycin + Benzoyl peroxide,False,"Benzoyl peroxide, Azelaic acid & other preparations"
+1834,Clindamycin (Vaginal Cream),False,Macrolides
+1588,Clindamycin (Lotion),False,Macrolides
+273,Clindamycin,False,Macrolides
+1877,Conjugated Estrogen + Bazedoxifene,False,Female Sex hormones
+304,Conjugated Estrogen (Tablet),False,Female Sex hormones
+1780,Conjugated Estrogen (Cream),False,Female Sex hormones
+1429,Colistimethate Sodium,False,Other antibacterial preparation
+252,Colecalciferol [Vitamin D3],False,Vitamin in bone formation
+303,Colchicine,False,Drugs used in Gout
+300,Cod Liver Oil,False,Specific combined vitamin preparations
+902,Coal Tar Solution,False,Coal-tar preparations
+299,Coal Tar + Precipitated Sulphur + Salicylic Acid,False,Coal-tar preparations
+298,Coal Tar,False,Coal-tar preparations
+1244,Coagulation Factor VIIa [Eptacog Alfa],False,Anti-fibrinolytic drugs
+297,Clozapine,False,Atypical neuroleptic drugs
+292,Cloxacillin Sodium,False,Penicillinase-resistant penicillins
+1607,Clove oil,False,Oral preparations
+290,Clotrimazole + Hydrocortisone,False,Hydrocortisone & Combined preparations
+291,Clotrimazole (Vaginal tablet),False,Topical Antifungal preparations
+1785,Clotrimazole (Vaginal suppository),False,Topical Antifungal preparations
+289,Clotrimazole (Topical),False,Drugs for subcutaneous and mycoses
+287,Clotrimazole (Eye ointment),False,Ophthalmic Anti-fungal Products
+288,Clotrimazole (Ear drop),False,Aural Anti-fungal preparations
+2071,Dacomitinib,False,Cytotoxic Chemotherapy
+1302,Daclatasvir + Sofosbuvir,False,Hepatic viral infections (Hepatitis C)
+316,Daclatasvir,False,Hepatic viral infections (Hepatitis C)
+1388,Dacarbazine,False,Cytotoxic Chemotherapy
+1304,Dabigatran Etexilate Mesylate,False,Fibrinolytics (Thrombolytics)
+1790,D-chiro-inositol,False,Trophic Hormones & Related Synthetic Drugs
+315,Cytarabine,False,Cytotoxic Chemotherapy
+324,Cyproterone Acetate + Ethinyl Estradiol,False,Oral Hormonal preparations for Acne
+1195,Cyclosporine (Ophthalmic),True,Drugs for Dry eyes
+1194,Cyclosporine,True,"Vaccines, Anti-sera & Immunoglobulin"
+1204,Cyclophosphamide,False,Cytotoxic Chemotherapy
+1851,Cyclopentolate Hydrochloride,False,Anticholinergics
+312,Cyclobenzaprine Hydrochloride,False,Locally acting Skeletal Muscle Relaxants
+2057,Cyclizine Hydrochloride,False,Anti-emetic drugs
+311,Cyanocobalamin,False,Vitamin-B preparations
+306,Crotamiton,False,Parasiticidal preparations
+1379,Crizotinib,False,Targeted Cancer Therapy
+1803,Crisaborole,False,Topical anti-inflammatory preparations
+1656,COVID Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+1873,Copper Peptide + Procapil + Niacinamide + Biotin + L-Arginine,False,Miscellaneous topical agents
+329,Desloratadine,False,Non-sedating antihistamines
+1664,Dequalinium Chloride,False,Other antibacterial preparation
+327,Denosumab,False,Inhibiting bone resorption
+1975,Delafloxacin,False,4-Quinolone preparations
+1970,Dehydroepiandrosterone,False,
+1795,Degarelix Acetate,False,Drugs affecting (inhibiting) gonadotrophin
+326,Deflazacort,False,Glucocorticoids
+1465,Deferoxamine Mesylate,False,Carboxylic acids and derivatives
+325,Deferiprone,False,Antidote preparations
+323,Deferasirox,False,Antidote preparations
+1230,Daunorubicin,False,Cytotoxic Chemotherapy
+1292,Dasatinib,False,Targeted Cancer Therapy
+322,Darifenacin,False,BPH/ Urinary retention/ Urinary incontinence
+1376,Darbepoetin Alfa,False,Haematopoietic Agents
+1550,Dapsone,False,Acne treatment preparations
+320,Dapoxetine Hydrochloride,False,Drugs for Erectile Dysfunction
+339,Dapagliflozin Propanediol,False,Sodium-glucose Cotransporter-2 (SGLT2) Inhibitors
+319,Dantrolene Sodium,False,Centrally acting Skeletal Muscle Relaxants
+318,Danazol,False,Drugs affecting (inhibiting) gonadotrophin
+317,Dalteparin Sodium,False,Parenteral anti-coagulants
+346,Dextromethorphan + Pseudoephedrine + Triprolidine,False,Combined cough suppressants
+1303,Dextromethorphan + Phenylephrine + Triprolidine,False,Combined cough suppressants
+348,Dextran + Sodium Chloride,False,Plasma expanders
+345,Dextran + Hypromellose,False,Drugs for Dry eyes
+349,Dextran + Dextrose,False,Plasma expanders
+1565,Dexpanthenol,False,Miscellaneous topical agents
+1403,Dexmedetomidine Hydrochloride,False,Miscellaneous sedatives & hypnotics
+344,Dexlansoprazole,False,Proton Pump Inhibitor
+343,Dexketoprofen,False,Drugs for Osteoarthritis
+342,Dexibuprofen,False,Drugs for Osteoarthritis
+341,Dexamethasone + Tobramycin,False,Ophthalmic steroid - antibiotic combined preparations
+340,Dexamethasone + Neomycin Sulphate + Polymyxin B Sulphate,False,Ophthalmic steroid - antibiotic combined preparations
+238,Dexamethasone + Chloramphenicol,False,Ophthalmic steroid - antibiotic combined preparations
+337,Dexamethasone (Ophthalmic),False,
+335,Dexamethasone,False,
+334,Desvenlafaxine,False,Serotonin-norepinephrine reuptake inhibitor (SNRI)
+1402,Desoximetasone,False,Other Topical corticosteroids
+333,Desonide,False,Other Topical corticosteroids
+331,Desogestrel,False,Oral Contraceptive preparations
+1794,Desmopressin Acetate,False,Synthetic analogue of ADH
+365,Difluprednate,False,Ophthalmic Steroid preparations
+1854,Diflorasone Diacetate,False,Other Topical corticosteroids
+363,Diethylcarbamazine Citrate,False,Other Anti-protozoals
+1864,Dienogest + Estradiol Valerate,False,Female Sex hormones
+362,Dienogest,False,Female Sex hormones
+361,Dicycloverine Hydrochloride,False,Anticholinergics (antimuscarinics)/ Anti-spasmodics
+358,Diclofenac Sodium + Misoprostol,False,Drugs for Osteoarthritis
+1453,Diclofenac Sodium + Methyl Salicylate + Linseed Oil + Menthol,False,Non-steroidal Anti-inflammatory Drugs (NSAIDs)
+356,Diclofenac Sodium + Lidocaine Hydrochloride,False,Drugs for Osteoarthritis
+359,Diclofenac Sodium (Ophthalmic),False,Ophthalmic Non-Steroid drugs
+357,Diclofenac Sodium,False,Drugs for Osteoarthritis
+1184,Diclofenac Potassium,False,Drugs for Osteoarthritis
+1483,Diclofenac Diethylamine + Mephenesin + Menthol + Methyl Salicylate + Turpentine Oil,False,Topical Analgesics
+1852,Diazoxide,False,Combination Oral hypoglycemic preparations
+355,Diazepam,False,Primary anti-epileptic drugs
+1260,Diabasic Sodium Phosphate + Monobasic Sodium Phosphate,False,Enema & bowel cleansing solution
+179,Dextrose & Hartmann's Solution,False,Intravenous fluid preparations
+350,Dextrose,False,Intravenous fluid preparations
+1774,Dextromethorphan Hydrobromide + Guaifenesin,False,Combined cough expectorants
+347,Dextromethorphan Hydrobromide,False,Cough suppressant
+386,Donepezil Hydrochloride,False,Drugs for Dementia
+380,Domperidone Maleate,False,Motility Stimulants
+378,Docusate Sodium (Oral),False,Stool softener
+1813,Docusate Sodium (Ear drop),False,Cerumenolytic
+376,Docetaxel Trihydrate,False,Cytotoxic Chemotherapy
+375,Dobutamine,False,Inotropic-sympathomimetics
+147,Dithranol + Boric Acid + Salicylic Acid,False,Dithranol & combined preparations
+373,Disopyramide Phosphate,False,Membrane stabilizing agent (Sodium channel blockers)
+371,Dipyridamole,False,Anti-platelet drugs
+1974,"Diphtheria, Tetanus, Pertussis, Poliomyelitis Vaccine",False,"Vaccines, Anti-sera & Immunoglobulin"
+1973,"Diphtheria, Tetanus, Pertussis, Hepatitis B, Poliomyelitis, Influenzae Vaccine",False,"Vaccines, Anti-sera & Immunoglobulin"
+1206,Diphtheria + Pertussis + Tetanus [DPT],False,"Vaccines, Anti-sera & Immunoglobulin"
+382,Diphenhydramine Hydrochloride + Zinc Acetate,False,Local Antipruritic
+370,Diphenhydramine Hydrochloride,False,Sedating Anti-histamine
+1463,Diphenhydramine + Levomenthol,False,Combined cough expectorants
+1476,Diphenhydramine + Dextromethorphan + Levomenthol,False,Combined cough expectorants
+1839,Diltiazem Hydrochloride (SR tablet),False,Calcium-channel blockers
+368,Diltiazem Hydrochloride (FC tablet),False,Calcium-channel blockers
+367,Diloxanide Furoate,False,Amoebicides
+366,Digoxin,True,Positive Inotropic drugs
+1404,Eflornithine Hydrochloride,False,Hair Growth Inhibitor
+404,Efavirenz,False,Drugs for HIV / Anti-retroviral drugs
+403,Econazole Nitrate + Triamcinolone Acetonide,False,Triamcinolone & Combined preparations
+402,Econazole Nitrate,False,Topical Antifungal preparations
+401,Ebastine,False,Non-sedating antihistamines
+400,Dydrogesterone,False,Female Sex hormones
+399,Dutasteride,False,BPH/ Urinary retention/ Urinary incontinence
+398,Duloxetine Hydrochloride,False,Serotonin-norepinephrine reuptake inhibitor (SNRI)
+1599,Dulaglutide,False,GLP-1 receptor agonists
+397,Drotaverine,False,Anticholinergics
+1663,Drospirenone,False,Oral Contraceptive preparations
+395,Doxylamine Succinate,False,Sedating Anti-histamine
+394,Doxycycline Hydrochloride,False,Tetracycline group of drugs
+393,Doxorubicin Hydrochloride,False,Cytotoxic Chemotherapy
+392,Doxophylline,False,Bronchodilator
+391,Doxepin (Topical),False,Local Antipruritic
+390,Doxepin (Oral),False,Tricyclic & related anti-depressant drugs
+389,Dorzolamide + Timolol,False,Drugs for miotics and glaucoma
+388,Doripenem,False,Other beta-lactam Antibiotics
+387,Dopamine Hydrochloride,False,Inotropic-sympathomimetics
+424,Eptifibatide,False,Anti-platelet drugs
+423,Epoetin Beta,False,Drugs for Haemolytic Hypoplastic & Renal Anemia
+421,Eplerenone,False,Potassium-sparing diuretics
+420,Epirubicin Hydrochloride,False,Cytotoxic Chemotherapy
+419,Epinastine Hydrochloride,False,Ophthalmic Non-Steroid drugs
+418,Ephedrine Hydrochloride,False,Other adrenoceptor stimulants
+417,Eperisone Hydrochloride,False,Centrally acting Skeletal Muscle Relaxants
+416,Epalrestat,False,Aldose reductase inhibitor
+413,Entecavir,False,Hepatic viral infections (Hepatitis B)
+412,Entacapone,False,Antiparkinson drugs
+411,Enoxaparin Sodium,False,Parenteral anti-coagulants
+1556,Encephalitis Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+409,Enalapril Maleate,False,Angiotensin-converting enzyme (ACE) inhibitors
+1580,Empagliflozin + Metformin Hydrochloride,False,Combination Oral hypoglycemic preparations
+2046,Empagliflozin + Linagliptin,False,
+1275,Empagliflozin,False,Sodium-glucose Cotransporter-2 (SGLT2) Inhibitors
+415,Emollient [Cepalin+Allantoin],False,Emollients & combined preparations
+1469,Eluxadoline,False,Prokinetic drugs
+414,Eltrombopag Olamine,False,Haemostatic drugs
+1647,Elagolix,False,Gonadotropin-releasing hormone (GnRH) antagonist
+435,Estriol (Oral),False,Female Sex hormones
+1832,Estradiol Valerate,False,Female Sex hormones
+434,Estradiol,False,Female Sex hormones
+1462,Esomeprazole + Amoxicillin + Clarithromycin,False,Anti H. pylori drugs
+1669,Esomeprazole (MUPS tablet),False,
+1674,Esmolol Hydrochloride,False,Anti adrenergic agent (Beta blockers)
+433,Esomeprazole,False,
+431,Eslicarbazepine Acetate,False,Adjunct anti-epileptic drugs
+430,Escitalopram Oxalate,False,SSRIs & related anti-depressant drugs
+422,Erythropoietin Alfa,False,Drugs for Haemolytic Hypoplastic & Renal Anemia
+429,Erythropoietin,False,Drugs for Haemolytic Hypoplastic & Renal Anemia
+428,Erythromycin (Lotion),False,Topical antibiotics for Acne
+427,Erythromycin (Oral),False,Macrolides
+2058,Ertugliflozin,False,Sodium-glucose Cotransporter-2 (SGLT2) Inhibitors
+1262,Ertapenem,False,Other beta-lactam Antibiotics
+426,Erlotinib,False,Targeted Cancer Therapy
+1797,Eribulin Mesylate,False,Targeted Cancer Therapy
+162,Ergotamine Tartrate + Caffeine,False,Ergot Alkaloids
+425,Ergometrine Maleate,False,Drugs acting on the Uterus
+1284,Erdosteine,False,Cough expectorants & mucolytics
+1651,Ethyl Butylacetylaminopropionate,False,Miscellaneous topical agents
+444,Etodolac,False,Drugs for Osteoarthritis
+1585,Ethyl Alcohol + Hydrogen peroxide + Glycerol,False,Bleaching and Disinfectants
+443,Ethosuximide,False,Primary anti-epileptic drugs
+1677,Ethinyl Estradiol + Lynestrenol (0.05 mg),False,Oral Contraceptive preparations
+442,Ethinyl Estradiol + Lynestrenol (0.0375 mg),False,Oral Contraceptive preparations
+441,Ethinyl Estradiol + Levonorgestrel + Ferrous Fumarate,False,Oral Contraceptive preparations
+1179,Ethinyl Estradiol + Gestodene,False,Oral Contraceptive preparations
+1888,Ethinyl Estradiol + Drospirenone + Levomefolate,False,Oral Contraceptive preparations
+1635,Ethinyl Estradiol + Drospirenone (HRT),False,Drugs for menopausal symptoms: Hormone replacement therapy
+396,Ethinyl Estradiol + Drospirenone (24 tablet),False,Oral Contraceptive preparations
+1804,Ethinyl Estradiol + Drospirenone (21 tablet),False,Oral Contraceptive preparations
+1807,Ethinyl Estradiol + Desogestrel + Ferrous Fumarate,False,Oral Contraceptive preparations
+332,Ethinyl Estradiol + Desogestrel (0.03 mg),False,Oral Contraceptive preparations
+1805,Ethinyl Estradiol + Desogestrel (0.02 mg),False,Oral Contraceptive preparations
+1456,Ethanol + Isopropyl alcohol,False,Bleaching and Disinfectants
+438,Ethambutol,False,Anti-Tubercular Chemotherapeutics
+1631,Etanercept,False,Immunosuppressant
+437,Eszopiclone,False,Miscellaneous sedatives & hypnotics
+1608,Estriol (Vaginal),False,Female Sex hormones
+461,Ferrous Ascorbate + Folic Acid + Zinc Sulfate,False,"Iron, Vitamin & Mineral Combined preparation"
+460,Ferrous Ascorbate,False,Oral Iron preparations
+1508,Ferric Pyrophosphate Citrate,False,Parenteral Iron Preparations
+1879,Ferric Derisomaltose,False,Parenteral Iron Preparations
+1606,Ferric Citrate,False,Oral Iron preparations
+459,Ferric Carboxymaltose,False,Parenteral Iron Preparations
+1584,Fenticonazole Nitrate [Vaginal Tablet],False,Topical Antifungal preparations
+458,Fenticonazole Nitrate [Vaginal Cream],False,Topical Antifungal preparations
+455,Fentanyl Citrate,False,Opioid analgesics
+454,Fenofibrate,False,Fibrates
+453,Febuxostat,False,Drugs used in Gout
+1547,Favipiravir,False,Anti-viral drugs
+452,Famotidine,False,
+451,Famciclovir,False,Herpes simplex & Varicella-zoster virus infections
+449,Ezetimibe,False,Ezetimibe
+457,Everolimus,False,Immunosuppressant
+1322,Eucalyptol+ Menthol + Thymol,False,Topical Analgesics
+447,Eucalyptol + Menthol + Methyl Salicylate + Thymol + Sodium Fluoride,False,Oral preparations
+446,Etoricoxib,False,Non-steroidal Anti-inflammatory Drugs (NSAIDs)
+456,Etoposide,False,Cytotoxic Chemotherapy
+480,Fluocinolone Acetonide,False,Fluocinolone & Combined Preparations
+477,Flunarizine,False,Miscellaneous prophylactic migraine preparations
+1405,Fludrocortisone Acetate,False,Corticosteroid
+1258,Fludarabine Phosphate,False,Cytotoxic Chemotherapy
+475,Fluconazole (Ophthalmic),False,Ophthalmic Anti-fungal Products
+474,Fluconazole,False,Drugs for subcutaneous and mycoses
+473,Flucloxacillin Sodium,False,Penicillinase-resistant penicillins
+2048,Flibanserin,False,Serotonin-norepinephrine reuptake inhibitor (SNRI)
+472,Flavoxate Hydrochloride,False,BPH/ Urinary retention/ Urinary incontinence
+2055,Finerenone,False,
+471,Finasteride [For B.P.H.],False,BPH/ Urinary retention/ Urinary incontinence
+1220,Finasteride [For Androgenic Alopecia],False,Miscellaneous topical agents
+470,Filgrastim,False,Haematopoietic Agents
+468,Fexofenadine Hydrochloride,False,Non-sedating antihistamines
+467,Ferrous Sulfate + Folic Acid + Zinc Sulfate,False,"Iron, Vitamin & Mineral Combined preparation"
+466,Ferrous Sulfate + Folic Acid,False,Iron & Vitamin Combined preparations
+465,Ferrous Sulfate,False,Oral Iron preparations
+464,Ferrous Gluconate,False,Oral Iron preparations
+463,Ferrous Fumarate + Folic acid,False,Iron & Vitamin Combined preparations
+462,Ferrous Fumarate,False,Oral Iron preparations
+492,Fluticasone Propionate (Nasal Spray),False,Fluocinolone & Combined Preparations
+1643,Fluticasone Propionate (Inhaler),False,Fluocinolone & Combined Preparations
+491,Fluticasone Furoate,False,Nasal Steroid Preparations
+490,Flutamide,False,Hormonal Chemotherapy
+489,Flurbiprofen,False,Drugs for Osteoarthritis
+488,Flurazepam,False,Benzodiazepine hypnotics
+486,Fluphenazine Decanoate,False,Phenothiazine drugs
+487,Fluphenazine + Nortriptyline,False,Combined anxiolytics & anti-depressant drugs
+485,Flupentixol + Melitracen,False,Combined anxiolytics & anti-depressant drugs
+484,Flupentixol,False,SSRIs & related anti-depressant drugs
+483,Fluoxetine Hydrochloride,False,Phenothiazine related drugs
+5,Fluorouracil,False,
+482,Fluorometholone Acetate,False,Ophthalmic Steroid preparations
+1217,Fluorometholone + Tetrahydrozoline,False,Ophthalmic Steroid preparations
+1216,Fluorometholone + Gentamicin,False,Ophthalmic steroid - antibiotic combined preparations
+551,Fluormetholone + Neomycin Sulphate,False,Ophthalmic steroid - antibiotic combined preparations
+481,Fluorescein Sodium,False,Preparations for Ophthalmic diagnosis
+479,Fluocinolone Acetonide + Neomycin Sulfate,False,Topical Antifungal preparations
+478,Fluocinolone Acetonide + Hydroquinone + Tretinoin,False,Hydroquinone Preparations
+1822,Fluocinolone Acetonide + Clioquinol,False,Topical Antifungal preparations
+508,Fusidic Acid (Ophthalmic),False,Macrolides
+506,Furosemide + Spironolactone,False,Potassium-sparing diuretics
+505,Furosemide,False,Loop diuretics
+507,Fucidic Acid + Betamethasone,False,Betamethasone & Combined preparations
+504,Fructose,False,
+1374,Fosfomycin Trometamol,False,Intracellular antibiotic
+1976,Formoterol Fumarate + Glycopyrrolate + Budesonide,False,Combined bronchodilators
+502,Formoterol Fumarate,False,Long-acting selective β-adrenoceptor stimulants
+501,Fondaparinux Sodium,False,Parenteral anti-coagulants
+1177,Follitropin Beta,False,Drugs for Infertility
+1595,Follitropin Alfa + Lutropin Alfa,False,Drugs for Infertility
+500,Follitropin Alfa,False,Drugs for Infertility
+1410,Follicle Stimulating Hormone [Urofollitropin],False,Drugs for Infertility
+498,Folic Acid + Zinc Sulfate Monohydrate,False,Specific mineral & vitamin combined preparations
+495,Folic Acid,False,Drugs for Megaloblastic Anemia
+494,Fluvoxamine Maleate,False,SSRIs & related anti-depressant drugs
+493,Fluvastatin,False,Other Anti-anginal & Anti-ischaemic drugs
+1460,Fluticasone Propionate + Formoterol Fumarate,False,Respiratory corticosteroids
+1341,Fluticasone Propionate (Topical),False,Fluticasone & combined preparations topical
+1342,Fluticasone Propionate (Nebuliser Suspension),False,Fluocinolone & Combined Preparations
+522,Glibenclamide,False,Sulfonylureas
+1587,Glecaprevir + Pibrentasvir,False,Hepatic viral infections (Hepatitis C)
+521,Gentian Violet,False,Crystal violet/ Gentian violet preparations
+1385,Gentamicin Sulfate (Topical),False,Topical Antibiotic preparations
+1384,Gentamicin Sulfate (Ophthalmic),False,Ophthalmic antibacterial drugs
+1505,Gentamicin Sulfate (Injection),False,Aminoglycosides
+520,Gentamicin + Hydrocortisone Acetate,False,Hydrocortisone & Combined preparations
+1182,Gemifloxacin,False,4-Quinolone preparations
+1168,Gemfibrozil,False,Dyslipidaemic Agents
+518,Gemcitabine,False,Cytotoxic Chemotherapy
+517,Gefitinib,False,Targeted Cancer Therapy
+338,Gatifloxacin + Dexamethasone,False,Ophthalmic steroid - antibiotic combined preparations
+515,Gatifloxacin (Oral),False,4-Quinolone preparations
+514,Gatifloxacin (Ophthalmic),False,Ophthalmic antibacterial drugs
+513,Ganciclovir (Ophthalmic),False,Ophthalmic Anti-viral Products
+1414,Gadoversetamide,False,Contrast medium for diagnostic procedures
+511,Gadodiamide,False,Contrast medium for diagnostic procedures
+510,Gabapentin,False,Adjunct anti-epileptic drugs
+509,Fusidic acid + Hydrocortisone,False,Hydrocortisone & Combined preparations
+1972,Fusidic acid + Betamethasone,False,Other Topical corticosteroids
+1836,Glycopyrronium Bromide (Oral solution),False,Anticholinergics (antimuscarinics)/ Anti-spasmodics
+553,Glycopyrronium Bromide (Injection),False,Anticholinergics (antimuscarinics)/ Anti-spasmodics
+1466,Glycopyrronium Bromide (Inhalation capsule),False,Bronchodilator
+533,Glycine,False,Irrigation Solution used in Urological Surgery
+530,Glycerol + Liquid Sugar,False,Combined cough suppressants
+552,Glycerol + Hypromellose + Polyethylene Glycol 400,False,Drugs for Dry eyes
+1620,Glycerol,False,Miscellaneous topical agents
+1479,Glycerin + Hypromellose + Polyethylene glycol + Tetrahydrozoline + Zinc Sulfate,False,Other ophthalmic preparations
+531,Glycerin,False,Osmotic purgatives
+1889,Glucose 19% + Vamin 18 Novum + Intralipid 20%,False,Parenteral nutritional preparations
+1880,Glucose 11% + Vamin 18 Novum + Intralipid 20%,False,Parenteral nutritional preparations
+354,Glucosamine Sulfate + Diacerein,False,Stimulation of Cartilage formation
+1613,Glucosamine Sulfate + Chondroitin + Camphor + Peppermint oil,False,Topical Analgesics
+253,Glucosamine Sulfate + Chondroitin,False,Stimulation of Cartilage formation
+529,Glucosamine Hydrochloride,False,Stimulation of Cartilage formation
+528,Glipizide + Metformin Hydrochloride,False,Combination Oral hypoglycemic preparations
+527,Glipizide,False,Sulfonylureas
+1471,Glimepiride + Metformin,False,Combination Oral hypoglycemic preparations
+524,Glimepiride,False,Sulfonylureas
+523,Gliclazide,False,Sulfonylureas
+543,Hepatitis B Vaccine [rDNA],False,"Vaccines, Anti-sera & Immunoglobulin"
+1430,Hepatitis b immune globulin,False,"Vaccines, Anti-sera & Immunoglobulin"
+542,Hepatitis A Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+566,Heparin Sodium,False,Parenteral anti-coagulants
+181,Hartmann's Solution,False,Haemodialysis solutions
+541,Halothane,False,General (Inhalation) anesthetics
+540,Haloperidol,False,"Drugs used in tremor, tics & related disorder"
+1639,Halobetasol Propionate + Tazarotene,False,Other Topical corticosteroids
+538,Halobetasol Propionate,False,Other Topical corticosteroids
+537,Halcinonide,False,Other Topical corticosteroids
+560,Halazone,False,Water purifying agent
+559,Haemophilus Influenzae Type B Vaccine [Conjugated],False,"Vaccines, Anti-sera & Immunoglobulin"
+1452,Guaifenesin + Levomenthol + Diphenhydramine,False,Combined cough expectorants
+1455,Guaifenesin + Dextromethorphan + Menthol,False,Combined cough expectorants
+535,Griseofulvin [Microsize],False,Other Antifungal preparations
+534,Granisetron,False,Supportive Care Therapy
+555,Gramacidin + Neomycin + Polymixin B,False,Ophthalmic antibacterial drugs
+1554,Golimumab,False,Drugs used for Rheumatoid Arthritis
+1892,Glycopyrronium Bromide + Formoterol Fumarate,False,
+2028,Glycopyrronium Bromide (Respirator Solution),False,Bronchodilator
+1196,Hydrogen peroxide,False,Oxidising agent with antibacterial and antiviral properties
+1882,Hydrocortisone Butyrate,False,
+580,Hydrocortisone Acetate + Neomycin Sulphate,False,Local Antipruritic
+1777,Hydrocortisone Acetate + Benzyl Benzoate + Bismuth Subgallate + Bismuth Oxide + Balsam Peru + Zinc Oxide,False,Other Topical corticosteroids
+1190,Hydrocortisone Acetate,False,Other Topical corticosteroids
+577,Hydrocortisone + Neomycin Sulphate + Polymixin B,False,Ophthalmic steroid - antibiotic combined preparations
+576,Hydrocortisone + Lidocaine,False,Drugs used in Ano-rectal region
+575,Hydrocortisone,False,Glucocorticoids
+573,Hydrochlorothiazide + Triamterene,False,Combined antihypertensive preparations
+549,Hydrochlorothiazide,False,Thiazide diuretics & related drugs
+2053,Hyaluronic Acid,False,
+1056,Human Tetanus Immunoglobulin,False,"Vaccines, Anti-sera & Immunoglobulin"
+1603,"Human Papillomavirus Quadrivalent (Types 6, 11, 16, and 18)",False,"Vaccines, Anti-sera & Immunoglobulin"
+563,Human Papillomavirus Bivalent (Types 16 & 18),False,"Vaccines, Anti-sera & Immunoglobulin"
+1789,Human Milk based Amino Acid,False,Parenteral nutritional preparations
+1347,Human Menopausal Gonadotrophin,False,Female Sex hormones
+548,Human Immunoglobulin-G [IgG],False,"Vaccines, Anti-sera & Immunoglobulin"
+547,Human Chorionic Gonadotrophin,False,Female Sex hormones
+546,Human Anti-D Immunoglobulins,False,"Vaccines, Anti-sera & Immunoglobulin"
+544,Homatropine Hydrobromide,False,Mydriatic and Cycloplegic agents
+593,Ibuprofen,False,Drugs for Osteoarthritis
+1382,Ibrutinib,False,Targeted Cancer Therapy
+1571,Ibandronic Acid + Calcium Carbonate + Vitamin D3,False,Bisphosphonate preparations
+1199,Ibandronic Acid & Calcium Orotate,False,Minerals in bone formation
+592,Ibandronic Acid,False,Bisphosphonate preparations
+591,Hypromellose + Carbomer,False,Drugs for Dry eyes
+1544,Hypromellose,False,Drugs for Dry eyes
+589,Hyoscine Hydrobromide,False,Anti-emetic drugs
+588,Hyoscine Butylbromide,False,Anticholinergics (antimuscarinics)/ Anti-spasmodics
+1559,Hylan G-F 20,False,Drugs for Osteoarthritis
+587,Hydroxyzine Hydrochloride,False,Sedating Anti-histamine
+586,Hydroxyurea,False,Cytotoxic Chemotherapy
+1543,Hydroxypropyl Methylcellulose,False,Drugs for Dry eyes
+1411,Hydroxyprogesterone Caproate,False,Hormone preparations for other uses
+898,Hydroxyethyl Starch + Sodium Chloride,False,Plasma expanders
+1636,Hydroxyethyl Cellulose + Glycerin,False,Miscellaneous topical agents
+584,Hydroxychloroquine Sulphate,False,Anti-malarial drugs
+583,Hydroxocobalamin,False,Antidote preparations
+381,Hydroquinone + Octyldimethyl + Dioxybenzone + Oxybenzone,False,Sunblock Preparation
+582,Hydroquinone,False,Hydroquinone Preparations
+607,Inositol Nicotinate,False,Nicotinic acid group
+1552,Infliximab,False,Targeted Cancer Therapy
+1802,Indomethacin (Rectal),False,Drugs for Osteoarthritis
+605,Indomethacin (Oral),False,Drugs for Osteoarthritis
+604,Indapamide + Perindopril Arginine,False,Combined antihypertensive preparations
+2032,Indapamide + Amlodipine,False,Combined antihypertensive preparations
+603,Indapamide,False,Thiazide diuretics & related drugs
+601,Indacaterol Maleate,False,Long-acting selective β-adrenoceptor stimulants
+2059,Indacaterol + Glycopyrronium + Mometasone Furoate,False,
+1676,Indacaterol + Glycopyrronium,False,Combined bronchodilators
+1210,Inactivated Polio Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+606,Inactivated Influenza Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+1509,Inactivated Hepatitis A vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+1423,Imiquimod,False,Immunosuppressant
+597,Imipramine Hydrochloride,False,Tricyclic & related anti-depressant drugs
+255,Imipenem + Cilastatin,False,Other beta-lactam Antibiotics
+596,Imatinib Mesylate,False,Targeted Cancer Therapy
+599,Iloperidone,False,Piperidinyl-benzisoxazole derivative
+595,Ifosfamide,False,Cytotoxic Chemotherapy
+594,Idoxuridine,False,Ophthalmic Anti-viral Products
+626,Irbesartan,False,Angiotensin-ll receptor blocker
+1309,Ipratropium Bromide (Nebuliser Solution),False,Anticholinergic bronchodilators
+624,Ipratropium Bromide (Inhaler),False,Anticholinergic bronchodilators
+623,Iopamidol,False,Contrast medium for diagnostic procedures
+621,Iohexol,False,Contrast medium for diagnostic procedures
+1417,Iodixanol,False,Contrast medium for diagnostic procedures
+951,Intravenous Fat Emulsion,False,Parenteral nutritional preparations
+619,Interferon Alfa-2a [Recombinant],False,Immunological Chemotherapy
+617,Insulin Lispro Protamine + Insulin Lispro,False,Combination Insulin
+616,Insulin Lispro,False,Rapid Acting Insulin
+1225,Insulin Human [rDNA] + Isophane Insulin Human,False,Medium Acting Insulin
+608,Insulin Human [Long-Acting],False,Long Acting Insulin
+1563,Insulin Human [Fast-Acting],False,Rapid Acting Insulin
+615,Insulin Glulisine,False,Rapid Acting Insulin
+614,Insulin Glargine [rDNA],False,Long Acting Insulin
+613,Insulin Detemir,False,Long Acting Insulin
+618,Insulin Degludec + Insulin Aspart Premixed,False,Combination Insulin
+612,Insulin Degludec,False,Long Acting Insulin
+2066,Insulin Aspart + Insulin Aspart Protamine,False,Rapid Acting Insulin
+610,Insulin Aspart,False,Rapid Acting Insulin
+1869,Isotretinoin (Topical),False,Topical retinoid and related preparations
+640,Isotretinoin (Oral),False,Oral retinoids for Acne
+639,Isosorbide Mononitrate,False,Nitrates: Coronary vasodilators
+1306,Isopropyl Alcohol + Hydrogen Peroxide + Glycerol,False,Bleaching and Disinfectants
+1823,Isopropyl alcohol,False,Other antibacterial preparation
+637,Isopropamide + Trifluoperazine,False,Phenothiazine related drugs
+634,Isoniazid,False,Anti-Tubercular Chemotherapeutics
+633,Isoflurane,False,General (Inhalation) anesthetics
+1572,Irrigating Solution,False,Other ophthalmic preparations
+406,Iron Sucrose Injection [Elemental Iron],False,Parenteral Iron Preparations
+631,Iron Polymaltose Complex + Vitamin B Complex + Zinc,False,Iron & Vitamin Combined preparations
+407,Iron Polymaltose Complex + Folic Acid + Zinc Sulfate,False,"Iron, Vitamin & Mineral Combined preparation"
+405,Iron Polymaltose Complex + Folic Acid + Zinc + Vitamin B-Complex,False,Iron & Vitamin Combined preparations
+630,Iron Polymaltose Complex,False,Oral Iron preparations
+1673,Iron Hydroxide Polymaltose + Folic acid + Zinc Sulfate Monohydrate,False,"Iron, Vitamin & Mineral Combined preparation"
+629,Iron + Folic Acid + Vitamin B Complex + Vitamine C + Zinc Sulfate,False,Iron & Vitamin Combined preparations
+628,Iron + Folic acid + Vitamin B complex + Vitamin C,False,Iron & Vitamin Combined preparations
+659,Iron + Folic Acid + Vitamin A + Vitamin C + Zinc,False,"Iron, Vitamin & Mineral Combined preparation"
+658,Irinotecan Hydrochloride,False,Cytotoxic Chemotherapy
+565,Irbesartan + Hydrochlorothiazide,False,Combined antihypertensive preparations
+650,L-Lysine Hydrochloride,False,Dressing products for wounds/burns/ulcers
+649,Ketotifen Fumarate (Oral),False,Cromoglycate & related drugs
+1311,Ketotifen Fumarate (Ophthalmic),False,Ophthalmic Non-Steroid drugs
+1307,Ketorolac Tromethamine (Ophthalmic),False,Non opioid analgesics
+648,Ketorolac Tromethamine,False,Drugs used for Rheumatoid Arthritis
+1773,Ketoprofen (Topical),False,Non-steroidal Anti-inflammatory Drugs (NSAIDs)
+647,Ketoprofen (oral & injection),False,Drugs for Osteoarthritis
+646,Ketoconazole (Tablet),False,Drugs for subcutaneous and mycoses
+1627,Ketoconazole (Shampoo),False,Drugs for subcutaneous and mycoses
+1628,Ketoconazole (Cream),False,Drugs for subcutaneous and mycoses
+645,Ketamine,False,General (Intravenous) anesthetics
+1622,Kanamycin,False,Ophthalmic antibacterial drugs
+1472,Ivermectin (Topical),False,Miscellaneous topical agents
+644,Ivermectin (Tablet),False,Anthelmintic
+1152,Ivabradine,False,Other Anti-anginal & Anti-ischaemic drugs
+643,Itraconazole,False,Drugs for subcutaneous and mycoses
+642,Isradipine,False,Calcium-channel blockers
+1816,Ispaghula Husk + Ispaghula Seed + Tinnevelly Senna Pods,False,Bulk-forming laxatives
+1502,Ispaghula [Psyllium] Husk,False,Bulk-forming laxatives
+1844,Lanthanum Carbonate,False,Drugs used in chronic kidney dialysis
+76,Lansoprazole + Amoxicillin + Clarithromycin,False,Anti H. pylori drugs
+663,Lansoprazole,False,Proton Pump Inhibitor
+656,Lamotrigine,False,Primary anti-epileptic drugs
+662,Lamivudine + Zidovudine + Nevirapine,False,Drugs for HIV / Anti-retroviral drugs
+655,Lamivudine + Zidovudine,False,Drugs for HIV / Anti-retroviral drugs
+654,Lamivudine [For HIV Infection],False,Drugs for HIV / Anti-retroviral drugs
+1312,Lamivudine [For Chronic Hepatitis B],False,Hepatic viral infections (Hepatitis B)
+653,Lactulose,False,Osmotic purgatives
+2008,Lactobacillus Rhamnosus GG,False,
+661,Lactitol Monohydrate,False,Osmotic purgatives
+660,Lactic acid + Sodium PCA,False,Emollients & combined preparations
+1837,Lactic acid + Citric acid + Potassium bitartrate,False,Miscellaneous topical agents
+1151,Lactase,False,
+1418,Lacosamide,False,Atypical anti-depressant drugs
+652,Lacidipine,False,Calcium-channel blockers
+651,Labetalol Hydrochloride (Tablet),False,Alpha adrenoceptor blocking drugs
+1821,Labetalol Hydrochloride (Injection),False,Alpha adrenoceptor blocking drugs
+1339,L-Ornithine L-Aspartate + Pancreatin,False,Digestive Enzyme
+1440,L-Ornithine L-Aspartate,False,Digestive Enzyme
+1657,Levodopa + Benserazide,False,Antiparkinson drugs
+678,Levocetirizine Dihydrochloride,False,Non-sedating antihistamines
+677,Levocarnitine,False,Drugs for muscular energy metabolism
+676,Levobupivacaine Hydrochloride,False,Regional anesthesia
+1259,Levobunolol,False,Drugs for miotics and glaucoma
+675,Levetiracetam,False,Adjunct anti-epileptic drugs
+674,Levamisole,False,Anthelmintic
+673,Leuprorelin Acetate,False,Drugs acting on the Uterus
+672,Letrozole,False,Hormonal Chemotherapy
+671,Lercanidipine Hydrochloride,False,Calcium-channel blockers
+1389,Lenvatinib Mesylate,False,
+670,Lenograstim,False,Haematopoietic Agents
+669,Lenalidomide,False,
+668,Leflunomide,False,Drugs used for Rheumatoid Arthritis
+667,Ledipasvir + Sofosbuvir,False,Hepatic viral infections (Hepatitis C)
+665,Latanoprost + Timolol,False,Drugs for miotics and glaucoma
+666,Latanoprost,False,Drugs for miotics and glaucoma
+2072,Lasmiditan Hemisuccinate,False,Other drugs for migraine
+1894,Larotrectinib,False,
+664,Lapatinib,False,Cytotoxic Chemotherapy
+687,Linagliptin,False,Dipeptidyl Peptidase-4 (DPP-4) inhibitor
+1778,Light Liquid Paraffin + White Soft Paraffin + Glycerine,False,Emollients & combined preparations
+1541,Lifitegrast,False,Other ophthalmic preparations
+685,Lidocaine Hydrochloride (Spray),False,Local & Surface anesthesia
+1629,Lidocaine Hydrochloride (Jelly),False,Local & Surface anesthesia
+1630,Lidocaine Hydrochloride (Injection),False,Local & Surface anesthesia
+684,Lidocaine + Prilocaine,False,Local & Surface anesthesia
+1222,Lidocaine + Epinephrine,False,Local & Surface anesthesia
+33,Lidocaine + Adrenaline,False,Local & Surface anesthesia
+1174,Levothyroxine Sodium,True,Thyroid drugs & hormone
+683,Levosalbutamol (Oral),False,Short-acting selective & β2-adrenoceptor stimulants
+1319,Levosalbutamol,False,Short-acting selective & β2-adrenoceptor stimulants
+681,Levonorgestrel,False,Emergency Contraceptive Pill
+1881,Levomilnacipran Hydrochloride,False,Serotonin-norepinephrine reuptake inhibitor (SNRI)
+2037,Levomenthol + Thymol + Terpineol + Chlorobutanol,False,
+680,Levofloxacin Hemihydrate,False,4-Quinolone preparations
+1313,Levofloxacin (Ophthalmic),False,4-Quinolone preparations
+198,Levodopa + Carbidopa + Entacapone,False,Antiparkinson drugs
+199,Levodopa + Carbidopa (FC tablet),False,Antiparkinson drugs
+1827,Levodopa + Carbidopa (CR tablet),False,Antiparkinson drugs
+700,Loteprednol Etabonate + Tobramycin,False,Ophthalmic steroid - antibiotic combined preparations
+1321,Loteprednol Etabonate + Gatifloxacin,False,Ophthalmic Steroid preparations
+1575,Loteprednol Etabonate,False,Ophthalmic Steroid preparations
+550,Losartan Potassium + Hydrochlorothiazide,False,Combined antihypertensive preparations
+699,Losartan Potassium,False,Angiotensin-ll receptor blocker
+2052,Lornoxicam,False,Non-steroidal Anti-inflammatory Drugs (NSAIDs)
+2067,Lorlatinib,False,Cytotoxic Chemotherapy
+698,Lorazepam,False,Benzodiazepine hypnotics
+697,Loratadine + Pseudoephedrine,False,Anti-histamine & decongestant
+696,Loratadine,False,Non-sedating antihistamines
+1569,Lopinavir + Ritonavir,False,Drugs for HIV / Anti-retroviral drugs
+695,Loperamide Hydrochloride,False,Anti-diarrhoeal
+1320,Lomefloxacin (Oral),False,Aural Anti-bacterial preparations
+693,Lomefloxacin (Ophthalmic),False,Ophthalmic antibacterial drugs
+692,Lithium Carbonate,True,Anti-manic drugs
+691,Lisinopril,False,Angiotensin-converting enzyme (ACE) inhibitors
+690,Liraglutide,False,GLP-1 receptor agonists
+1623,Liposome + Perilla + Sodium Hyaluronate,False,Other ophthalmic preparations
+688,Linezolid,False,Macrolides
+1285,Linagliptin + Metformin Hydrochloride,False,Combination Oral hypoglycemic preparations
+715,Mebeverine Hydrochloride,False,Anticholinergics
+714,Mebendazole,False,Anthelmintic
+713,Measles and Rubella,False,"Vaccines, Anti-sera & Immunoglobulin"
+712,Maprotiline Hydrochloride,False,Tricyclic Anti-depressant
+711,Mannitol,False,Osmotic diuretics
+1551,Magnesium Sulfate Heptahydrate,False,Specific mineral preparations
+710,Magnesium Sulfate,False,Specific mineral preparations
+1853,Magnesium Oxide,False,Electrolytes preparations
+689,Magnesium Hydroxide + Liquid Paraffin,False,Antacid with laxative action
+708,Magnesium Hydroxide,False,Antacid with laxative action
+707,Magaldrate + Simethicone,False,Antacids
+706,Magaldrate,False,Antacids
+722,Macrogol [Polypropylene glycol] + Electrolytes,False,Osmotic purgatives
+2050,Macitentan,False,Anti-hypertensive
+1811,Lyophilized Bacterial Lysate,False,Other antibacterial preparation
+705,Lynestrenol,False,Female Sex hormones
+704,Lymecycline,False,Tetracycline group of drugs
+703,Lurasidone Hydrochloride,False,Atypical neuroleptic drugs
+1473,Luliconazole,False,Miscellaneous topical agents
+702,Lubiprostone,False,Other laxative preparations
+730,Mercaptopurine,False,Cytotoxic Chemotherapy
+1855,Mepyramine Maleate,False,Miscellaneous topical agents
+448,Menthol + Thymol + Eucalyptol + Methyl Salicylate,False,Oral preparations
+1263,Menthol + Pramoxine Hydrochloride,False,Topical Analgesics
+728,Meningococcal Polysaccharide Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+1799,Meningococcal Conjugate Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+1868,Menaquinone-7,False,Drugs for Osteoarthritis
+727,Memantine Hydrochloride,False,
+1658,Memantine + Donepezil,False,Anti-Alzheimer drugs
+726,Meloxicam,False,Drugs for Osteoarthritis
+725,Melatonin,False,Oral nutritional preparations
+724,Megestrol Acetate,False,
+723,Mefloquine,False,Anti-malarial drugs
+721,Mefenamic acid,False,Drugs for Osteoarthritis
+1835,Medroxyprogesterone Acetate (Tablet),False,Female Sex hormones
+720,Medroxyprogesterone Acetate (Injection),False,Female Sex hormones
+719,Mecobalamin,False,Drugs for Megaloblastic Anemia
+717,Meclizine Hydrochloride,False,Anti-emetic drugs
+718,Meclizine + Pyridoxine,False,Anti-emetic drugs
+716,Mebhydrolin Napadisylate,False,Sedating Anti-histamine
+749,Metolazone,False,Thiazide diuretics & related drugs
+748,Metoclopramide Hydrochloride,False,Anti-emetic drugs
+747,Methylprednisolone Sodium Succcinate,False,Glucocorticoids
+746,Methylprednisolone Acetate,False,Glucocorticoids
+1323,Methylprednisolone,False,Glucocorticoids
+745,Methylphenidate Hydrochloride,False,CNS stimulant drugs
+1482,Methylergonovine Maleate,False,Drugs acting on the Uterus
+744,Methyldopa,False,Centrally acting antihypertensive drugs (central sympatholytic)
+743,Methyl Salicylate + Menthol + Camphor,False,Topical anti-inflammatory preparations
+729,Methyl Salicylate + Menthol,False,Topical Analgesics
+741,Methoxy Polyethylene Glycol-Epoetin Beta,False,Drugs for Haemolytic Hypoplastic & Renal Anemia
+740,Methoxsalen,False,Methoxsalen preparation
+739,Methotrexate,False,Immunosuppressant
+1393,Methocarbamol,False,Centrally acting Skeletal Muscle Relaxants
+1870,Methimazole,False,Anti-thyroid drugs
+1848,Methenamine Hippurate,False,Other genito-urinary preparations
+734,Metformin Hydrochloride,False,Biguanides
+733,Mesna,False,Antidote preparations
+4,Mesalazine [5-aminosalicylic acid],False,Aminosalicylates
+731,Meropenem Trihydrate,False,Other beta-lactam Antibiotics
+765,Mitomycin C,False,Cytotoxic Chemotherapy
+764,Misoprostol,False,Prostaglandin analogues
+763,Mirtazapine,False,Atypical anti-depressant drugs
+762,Mirabegron,False,BPH/ Urinary retention/ Urinary incontinence
+761,Minoxidil,False,Other scalp preparations
+1601,Minocycline Hydrochloride,False,Tetracycline group of drugs
+1857,Miltefosine,False,Leishmaniacides
+760,Milnacipran Hydrochloride,False,Serotonin-norepinephrine reuptake inhibitor (SNRI)
+759,Miglitol,False,Alpha-Glucosidase inhibitor
+758,Mifepristone + Misoprostol,False,Prostaglandin analogues
+757,Mifepristone,False,Drugs acting on the Uterus
+756,Midazolam,False,Benzodiazepine hypnotics
+369,Micronised Diosmin + Hesperidin,False,Phlebotonic & Vascular protecting preparation
+578,Miconazole Nitrate + Hydrocortisone,False,Hydrocortisone & Combined preparations
+1326,Miconazole Nitrate (Topical),False,Topical Antifungal preparations
+754,Miconazole Nitrate (Oral Gel),False,Aural Anti-fungal preparations
+753,Metronidazole + Neomycin Sulphate + Polymyxin B + Nystatin,False,Drugs used in Vaginal and Vulval condition
+752,Metronidazole + Miconazole Nitrate,False,Drugs used in Vaginal and Vulval condition
+751,Metronidazole,False,Amoebicides
+750,Metoprolol Tartrate,False,
+1134,Multivitamin [Injection],False,Specific combined vitamin preparations
+839,Multivitamin [Adult preparation],False,Specific combined vitamin preparations
+2056,Mucopolysaccharide Polysulphate + Salicylic Acid,False,
+1413,Moxonidine,False,Anti-hypertensive
+1542,Moxifloxacin Hydrochloride + Xanthan Gum,False,Ophthalmic antibacterial drugs
+1447,Moxifloxacin Hydrochloride + Dexamethasone,False,Ophthalmic Steroid preparations
+776,Moxifloxacin Hydrochloride (Tablet),False,4-Quinolone preparations
+1329,Moxifloxacin Hydrochloride (Ophthalmic),False,Ophthalmic antibacterial drugs
+1625,Moxifloxacin Hydrochloride (Injection),False,4-Quinolone preparations
+775,Morphine Sulfate,False,Opioid analgesics
+768,Montelukast Sodium,False,Leukotriene receptor antagonists
+774,Monosulfiram,False,Parasiticidal preparations
+34,Monosemicarbazone Adrenochrome,False,Anti-fibrinolytic drugs
+1782,Monobasic sodium phosphate + Dibasic sodium phosphate,False,Other laxative preparations
+1791,Mometasone Furoate + Formoterol Fumarate,False,
+1328,Mometasone Furoate (Topical),False,Other Topical corticosteroids
+1327,Mometasone Furoate (Nasal Spray),False,Nasal Steroid Preparations
+767,Mometasone Furoate (Inhalation Capsule),False,Corticosteroid
+1968,Molnupiravir,False,
+766,Mizolastine,False,Non-sedating antihistamines
+1442,Mycophenolic acid,False,Immunosuppressant
+789,Mycophenolate Mofetil,False,Immunosuppressant
+788,Mupirocin,False,Topical Antibiotic preparations
+1202,Multivitamins & Multiminerals [A-Z prenatal preparation],False,"Iron, Vitamin & Mineral Combined preparation"
+840,Multivitamin with L-Lysine,False,Specific combined vitamin preparations
+1660,Multivitamin & Normal Saline,False,Multi-vitamin & Multi-mineral combined preparations
+1198,Multivitamin & Multimineral Essentials [For nursing mother],False,Multi-vitamin & Multi-mineral combined preparations
+779,Multivitamin & Multimineral [For nursing mother],False,Multi-vitamin & Multi-mineral combined preparations
+786,Multivitamin & Multimineral [A-Z teen girls preparation],False,Multi-vitamin & Multi-mineral combined preparations
+785,Multivitamin & Multimineral [A-Z teen boys preparation],False,Multi-vitamin & Multi-mineral combined preparations
+783,Multivitamin & Multimineral [A-Z syrup preparation],False,Multi-vitamin & Multi-mineral combined preparations
+782,Multivitamin & Multimineral [A-Z silver preparation],False,Multi-vitamin & Multi-mineral combined preparations
+784,Multivitamin & Multimineral [A-Z juniors syrup preparation],False,Multi-vitamin & Multi-mineral combined preparations
+1583,Multivitamin & Multimineral [A-Z junior infusion preparation],False,Multi-vitamin & Multi-mineral combined preparations
+781,Multivitamin & Multimineral [A-Z gold preparation],False,Multi-vitamin & Multi-mineral combined preparations
+1203,Multivitamin & Multimineral [A-Z for infanrs & childrens],False,Multi-vitamin & Multi-mineral combined preparations
+777,Multivitamin & Multimineral,False,Specific mineral & vitamin combined preparations
+1130,Multivitamin & Cod Liver Oil,False,Specific combined vitamin preparations
+1661,Multivitamin & 5% Dextrose,False,Multi-vitamin & Multi-mineral combined preparations
+780,Multivitamin [Pediatric preparation],False,Specific combined vitamin preparations
+801,Nelfinavir,False,Drugs for HIV / Anti-retroviral drugs
+800,Nefopam Hydrochloride,False,Non opioid analgesics
+798,Nebivolol Hydrochloride,False,Beta-adrenoceptor blocking drugs
+1448,Nebivolol + Hydrochlorothiazide,False,Combined antihypertensive preparations
+797,Nateglinide,False,Meglitinide Analogues
+796,Natamycin,False,Ophthalmic antibacterial drugs
+432,Naproxen Sodium + Esomeprazole Magnesium,False,Drugs for Osteoarthritis
+795,Naproxen Sodium,False,Drugs for Osteoarthritis
+794,Naphazoline + Zinc Sulfate,False,Ophthalmic Non-Steroid drugs
+1247,Naphazoline + Pheniramine,False,Ophthalmic Non-Steroid Combined preparations
+1604,Nandrolone Phenylpropionate,False,Hormone in bone formation by stimulation
+793,Nandrolone Decanoate,False,Hormone in bone formation by stimulation
+792,Naltrexone,False,Antidote preparations
+1267,Naloxone Hydrochloride,False,Antidote preparations
+791,Nalidixic Acid,False,Other Anti-protozoals
+790,Nalbuphine,False,Opioid analgesics
+1409,Naftifine Hydrochloride,False,Topical Antifungal preparations
+2034,Naftidrofuryl Oxalate,False,5-HT Agonists
+1398,Nabumetone,False,Drugs for Osteoarthritis
+1293,Nab-Paclitaxel [Nanoparticle Albumin-Bound Paclitaxel],False,Cytotoxic Chemotherapy
+2027,Nirmatrelvir + Ritonavir,False,
+1858,Niraparib,False,Cytotoxic Chemotherapy
+1644,Nintedanib,False,Tyrosine Kinase Inhibitor
+811,Nimodipine,False,Calcium-channel blockers
+810,Nimesulide,False,Non-steroidal Anti-inflammatory Drugs (NSAIDs)
+809,Nilotinib,False,Targeted Cancer Therapy
+808,Nikethamide,False,Respiratory stimulants: analeptics
+807,Nifedipine,False,Calcium-channel blockers
+805,Nicotinic Acid [Niacin],False,
+806,Nicorandil,False,Potassium-channel activator
+1228,Nevirapine,False,Drugs for HIV / Anti-retroviral drugs
+1928,Netarsudil Dimesylate,False,Drugs for miotics and glaucoma
+1838,Netarsudil + Latanoprost,False,Drugs for miotics and glaucoma
+1486,Neratinib,False,Tyrosine Kinase Inhibitor
+804,Nepafenac,False,Ophthalmic Non-Steroid drugs
+803,Neostigmine Methyl Sulphate,False,Anti-cholinesterases
+802,Neomycin Sulphate + Polymyxin B Sulphate + Pramoxine,False,Anti-infective & Anesthetic combined preparations
+1243,Neomycin Sulfate + Bacitracin Zinc + Polymyxin B Sulfate (Ophthalmic),False,Aural Anti-bacterial preparations
+102,Neomycin Sulfate + Bacitracin Zinc + Polymyxin B Sulfate,False,Topical Antibiotic preparations
+103,Neomycin Sulfate + Bacitracin Zinc,False,Ophthalmic and Topical antibacterial products
+1458,Obeticholic Acid,False,Farnesoid X Receptor Agonists
+1332,Nystatin (Topical),False,Drugs for subcutaneous and mycoses
+819,Nystatin (Oral),False,Drugs for subcutaneous and mycoses
+818,Nortriptyline,False,Tricyclic & related anti-depressant drugs
+440,Norgestrel + Ethinyl Estradiol + Ferrous Fumarate,False,Oral Contraceptive preparations
+1806,Norgestrel,False,Oral Contraceptive preparations
+817,Norethisterone Acetate,False,Female Sex hormones
+816,Norepinephrine,False,Alpha and Beta-adrenergic agonist
+1271,Nizatidine,False,H2 receptor antagonist
+1809,Nivolumab,False,Immunosuppressant
+1590,Nitroglycerin (Sublingual Tablet),False,Nitrates: Coronary vasodilators
+1589,Nitroglycerin (Sublingual Spray),False,Nitrates: Coronary vasodilators
+532,Nitroglycerin (Oral preparation),False,Nitrates: Coronary vasodilators
+1305,Nitroglycerin (Ointment),False,Drugs used in Ano-rectal region
+1591,Nitroglycerin (IV Infusion),False,Nitrates: Coronary vasodilators
+815,Nitrofurazone,False,Topical Antibiotic preparations
+1330,Nitrofurantoin + Nitrofurantoin Microcrystals,False,Systemic Urinary Anti- infective
+814,Nitrofurantoin,False,Systemic Urinary Anti- infective
+813,Nitrazepam,False,Benzodiazepine hypnotics
+812,Nitazoxanide,False,Anti-diarrhoeal Antiprotozoal
+78,Oral Rehydration Salt [Powder],False,Oral electrolytes preparations
+352,Oral Rehydration Salt [Flavored],False,Oral electrolytes preparations
+1209,Oral Polio Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+828,Oral Cholera Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+827,Ondansetron,False,Anti-emetic drugs
+1336,Omeprazole (MUPS tablet),False,Proton Pump Inhibitor
+825,Omeprazole,False,Proton Pump Inhibitor
+835,Omega-3 Acid Ethyl Esters [Salmon Fish Oil],False,Other lipid regulating drugs
+824,Omalizumab,False,Antihistamines anti-allergies & hypo-sensitisation
+823,Olopatadine Hydrochloride (Ophthalmic),False,Ophthalmic Non-Steroid drugs
+1334,Olopatadine Hydrochloride (Nasal Spray),False,Nasal Anti-histamine preparations
+570,Olmesartan Medoxomil + Hydrochlorothiazide,False,Combined antihypertensive preparations
+822,Olmesartan Medoxomil,False,Angiotensin-ll receptor blocker
+1399,Olaparib,False,Targeted Cancer Therapy
+821,Olanzapine,False,Atypical neuroleptic drugs
+1645,Ofloxacin + Clotrimazole + Beclomethasone + Lidocaine,False,Anti-fungal or anti-bacterial ear drops
+836,Ofloxacin (Oral & Injection),False,Aural Anti-bacterial preparations
+1333,Ofloxacin (Ophthalmic),False,Ophthalmic antibacterial drugs
+820,Octreotide Acetate,False,Growth hormone antagonist
+1426,Obinutuzumab,False,Anti neoplastic preparations
+853,Oxytetracycline + Polymixin B Sulphate,False,Topical Antibiotic preparations
+851,Oxytetracycline,False,Tetracycline group of drugs
+849,Oxyphenonium Bromide,False,Anticholinergics (antimuscarinics)/ Anti-spasmodics
+848,Oxyphencyclimine Hydrochloride,False,Anticholinergics (antimuscarinics)/ Anti-spasmodics
+847,Oxymorphone Hydrochloride,False,Opioid analgesics
+846,Oxymetazoline Hydrochloride (Nasal Preparation),False,Nasal Anti-histamine preparations
+1444,Oxymetazoline Hydrochloride (Cream),False,Vasoconstrictor/Venotonic
+845,Oxybutynin Chloride,False,Anticholinergics (antimuscarinics)/ Anti-spasmodics
+844,Oxybuprocaine Hydrochloride,False,Ocular perioperative drugs
+843,Oxiconazole Nitrate,False,Topical Antifungal preparations
+842,Oxcarbazepine,False,Adjunct anti-epileptic drugs
+1860,Oxazepam,False,Tricyclic Anti-depressant
+833,Oxaprozin,False,Drugs for Osteoarthritis
+832,Oxaliplatin,False,Cytotoxic Chemotherapy
+1859,Ospemifene,False,Drugs used in Vaginal and Vulval condition
+1296,Osimertinib,False,Cytotoxic Chemotherapy
+831,Oseltamivir,False,Respiratory viral infections (Influenza)
+830,Ornidazole,False,Amoebicides
+829,Orlistat,False,Appetite suppressant drugs/Anti-obesity drugs
+915,Oral Rehydration Salt [Rice Based],False,Oral electrolytes preparations
+866,Pefloxacin Mesylate Dihydrate,False,4-Quinolone preparations
+865,Pazopanib Hydrochloride,False,
+864,Paroxetine Hydrochloride,False,SSRIs & related anti-depressant drugs
+863,Paricalcitol,False,Thyroid drugs & hormone
+1659,Parecoxib,False,Non-steroidal Anti-inflammatory Drugs (NSAIDs)
+862,Paracetamol + Tramadol Hydrochloride,False,Non-steroidal Anti-inflammatory Drugs (NSAIDs)
+861,Paracetamol + Caffeine,False,Non opioid analgesics
+1340,Paracetamol (IV Infusion),False,
+859,Pantoprazole Sodium Sesquihydrate,False,Proton Pump Inhibitor
+860,Paracetamol,False,Non opioid analgesics
+858,Pancuronium Bromide,False,Non depolarizing muscle relaxants
+857,Pancreatin,False,Digestive Enzyme
+856,Palonosetron,False,Anti-emetic drugs
+1555,Paliperidone Palmitate,False,Atypical neuroleptic drugs
+1371,Paliperidone,False,Atypical neuroleptic drugs
+1390,Palbociclib,False,
+95,Padimate O + Avobenzone + Oxybenzone + Titanium dioxide,False,Sunblock Preparation
+855,Paclitaxel,False,
+1800,Ozenoxacin,False,Topical Antibiotic preparations
+854,Oxytocin,False,Drugs acting on the Uterus
+881,Phenoxymethyl Penicillin [Penicillin V],False,Benzylpenicillin & Phenoxymethyl penicillin
+879,Phenobarbital,False,Adjunct anti-epileptic drugs
+878,Pheniramine Maleate,False,Sedating Anti-histamine
+877,Pethidine Hydrochloride,False,Opioid analgesics
+1406,Pertuzumab,False,Targeted Cancer Therapy
+305,Permethrin + Crotamiton,False,Parasiticidal preparations
+876,Permethrin,False,Parasiticidal preparations
+176,Peritoneal Dialysis solutions,False,Peritoneal dialysis solution
+1468,Perindopril Arginine + Amlodipine,False,Combined antihypertensive preparations
+875,Perindopril Arginine,False,Angiotensin-converting enzyme (ACE) inhibitors
+1863,Perampanel,False,Adjunct anti-epileptic drugs
+873,Pentoxifylline,False,Peripheral Vasodilator drugs: Intermittent Claudication
+1861,Pentosan Polysulfate Sodium,False,Other genito-urinary preparations
+872,Pentazocine Hydrochloride,False,Opioid analgesics
+871,Pemirolast Potassium,False,Ophthalmic Non-Steroid drugs
+870,Pemetrexed,False,Cytotoxic Chemotherapy
+1808,Pembrolizumab,False,Immunosuppressant
+1665,Pegylated Erythropoietin,False,Drugs for Haemolytic Hypoplastic & Renal Anemia
+868,Peginterferon alfa-2a [Pegylated Interferon alfa-2a],False,Hepatic viral infections (Hepatitis B)
+867,Pegfilgrastim [Pegylated Filgrastim],False,Hematopoietic drug
+1235,Podophyllotoxin,False,Anti neoplastic preparations
+895,Pizotifen,False,Other drugs for migraine
+894,Pivmecillinam,False,Mecillinams
+893,Pitavastatin Calcium,False,Other Anti-anginal & Anti-ischaemic drugs
+1407,Pirfenidone,False,Immunosuppressant
+891,Piracetam,False,Adjunct anti-epileptic drugs
+890,Piperacillin + Tazobactam,False,Other beta-lactam Antibiotics
+889,Pipecuronium Bromide,False,Non depolarizing muscle relaxants
+735,Pioglitazone + Metformin Hydrochloride,False,Combination Oral hypoglycemic preparations
+525,Pioglitazone + Glimepiride,False,Combination Oral hypoglycemic preparations
+888,Pioglitazone,False,Thiazolidinedione Group
+887,Pimecrolimus,False,Drugs affecting the immune response
+1818,Pimavanserin,False,Antiparkinson drugs
+1344,Pilocarpine Hydrochloride (Oral),False,Drugs affecting exocrine secretions
+886,Pilocarpine Hydrochloride (Ophthalmic),False,Drugs affecting exocrine secretions
+1626,Phytomenadione (Oral),False,Vitamin-K Preparations
+885,Phytomenadione (Injection),False,Vitamin-K Preparations
+884,Phospholipids,False,"Cholagogues, Cholelitholytics & Hepatic Protectors"
+1268,Pholcodine,False,Cough suppressant
+883,Phenytoin Sodium,True,Adjunct anti-epileptic drugs
+918,Prednisolone,False,Glucocorticoids
+914,Precipitated Sulpher + Salicylic Acid,False,Other scalp preparations
+913,Prazosin Hydrochloride,False,Alpha adrenoceptor blocking drugs
+912,Prasugrel Hydrochloride,False,Anti-platelet drugs
+1506,Pramoxine Hydrochloride + Calamine,False,Topical Analgesics
+911,Pramipexole,False,Antiparkinson drugs
+910,Pralidoxime Chloride,False,Antidote preparations
+907,Povidone Iodine,False,Iodine compounds (Anti-septic Preparations)
+270,Potassium Citrate + Citric Acid,False,Prevention of repeated kidney stone formation
+916,Potassium Citrate,False,Prevention of repeated kidney stone formation
+904,Potassium Chloride,False,Electrolytes preparations
+1862,Posaconazole,False,Aural Anti-fungal preparations
+1485,Ponatinib Hydrochloride,False,Tyrosine Kinase Inhibitor
+896,Polysaccharide Pneumococcal Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+1557,Polysaccharide Diphtheria Toxoid Conjugate Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+1817,Polymyxin B Sulfate,False,Other antibacterial preparation
+1831,Polygeline + Electrolytes,False,Intravenous fluid preparations
+899,Polyethylene Glycol 3350 + Electrolytes,False,Osmotic purgatives
+901,Polyethylene Glycol + Propylene Glycol,False,Drugs for Dry eyes
+900,Polyethylene Glycol,False,Osmotic purgatives
+928,Proparacaine Hydrochloride,False,Ocular perioperative drugs
+927,Propantheline Bromide,False,Anticholinergics (antimuscarinics)/ Anti-spasmodics
+926,Propafenone Hydrochloride,False,Membrane stabilizing agent (Sodium channel blockers)
+925,Promethazine Theoclate,False,Sedating Anti-histamine
+1170,Promethazine Hydrochloride (Injection),False,Sedating Anti-histamine
+1346,Promethazine Hydrochloride,False,Sedating Anti-histamine
+1637,Progesterone (Vaginal Pessary),False,Corticosteroid
+1597,Progesterone (Vaginal Gel),False,Drugs for Infertility
+924,Progesterone (Capsule),False,Female Sex hormones
+923,Procyclidine Hydrochloride,False,Antiparkinson drugs
+922,Prochlorperazine Maleate,False,Anti vertigo drugs
+117,Procaine Penicillin + Benzyl Penicillin,False,Benzylpenicillin & Phenoxymethyl penicillin
+1824,Probiotic Combination [9 Billion],False,
+1614,Probiotic Combination [20 Billion],False,
+1876,Probiotic Combination [14 strains],False,
+2042,Probiotic Combination [10 Billion],False,
+920,Primaquine Phosphate,False,Anti-malarial drugs
+919,Pregabalin,False,Adjunct anti-epileptic drugs
+1324,Prednisolone Acetate,False,Glucocorticoids
+838,Prednisolone + Neomycin Sulphate + Polymixin B Sulphate,False,Ophthalmic steroid - antibiotic combined preparations
+1903,Rabies Immunoglobulin,False,"Vaccines, Anti-sera & Immunoglobulin"
+942,Rabeprazole Sodium,False,Proton Pump Inhibitor
+77,Rabeprazole + Amoxicillin + Clarithromycin,False,Anti H. pylori drugs
+941,Quinine Sulfate,False,Anti-malarial drugs
+940,Quetiapine Fumarate,False,Atypical neuroleptic drugs
+937,Pyrimethamine,False,Anti-malarial drugs
+1443,Pyridoxine Hydrochloride + Doxylamine Succinate,False,Anti-emetic drugs
+936,Pyridoxine Hydrochloride,False,Vitamin-B preparations
+935,Pyridostigmine Bromide,False,Drugs used in Myasthenia Gravis
+934,Pyrazinamide,False,Anti-Tubercular Chemotherapeutics
+933,Pyrantel Pamoate,False,Anthelmintic
+1219,Pseudoephedrine Hydrochloride,False,Decongestant
+536,Pseudoephedrine + Guaiphenasine + Triprolidine,False,Combined cough expectorants
+1586,Prucalopride Succinate,False,Osmotic purgatives
+1255,"Protein, Fat, Carbohydrate, Vitamin & Mineral",False,Oral nutritional preparations
+1269,Protamine Sulfate,False,Antidote preparations
+1504,Protamine Crystallised Insulin Aspart,False,Rapid Acting Insulin
+1826,Propylthiouracil,False,Thyroid drugs & hormone
+931,Propranolol Hydrochloride,False,Beta-adrenoceptor blocking drugs
+929,Propofol,False,General (Intravenous) anesthetics
+954,Ribavirin,False,Hepatic viral infections (Hepatitis C)
+1043,Rhubarb Extract + Salicylic Acid,False,Oral preparations
+953,Retapamulin,False,Topical Antibiotic preparations
+952,Repaglinide,False,Meglitinide Analogues
+1561,Remdesivir,False,Anti-viral drugs
+2061,Relugolix,False,Gonadotropin-releasing hormone (GnRH) antagonist
+1381,Regorafenib,False,Targeted Cancer Therapy
+1856,Red Clover [Trifolium Pratense],False,Miscellaneous topical agents
+1610,Recombinant Follicle Stimulating Hormone (rFSH),False,Drugs for Infertility
+1496,Rasagiline,False,Antiparkinson drugs
+950,Ranolazine,False,Other Anti-anginal & Anti-ischaemic drugs
+949,Ranitidine Hydrochloride,False,H2 receptor antagonist
+948,Ranibizumab,False,Drugs for Age-Related Macular Degeneration (AMD)
+1901,Ramucirumab,False,Cytotoxic Chemotherapy
+571,Ramipril + Hydrochlorothiazide,False,Combined antihypertensive preparations
+947,Ramipril,False,Angiotensin-converting enzyme (ACE) inhibitors
+1408,Ramelteon,False,Miscellaneous sedatives & hypnotics
+1814,Racepinephrine,False,Other adrenoceptor stimulants
+945,Racecadotril,False,Anti-diarrhoeal
+944,Rabies Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+968,Roflumilast,False,Antihistamines anti-allergies & hypo-sensitisation
+966,Rocuronium Bromide,False,Non depolarizing muscle relaxants
+965,Rizatriptan Benzoate,False,5-HT Agonists
+964,Rivastigmine Tartrate,False,Drugs for Dementia
+963,Rivaroxaban,False,Oral Anti-coagulants
+962,Rituximab,False,Cytotoxic immunosuppressants
+961,Ritodrine Hydrochloride,False,Drugs acting on the Uterus
+960,Risperidone (Oral),False,Atypical neuroleptic drugs
+1553,Risperidone (Injection),False,Atypical neuroleptic drugs
+1450,Risedronate Sodium + Calcium,False,Bisphosphonate preparations
+959,Risedronate Sodium,False,Bisphosphonate preparations
+178,Ringer's Lactate Solution,False,Intravenous fluid preparations
+1270,Rimexolone,False,Ophthalmic Steroid preparations
+1421,Riluzole,False,Neurodegenerative Disease Drugs / Neuromuscular Disorder Drugs
+957,Rifaximin,False,4-Quinolone preparations
+439,Rifampicin + Isoniazid + Pyrazinamide + Ethambutol,False,Combined anti- Tubercular Preparations
+635,Rifampicin + Isoniazid + Pyrazinamide,False,Combined anti- Tubercular Preparations
+636,Rifampicin + Isoniazid,False,Combined anti- Tubercular Preparations
+956,Rifampicin,False,Anti-Tubercular Antibiotics
+955,Riboflavin,False,Vitamin-B preparations
+1049,Salmeterol + Fluticasone Propionate,False,Long-acting selective β-adrenoceptor stimulants
+1045,Salicylic Acid + Lactic Acid,False,Combined preparations
+974,Salicylic Acid,False,Topical salicylic preparation
+625,Salbutamol + Ipratropium (Solution for inhalation),False,Combined bronchodilators
+1784,Salbutamol + Ipratropium (Inhaler),False,Combined bronchodilators
+1317,Salbutamol (Inhaler),False,Short-acting selective & β2-adrenoceptor stimulants
+1318,Salbutamol,False,Short-acting selective & β2-adrenoceptor stimulants
+1365,Sacubitril + Valsartan,False,
+1044,Saccharin Sodium,False,Oral nutritional preparations
+1828,S-Amlodipine Besilate (Levamlodipine),False,Calcium-channel blockers
+1467,Ruxolitinib,False,Pyrrolopyrimidines
+972,Rupatadine Fumarate,False,Non-sedating antihistamines
+971,Roxithromycin,False,Macrolides
+1272,Roxatidine,False,H2 receptor antagonist
+2051,Roxadustat,False,Drugs for Haemolytic Hypoplastic & Renal Anemia
+568,Rotavirus Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+970,Rosuvastatin,False,Other Anti-anginal & Anti-ischaemic drugs
+736,Rosiglitazone + Metformin Hydrochloride,False,Combination Oral hypoglycemic preparations
+969,Ropinirole,False,Antiparkinson drugs
+984,Sildenafil Citrate,False,Drugs for Erectile Dysfunction
+983,Sevoflurane,False,General (Inhalation) anesthetics
+1348,Sevelamer Hydrochloride,False,Drugs for reduction of serum phosphorus in patients with ESRD
+982,Sevelamer Carbonate,False,Drugs for reduction of serum phosphorus in patients with ESRD
+1841,Sesame oil + Cactus extract + Beeswax,False,Topical retinoid and related preparations
+981,Sertraline Hydrochloride,False,SSRIs & related anti-depressant drugs
+1424,Sertaconazole Nitrate,False,Topical Antifungal preparations
+980,Sennosides,False,Osmotic purgatives
+1971,Semaglutide (Tablet),False,GLP-1 receptor agonists
+1969,Semaglutide (Injection),False,GLP-1 receptor agonists
+2036,Selexipag,False,Non-prostanoid IP prostacyclin receptor agonist
+1422,Selegiline Hydrochloride,False,Antiparkinson drugs
+1464,Secukinumab,False,Drugs for Osteoarthritis
+979,Secnidazole,False,Amoebicides
+978,Saxagliptin,False,Dipeptidyl Peptidase-4 (DPP-4) inhibitor
+1394,Saquinavir Mesylate,False,Anti-viral drugs
+1875,Salvia Officinalis,False,Miscellaneous topical agents
+1283,Salsalate,False,Drugs for Osteoarthritis
+977,Salmon Calcitonin,False,Hormone in bone formation by Inhibiting bone resorption
+975,Salmeterol Xinafoate,False,Long-acting selective β-adrenoceptor stimulants
+999,Sodium Dichloroisocyanurate,False,Water purifying agent
+996,Sodium Cromoglicate + Xylometazoline Hydrochloride,False,Mast Cell Stabiliser
+998,Sodium Cromoglicate [4%],False,Mast Cell Stabiliser
+997,Sodium Cromoglicate [2%],False,Mast Cell Stabiliser
+1435,Sodium Chloride + Potassium Chloride + Sodium Acetate,False,Electrolytes preparations
+351,Sodium Chloride + Dextrose,False,Parenteral nutritional preparations
+1678,Sodium Chloride (Tablet),False,Oral electrolytes preparations
+1545,Sodium Chloride (Ophthalmic Solution),False,Other ophthalmic preparations
+995,Sodium Chloride (Nasal preparation),False,Nasal Decongestants & Other Nasal Preparations
+1352,Sodium Chloride (Intravenous Solution),False,Intravenous fluid preparations
+992,Sodium Bicarbonate,False,Intravenous fluid preparations
+1451,Sodium Alginate + Sodium Bicarbonate + Calcium Carbonate,False,Antacids
+903,Sodium Alginate + Potassium Bicarbonate,False,Antacids
+991,Snake Venom Antiserum,False,"Vaccines, Anti-sera & Immunoglobulin"
+737,Sitagliptin + Metformin Hydrochloride,False,Combination Oral hypoglycemic preparations
+990,Sitagliptin,False,Dipeptidyl Peptidase-4 (DPP-4) inhibitor
+989,Simvastatin,False,Other Anti-anginal & Anti-ischaemic drugs
+988,Simethicone,False,Anti-dyspeptic/Carminatives
+986,Silver Sulfadiazine,False,Topical Antibiotic preparations
+985,Silodosin,False,BPH/ Urinary retention/ Urinary incontinence
+1596,Somatostatin,False,Growth hormone antagonist
+1007,Solifenacin Succinate,False,Anticholinergics (antimuscarinics)/ Anti-spasmodics
+1006,Sofosbuvir + Velpatasvir,False,Hepatic viral infections (Hepatitis C)
+1005,Sofosbuvir,False,Hepatic viral infections (Hepatitis C)
+1004,Sodium Valproate,False,Primary anti-epileptic drugs
+1003,Sodium Thiosulfate,False,Antidote preparations
+32,Sodium Succinate + Cytochrome C + Adenosine + Nicotinamide,False,Drugs for lens opacification
+1281,Sodium Stibogluconate,False,Leishmaniacides
+1449,Sodium Polystyrene Sulfonate,False,Calcium Regulator
+1867,Sodium Picosulfate + Magnesium Oxide + Citric Acid,False,Enema & bowel cleansing solution
+1480,Sodium Picosulfate,False,Osmotic purgatives
+1278,Sodium Nitroprusside Dihydrate,False,Vasodilator antihypertensive drugs
+1264,Sodium Hypochlorite,False,Bleaching and Disinfectants
+1602,Sodium Hyaluronate + Carboxymethylcellulose Sodium,False,Drugs for Dry eyes
+1355,Sodium Hyaluronate (Ophthalmic),False,Drugs for Dry eyes
+1002,Sodium Hyaluronate (Injection),False,Drugs for Osteoarthritis
+1001,Sodium Fusidate (Topical),False,Topical Antibiotic preparations
+1181,Sodium Fusidate (Oral),False,
+1000,Sodium Fluoride (Mouthwash),False,Anticavity Mouthwash
+372,Sodium Dihydrogen Phosphate + Disodium Hydrogen Phosphate,False,Enema & bowel cleansing solution
+1024,Sulphamethoxazole + Trimethoprim,False,Sulphonamides & Trimethoprim
+938,Sulphadoxine + Pyrimethamine,False,Anti-malarial drugs
+1022,Sulindac,False,Drugs for Osteoarthritis
+1021,Sulfinpyrazone,False,Drugs used in Gout
+1020,Sulfasalazine,False,Drugs for Irritable Bowel Syndrome
+1023,Sulfacetamide sodium,False,Ophthalmic antibacterial drugs
+1896,Sulconazole Nitrate,False,
+1633,Sucralose + Acesulfame Potassium,False,Oral nutritional preparations
+1046,Sucralose,False,Oral nutritional preparations
+1019,Sucralfate,False,Chelating complex
+1018,Strontium Ranelate,False,Inhibiting bone resorption
+1017,Streptomycin,False,Aminoglycosides
+1016,Streptokinase,False,Fibrinolytics (Thrombolytics)
+1015,Spironolactone,False,Potassium-sparing diuretics
+1014,Spiramycin,False,Macrolides
+1013,Spectinomycin,False,Macrolides
+1012,Sparfloxacin,False,4-Quinolone preparations
+1011,Sotalol Hydrochloride,False,Anti adrenergic agent (Beta blockers)
+1010,Sorafenib Tosylate,False,Targeted Cancer Therapy
+1009,Somatropin,False,Drugs for Growth failure
+1395,Tedizolid Phosphate,False,
+1830,Tea Tree Oil + Geothermal Water + Vitamin E,False,Miscellaneous topical agents
+1624,Tea tree oil + Geothermal water (hair & body),False,Miscellaneous topical agents
+1783,Tea tree oil + Geothermal water (eye),False,Other preparations
+1668,Tea tree oil + Echinacea + Geothermal water,False,Oral preparations
+1034,Tazarotene,False,Topical retinoid and related preparations
+1033,Tapentadol Hydrochloride,False,Opioid analgesics
+1031,Tamsulosin Hydrochloride + Dutasteride,False,BPH/ Urinary retention/ Urinary incontinence
+1032,Tamsulosin Hydrochloride,False,BPH/ Urinary retention/ Urinary incontinence
+1030,Tamoxifen Citrate,False,Hormonal Chemotherapy
+1375,Tafluprost,False,Drugs for miotics and glaucoma
+1029,Tadalafil,False,Drugs for Erectile Dysfunction
+1028,Tacrolimus (Topical),True,Drugs affecting the immune response
+1356,Tacrolimus (Oral),True,Drugs affecting the immune response
+1027,Suxamethonium Chloride,False,Depolarizing muscle relaxants
+1373,Suvorexant,False,Miscellaneous sedatives & hypnotics
+1026,Super antioxidant [vitamins & minerals],False,
+1048,Sunitinib,False,Targeted Cancer Therapy
+1025,Sumatriptan,False,5-HT Agonists
+1047,Sulphonated Surfactant,False,"Benzoyl peroxide, Azelaic acid & other preparations"
+1055,Testosterone Undecanoate,False,Male Sex hormones (Androgens)
+1074,Testosterone Decanoate,False,Male Sex hormones (Androgens)
+1793,Terlipressin Acetate,False,Other preparations
+1632,Teriparatide,False,Thyroid drugs & hormone
+1054,Terfenadine,False,Non-sedating antihistamines
+1256,Terconazole,False,Drugs used in Vaginal and Vulval condition
+1053,Terbutaline Sulfate,False,Short-acting selective & β2-adrenoceptor stimulants
+1052,Terbinafine Hydrochloride,False,Other Antifungal preparations
+1051,Terazosin Hydrochloride,False,Alpha adrenoceptor blocking drugs
+1041,Tenoxicam,False,Drugs for Osteoarthritis
+1040,Tenofovir Disoproxil Fumarate,False,Drugs for HIV / Anti-retroviral drugs
+1357,Tenofovir Alafenamide,False,Hepatic viral infections (Hepatitis B)
+1792,Tenecteplase,False,Fibrinolytics (Thrombolytics)
+1039,Temozolomide,False,Cytotoxic Chemotherapy
+1280,Temazepam,False,Benzodiazepine antagonist
+572,Telmisartan + Hydrochlorothiazide,False,Combined antihypertensive preparations
+1038,Telmisartan,False,Angiotensin-ll receptor blocker
+1037,Telbivudine,False,Hepatic viral infections (Hepatitis B)
+1077,Teicoplanin,False,Glycopeptide
+1035,Tegaserod,False,Drugs for Irritable Bowel Syndrome
+1187,Tioconazole,False,Topical Antifungal preparations
+1073,Tinidazole,False,Amoebicides
+1071,Timolol Maleate,False,Drugs for miotics and glaucoma
+1070,Tigecycline,False,Tetracycline group of drugs
+1069,Tiemonium Methylsulphate,False,Anticholinergics
+1279,Ticlopidine Hydrochloride,False,Fibrinolytics (Thrombolytics)
+1068,Ticagrelor,False,Anti-platelet drugs
+1067,Tibolone,False,Drugs for menopausal symptoms: Hormone replacement therapy
+1874,Thymus Vulgaris Extracts,False,Miscellaneous topical agents
+1866,Thiotepa,False,Haematopoietic Agents
+1065,Thioridazine,False,Phenothiazine drugs
+1064,Thiopental Sodium,False,General (Intravenous) anesthetics
+1063,Thiamine Hydrochloride,False,Vitamin-B preparations
+1062,Theophylline,True,Bronchodilator
+1061,Thalidomide,False,Immunosuppressant
+1481,Tetracycline Hydrochloride (Topical),False,Topical Antibiotic preparations
+1060,Tetracycline Hydrochloride (Oral),False,Tetracycline group of drugs
+1076,Tetracycline Hydrochloride (Ophthalmic),False,Ophthalmic antibacterial drugs
+1058,Tetrabenazine,False,Atypical neuroleptic drugs
+1075,Tetanus Antitoxin [Equine],False,"Vaccines, Anti-sera & Immunoglobulin"
+1100,Trastuzumab,False,
+1099,Tranexamic Acid,False,Anti-fibrinolytic drugs
+1098,Tramadol Hydrochloride,False,Opioid analgesics
+1497,Torsemide,False,Loop diuretics
+1097,Torasemide,False,Loop diuretics
+1295,Topotecan,False,Cytotoxic Chemotherapy
+1096,Topiramate,False,Adjunct anti-epileptic drugs
+1810,Tolvaptan,False,Selective vasopressin V2-receptor antagonist
+1095,Tolterodine Tartrate,False,BPH/ Urinary retention/ Urinary incontinence
+1094,Tolperisone Hydrochloride,False,Central Depolarizing muscle relaxants
+1211,Tolperisone + Lidocaine,False,Centrally acting Skeletal Muscle Relaxants
+1093,Tolnaftate,False,Other Antifungal preparations
+1092,Tolfenamic acid,False,Other drugs for migraine
+1392,Tofacitinib,False,Immunosuppressant
+1091,Tocilizumab,False,Drugs used for Rheumatoid Arthritis
+1089,Tobramycin (Ophthalmic),False,Ophthalmic antibacterial drugs
+1090,Tobramycin (Nebuliser Solution),False,Aminoglycosides
+1088,Tizanidine Hydrochloride,False,Centrally acting Skeletal Muscle Relaxants
+1192,Titanium dioxide + Butyl methoxydibenzoyl methane + Padimate + Oxybenzone,False,Sunblock Preparation
+1360,Tiotropium (Dry Powder Inhaler),False,Anticholinergic bronchodilators
+882,Tropicamide + Phenylephrine Hydrochloride,False,Preparations for Ophthalmic diagnosis
+2039,Tropicamide + Phenylephrine + Lidocaine,False,Other ophthalmic preparations
+1109,Tropicamide,False,Mydriatic and Cycloplegic agents
+1265,Trimipramine,False,Tricyclic & related anti-depressant drugs
+1108,Trimetazidine Dihydrochloride,False,Other Anti-anginal & Anti-ischaemic drugs
+1107,Trimebutine Maleate,False,Anticholinergics
+1106,Trihexyphenidyl Hydrochloride,False,Antiparkinson drugs
+1105,Trifluridine,False,Ophthalmic Anti-viral Products
+1104,Trifluoperazine,False,Phenothiazine drugs
+1878,Trifarotene,False,Topical retinoid and related preparations
+1103,Triamcinolone Acetonide (Topical),False,Corticosteroid
+1362,Triamcinolone Acetonide (Nasal Spray),False,Corticosteroid
+1361,Triamcinolone Acetonide (Injection),False,Corticosteroid
+558,Triamcinolone + Neomycin + Nystatin + Gramicidin,False,Triamcinolone & Combined preparations
+1102,Tretinoin (Topical),False,Topical retinoid and related preparations
+1796,Tretinoin (Oral),False,Oral Retinoid preparations
+1484,Trelagliptin Succinate,False,Dipeptidyl Peptidase-4 (DPP-4) inhibitor
+1072,Travoprost + Timolol Maleate,False,Drugs for miotics and glaucoma
+1101,Travoprost,False,Drugs for miotics and glaucoma
+1427,Trastuzumab Emtansine,False,Anti neoplastic preparations
+1118,Vancomycin Hydrochloride,False,
+574,Valsartan + Hydrochlorothiazide,False,Combined antihypertensive preparations
+1117,Valsartan,False,Angiotensin-ll receptor blocker
+1425,Valganciclovir,False,Anti-viral drugs
+1115,Valacyclovir,False,Herpes simplex & Varicella-zoster virus infections
+1114,Ursodeoxycholic Acid,False,Anti-gallstones drugs: Bile Acids
+1231,Urokinase,False,Fibrinolytics (Thrombolytics)
+1364,Urea (25%),False,Topical urea preparations
+1113,Urea (10%),False,Topical urea preparations
+1886,Upadacitinib,False,Drugs used for Rheumatoid Arthritis
+2041,Undenatured Type II Collagen + Glucosamine Sulfate + Chondroitin Sulfate,False,Specific mineral preparations
+2038,Undenatured Type II Collagen + Glucosamine sulfate + Boswellia serrata + Boron,False,Specific mineral & vitamin combined preparations
+1540,Undenatured Type II Collagen,False,Specific mineral preparations
+1363,Ulipristal Acetate [For uterine fibroids],False,Drugs acting on the Uterus
+1154,Ulipristal Acetate [For emergency contraception],False,Drugs acting on the Uterus
+1112,Typhoid Polysaccharide Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+1111,Tulobuterol Hydrochloride,False,Short-acting selective & β2-adrenoceptor stimulants
+1655,TTO Thermal Toothpaste,False,Miscellaneous topical agents
+1110,Trypan Blue,False,Preparations for Ophthalmic diagnosis
+1812,Trospium Chloride,False,Other genito-urinary preparations
+1129,"Vitamin A, Vitamin B complex, Vitamin C , Vitamin D and Vitamin E",False,Specific combined vitamin preparations
+1156,Vitamin A,False,Vitamin-A preparations
+1128,Vinpocetine,False,Cerebral vasodilator & Neurosensory oxygenator drugs
+1246,Vinorelbine Tartrate,False,Cytotoxic Chemotherapy
+1127,Vincristine Sulfate,False,Cytotoxic Chemotherapy
+1126,Vinblastine Sulfate,False,Cytotoxic Chemotherapy
+738,Vildagliptin + Metformin Hydrochloride,False,Combination Oral hypoglycemic preparations
+1125,Vildagliptin,False,Dipeptidyl Peptidase-4 (DPP-4) inhibitor
+2068,Vilazodone Hydrochloride,False,Atypical anti-depressant drugs
+1977,Vilanterol Trifenatate + Fluticasone Furoate,False,Respiratory corticosteroids
+1978,Vilanterol + Umeclidinium + Fluticasone Furoate,False,Combined bronchodilators
+1155,Verteporfin,False,Drugs for Age-Related Macular Degeneration (AMD)
+2047,Vericiguat,False,Stimulator of soluble guanylate cyclase
+1124,Verapamil Hydrochloride,False,Calcium-channel blockers
+1123,Venlafaxine Hydrochloride,False,Serotonin-norepinephrine reuptake inhibitor (SNRI)
+2063,Venetoclax,False,Cytotoxic Chemotherapy
+1122,Vecuronium Bromide,False,Non depolarizing muscle relaxants
+1121,Varicella Virus Vaccine,False,"Vaccines, Anti-sera & Immunoglobulin"
+1120,Varenicline Tartrate,False,Drugs used in substance dependence
+1119,Vardenafil,False,Drugs for Erectile Dysfunction
+1140,Yellow Fever Vaccine,False,
+1139,Xylometazoline Hydrochloride,False,Nasal Anti-histamine preparations
+1461,White soft paraffin + Liquid paraffin + Wool alcohol,False,Emollients & combined preparations
+1439,White Soft Paraffin + Liquid Paraffin,False,Emollients & combined preparations
+1489,Water for injection,False,Other preparations
+1166,Warfarin Sodium,True,Oral Anti-coagulants
+1238,Voriconazole,False,Other Antifungal preparations
+1266,Voglibose,False,Alpha-Glucosidase inhibitor
+1872,"vitamins [C, E, B9 and B12] and minerals [Selenium, Copper and Zinc]",False,Supplements & adjuvant therapy
+1136,"Vitamin C, Vitamin E, Lutein, Copper & Zinc",False,Anti-oxidant Multivitamin Multimineral preparations
+1162,Vitamin C + Vitamin E,False,Anti-oxidant Multivitamin preparations
+496,Vitamin C + Vitamin D3 + Folic acid,False,Specific combined vitamin preparations
+1137,Vitamin C [Ascorbic acid],False,Vitamin-C Preparations
+497,"Vitamin B6, B9 & B12",False,Specific combined vitamin preparations
+307,Vitamin B12 + Elemental Iron + Folic Acid,False,Iron & Vitamin Combined preparations
+1042,"Vitamin B1, B2 & B6",False,Specific combined vitamin preparations
+1135,"Vitamin B1, B6 & B12",False,Specific combined vitamin preparations
+1133,Vitamin B Complex + Zinc,False,Specific mineral & vitamin combined preparations
+1366,Vitamin B complex + Vitamin C,False,Specific combined vitamin preparations
+1131,Vitamin B complex,False,Specific combined vitamin preparations
+1150,Zuclopenthixol,False,Phenothiazine related drugs
+1149,Zopiclone,False,Miscellaneous sedatives & hypnotics
+1380,Zonisamide,False,Adjunct anti-epileptic drugs
+1148,Zolpidem Tartrate,False,Miscellaneous sedatives & hypnotics
+1147,Zolmitriptan,False,5-HT Agonists
+1368,Zoledronic Acid [For osteoporosis],False,Bisphosphonate preparations
+1146,Zoledronic Acid [For hypercalcemia],False,Bisphosphonate preparations
+1145,Ziprasidone,False,Atypical neuroleptic drugs
+1144,Zinc Sulfate Monohydrate,False,Specific mineral preparations
+1670,"Zinc oxide, Octinoxate, Enzacamene and Avobenzone",False,Sunblock Preparation
+1567,Zinc Oxide + Virgin Castor Oil,False,Emollients & combined preparations
+1193,Zinc oxide + Ethylhexyl Methoxycinnamate + 4-Methylbenzylidene Camphor + Butyl Methoxydibenzoylmethane,False,Sunblock Preparation
+1605,Zinc oxide + Benzyl alcohol + Benzyl benzoate + Benzyl cinnamate + Lanolin,False,Sunblock Preparation
+755,Zinc Oxide [Microfine],False,Sunblock Preparation
+1143,Zinc Oxide,False,Drugs used in diaper rash
+1446,Zinc Orotate,False,Specific mineral preparations
+1229,Zidovudine,False,Drugs for HIV / Anti-retroviral drugs
+1142,Zaleplon,False,Benzodiazepine hypnotics
+1141,Zafirlukast,False,Leukotriene receptor antagonists
