@@ -6,8 +6,8 @@ Scan a prescription photo and see cheaper medicine brands with the same generic,
 
 | Member | Role |
 |---|---|
-| Person A (name, ID) | Backend, database, scanner, price fetcher |
-| Person B (name, ID) | Frontend screens, results logic, testing |
+| Irtesham Hossain 2420891 | Backend, database, scanner, price fetcher |
+| Maliha Rahman 2420913 | Frontend screens, results logic, testing |
 
 ## How it works
 
