@@ -133,6 +133,8 @@ def compare_price(row):
     if m and float(m.group(1)) > 0:
         return round(row["unit_price"] / float(m.group(1)), 4), "per " + m.group(2)
     return row["unit_price"], "per " + str(row["unit_label"])
+
+
 cp = med.apply(compare_price, axis=1, result_type="expand")
 med["compare_price"], med["compare_unit"] = cp[0], cp[1]
 

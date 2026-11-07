@@ -1,5 +1,5 @@
 -- Prescription Cost Optimizer: database tables
--- Run this once in Supabase: SQL Editor > New query > paste > Run
+-- Run once in Supabase: SQL Editor > New query > paste > Run
 
 CREATE EXTENSION IF NOT EXISTS pg_trgm;   -- fast fuzzy search on names
 
@@ -67,7 +67,6 @@ CREATE TABLE scan_item (
     card_status       VARCHAR(10)
 );
 
--- Indexes so searches stay fast
 CREATE INDEX idx_brand_group ON brand(group_id);
 CREATE INDEX idx_brand_name_trgm ON brand USING gin (brand_name gin_trgm_ops);
 CREATE INDEX idx_price_brand ON price_record(brand_id, fetched_at DESC);

@@ -14,6 +14,7 @@ The photo is processed in memory only and is never saved to disk.
 
 import io
 import os
+from pathlib import Path
 
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
@@ -25,7 +26,7 @@ from rapidfuzz import fuzz, process
 import psycopg
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(Path(__file__).with_name(".env"))
 
 # ---------------------------------------------------------------------------
 # Config
@@ -42,8 +43,8 @@ client = genai.Client()  # reads GEMINI_API_KEY from the environment
 app = FastAPI(title="Prescription Scanner")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[os.getenv("FRONTEND_ORIGIN", "http://localhost:3000")],
-    allow_methods=["POST"],
+    allow_origins=os.getenv("FRONTEND_ORIGIN", "http://localhost:3000").split(","),
+    allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
 
@@ -147,7 +148,7 @@ def read_prescription(jpeg_bytes: bytes) -> ScanResult:
 
 def match_to_catalogue(med: Medicine, brands: list[str]) -> dict:
     """Fuzzy match the AI reading to a real brand and assign a card colour."""
-    best = process.extractOne(med.brand_name, brands, scorer=fuzz.WRatio)
+    best = process.extractOne(med.brand_name, brands, scorer=fuzz.ratio, processor=str.lower)
     matched, score = (best[0], best[1]) if best else ("", 0)
 
     if med.confidence >= 0.85 and score >= 90:
