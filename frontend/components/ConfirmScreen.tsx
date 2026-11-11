@@ -1,148 +1,110 @@
 "use client";
 
-import { useState } from "react";
-import SearchBox from "./SearchBox";
-import { manualMedicine, type ScannedMedicine } from "@/lib/api";
-
-const STATUS = {
-  green: { dot: "bg-green-600", border: "border-slate-200", label: "Sure" },
-  amber: { dot: "bg-amber-500", border: "border-amber-400", label: "Check" },
-  red: { dot: "bg-red-600", border: "border-red-500", label: "Fix" },
-};
+import { Icon } from "./ui";
+import { describeDose, type ScannedMedicine } from "@/lib/api";
 
 export default function ConfirmScreen({
   medicines,
+  imageUrl,
   setMedicines,
+  onEdit,
+  onAdd,
+  onViewImage,
   onConfirm,
-  onBack,
   error,
 }: {
   medicines: ScannedMedicine[];
+  imageUrl: string | null;
   setMedicines: (m: ScannedMedicine[]) => void;
+  onEdit: (index: number) => void;
+  onAdd: () => void;
+  onViewImage: () => void;
   onConfirm: () => void;
-  onBack: () => void;
   error: string | null;
 }) {
-  const [editing, setEditing] = useState<number | null>(null);
-  const [adding, setAdding] = useState(false);
-
   const update = (i: number, m: ScannedMedicine) => setMedicines(medicines.map((x, j) => (j === i ? m : x)));
   const remove = (i: number) => setMedicines(medicines.filter((_, j) => j !== i));
   const unresolved = medicines.filter((m) => m.status === "red").length;
+  const toCheck = medicines.filter((m) => m.status !== "green").length;
 
   return (
-    <div className="space-y-3">
-      <p className="text-sm text-slate-600">Check what we read. Fix any card that is not right, then confirm.</p>
+    <div className="flex flex-col gap-3">
+      {imageUrl && (
+        <button type="button" onClick={onViewImage}
+          className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-2.5 text-left">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={imageUrl} alt="" className="h-13 w-13 rounded-lg bg-slate-200 object-cover" />
+          <span className="flex flex-1 flex-col">
+            <span className="font-semibold">View prescription</span>
+            <span className="text-xs text-slate-600">Compare the photo with what we read</span>
+          </span>
+          <Icon name="chev" className="text-slate-500" />
+        </button>
+      )}
+
+      <p className="text-sm text-slate-600">
+        {toCheck === 0
+          ? "Check the list, then confirm."
+          : `${toCheck} of ${medicines.length} need${toCheck === 1 ? "s" : ""} your attention.`}
+      </p>
 
       {medicines.map((m, i) => {
-        const s = STATUS[m.status];
-        const name = m.matched_brand || m.brand_name || "Could not read";
+        const border = m.status === "amber" ? "border-amber-400" : m.status === "red" ? "border-red-600" : "border-slate-200";
         return (
-          <div key={i} className={`rounded-xl border-2 bg-white p-3 ${s.border}`}>
+          <div key={i} className={`flex flex-col gap-2.5 rounded-2xl border-2 bg-white p-3.5 ${border}`}>
             <div className="flex items-start justify-between gap-2">
-              <div>
+              <div className="flex flex-col gap-0.5">
                 <p className="font-semibold">
-                  {m.status === "red" ? "Could not read" : name} {m.status !== "red" && m.strength}
+                  {m.status === "red" ? "Could not read" : `${m.matched_brand || m.brand_name} ${m.strength}`}
                 </p>
-                <p className="text-xs text-slate-500">
-                  {[m.dosage_form, m.dose_pattern, m.duration].filter(Boolean).join(", ")}
-                </p>
-                {m.raw_text && <p className="mt-1 text-xs italic text-slate-400">Read as: {m.raw_text}</p>}
+                <p className="text-[13px] text-slate-600">{describeDose(m)}</p>
+                {m.raw_text && <p className="text-xs italic text-slate-500">Read as: {m.raw_text}</p>}
               </div>
-              <span className="flex shrink-0 items-center gap-1.5 text-xs font-medium">
-                <span className={`h-2.5 w-2.5 rounded-full ${s.dot}`} />
-                {s.label}
-              </span>
+              {/* Only medicines that need attention get a badge */}
+              {m.status === "amber" && (
+                <span className="shrink-0 rounded-full bg-amber-100 px-2.5 py-1 text-xs font-semibold text-amber-900">Check</span>
+              )}
+              {m.status === "red" && (
+                <span className="shrink-0 rounded-full bg-red-700 px-2.5 py-1 text-xs font-semibold text-white">Fix</span>
+              )}
             </div>
 
-            {m.status === "amber" && editing !== i && (
-              <div className="mt-2 flex items-center gap-2 text-sm">
-                <span>
+            {m.status === "amber" && (
+              <div className="flex items-center gap-2.5 rounded-lg bg-amber-50 p-2.5 text-sm">
+                <span className="flex-1">
                   Did you mean <b>{m.matched_brand}</b>?
                 </span>
-                <button
-                  onClick={() => update(i, { ...m, status: "green" })}
-                  className="rounded-md bg-teal-700 px-3 py-1 text-xs font-semibold text-white"
-                >
+                <button type="button" onClick={() => update(i, { ...m, status: "green" })}
+                  className="min-h-9 rounded-lg bg-teal-700 px-3.5 text-[13px] font-semibold text-white">
                   Yes
                 </button>
-                <button onClick={() => setEditing(i)} className="text-xs font-semibold text-teal-700 underline">
-                  No, change
-                </button>
               </div>
             )}
 
-            {(m.status === "red" || editing === i) && (
-              <div className="mt-2">
-                <SearchBox
-                  autoFocus={editing === i}
-                  placeholder="Search for the correct medicine..."
-                  onPick={(r) => {
-                    update(i, {
-                      ...m,
-                      brand_name: r.brand_name,
-                      matched_brand: r.brand_name,
-                      strength: r.strength,
-                      dosage_form: r.dosage_form,
-                      status: "green",
-                    });
-                    setEditing(null);
-                  }}
-                />
-              </div>
-            )}
-
-            <div className="mt-2 flex gap-4 text-xs">
-              {m.status === "green" && editing !== i && (
-                <button onClick={() => setEditing(i)} className="font-semibold text-teal-700">
-                  Change
-                </button>
-              )}
-              <button onClick={() => remove(i)} className="font-semibold text-red-700">
-                Remove
+            <div className="flex gap-5 text-sm font-semibold">
+              <button type="button" onClick={() => onEdit(i)} className="flex min-h-9 items-center gap-1.5 text-teal-700">
+                <Icon name="edit" size={16} /> {m.status === "red" ? "Choose medicine" : "Edit"}
+              </button>
+              <button type="button" onClick={() => remove(i)} className="flex min-h-9 items-center gap-1.5 text-red-700">
+                <Icon name="trash" size={16} /> Remove
               </button>
             </div>
           </div>
         );
       })}
 
-      {adding ? (
-        <div className="rounded-xl border-2 border-teal-700 bg-white p-3">
-          <SearchBox
-            autoFocus
-            onPick={(r) => {
-              setMedicines([...medicines, manualMedicine(r)]);
-              setAdding(false);
-            }}
-          />
-          <button onClick={() => setAdding(false)} className="mt-2 text-xs font-semibold text-slate-500">
-            Cancel
-          </button>
-        </div>
-      ) : (
-        <button
-          onClick={() => setAdding(true)}
-          className="w-full rounded-xl border-2 border-teal-700 py-2.5 font-semibold text-teal-700"
-        >
-          + Add a medicine
-        </button>
-      )}
-
-      {error && (
-        <div className="rounded-lg border border-red-300 bg-red-50 px-3 py-2 text-sm text-red-800">{error}</div>
-      )}
-
-      <button
-        disabled={medicines.length === 0 || unresolved > 0}
-        onClick={onConfirm}
-        className="w-full rounded-xl bg-teal-700 py-3 font-semibold text-white disabled:cursor-not-allowed disabled:bg-slate-300"
-      >
-        {unresolved > 0
-          ? `Fix ${unresolved} red card${unresolved > 1 ? "s" : ""} first`
-          : `Confirm ${medicines.length} medicine${medicines.length === 1 ? "" : "s"}`}
+      <button type="button" onClick={onAdd}
+        className="flex min-h-12 items-center justify-center gap-2 rounded-xl border-2 border-teal-700 font-semibold text-teal-700">
+        <Icon name="plus" size={20} /> Add a medicine
       </button>
-      <button onClick={onBack} className="w-full py-2 text-sm text-slate-500">
-        Start again
+
+      {error && <div role="alert" className="rounded-lg border border-red-300 bg-red-50 px-3 py-2 text-sm text-red-800">{error}</div>}
+
+      <button type="button" disabled={medicines.length === 0 || unresolved > 0} onClick={onConfirm}
+        className="min-h-12 rounded-xl bg-teal-700 font-semibold text-white disabled:cursor-not-allowed disabled:bg-slate-300">
+        {unresolved > 0
+          ? `Fix ${unresolved} card${unresolved > 1 ? "s" : ""} to continue`
+          : `Confirm ${medicines.length} medicine${medicines.length === 1 ? "" : "s"}`}
       </button>
     </div>
   );

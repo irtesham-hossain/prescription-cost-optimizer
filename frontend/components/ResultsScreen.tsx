@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { AdSlot, Icon } from "./ui";
 import { taka, type AlternativesResponse, type MedicineResult, type Option } from "@/lib/api";
 
 type Pick = "prescribed" | "cheapest" | "best" | "recommended";
@@ -41,7 +42,10 @@ function OptionRow({
       </span>
       <span className="text-right font-semibold">
         {taka(option.price)}
-        <span className="block text-[11px] font-normal text-slate-500">{option.unit}</span>
+        <span className="block text-[11px] font-normal text-slate-500">
+          {option.unit}
+          {option.source === "live" && <span className="ml-1 font-semibold text-teal-700">live</span>}
+        </span>
       </span>
     </button>
   );
@@ -77,7 +81,7 @@ function MedicineCard({ m, pick, setPick }: { m: Found; pick: Pick; setPick: (p:
 
       <div className="mt-2 flex items-center justify-between text-xs text-slate-500">
         <span>
-          Price from {m.prescribed.source}
+          Price from {m.prescribed.source === "live" ? "MedEx (live)" : "dataset"}
           {m.prescribed.date ? `, ${m.prescribed.date}` : ""}
         </span>
         {saving > 0 && <span className="font-semibold text-teal-700">Save {taka(saving)}</span>}
@@ -102,25 +106,111 @@ function MedicineCard({ m, pick, setPick }: { m: Found; pick: Pick; setPick: (p:
   );
 }
 
-export default function ResultsScreen({ data, onRestart }: { data: AlternativesResponse; onRestart: () => void }) {
+const LIVE_NOTE = {
+  idle: null,
+  checking: { text: "Checking today's prices on MedEx...", style: "bg-slate-100 text-slate-700" },
+  done: { text: "Updated with today's prices where available.", style: "bg-teal-50 text-teal-800" },
+  failed: { text: "Could not get today's prices. Showing dataset prices.", style: "bg-amber-50 text-amber-900" },
+};
+
+function shareText(found: Found[], picks: Pick[], saving: number) {
+  const lines = found.map((m, i) => {
+    const c = m[picks[i]];
+    const qty = m.quantity > 1 && c.unit === "per unit" ? `, ${m.quantity} tablets` : "";
+    return `${i + 1}. ${m.prescribed.brand} ${m.strength}: buy ${c.brand} (${c.manufacturer})${qty}`;
+  });
+  return [
+    "My medicine list",
+    ...lines,
+    `Possible saving: ${taka(saving)}`,
+    "Same generic, strength and form. Please check with the doctor or pharmacist.",
+  ].join("\n");
+}
+
+export default function ResultsScreen({
+  data,
+  live = "idle",
+  onSave,
+  saved = false,
+  onRestart,
+}: {
+  data: AlternativesResponse;
+  live?: keyof typeof LIVE_NOTE;
+  onSave?: () => Promise<void>;
+  saved?: boolean;
+  onRestart?: () => void;
+}) {
   const found = data.medicines.filter((m): m is Found => m.found);
   const missing = data.medicines.filter((m) => !m.found);
 
   // Recommended is chosen by default; the user can tap another option
   const [picks, setPicks] = useState<Pick[]>(found.map(() => "recommended"));
+  const [showPharmacist, setShowPharmacist] = useState(false);
+  const [saveState, setSaveState] = useState<"idle" | "saving" | "saved" | "error">(saved ? "saved" : "idle");
 
   const prescribedTotal = found.reduce((s, m) => s + m.prescribed.price * m.quantity, 0);
   const chosenTotal = found.reduce((s, m, i) => s + m[picks[i]].price * m.quantity, 0);
   const saving = Math.max(prescribedTotal - chosenTotal, 0);
+  const note = LIVE_NOTE[live];
+
+  async function share() {
+    const text = shareText(found, picks, saving);
+    try {
+      if (navigator.share) {
+        await navigator.share({ text });
+        return;
+      }
+    } catch {
+      return; // user closed the share sheet
+    }
+    window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, "_blank", "noopener");
+  }
+
+  async function save() {
+    if (!onSave || saveState === "saving" || saveState === "saved") return;
+    setSaveState("saving");
+    try {
+      await onSave();
+      setSaveState("saved");
+    } catch {
+      setSaveState("error");
+    }
+  }
+
+  const action = "flex min-h-[64px] flex-col items-center justify-center gap-1 rounded-xl border border-slate-200 bg-white px-1 text-xs font-semibold text-teal-800";
 
   return (
-    <div className="space-y-3">
-      <div className="rounded-xl border-2 border-teal-700 bg-teal-50 p-4 text-center">
-        <p className="text-sm text-slate-600">Total you could save</p>
+    <div className="flex flex-col gap-3">
+      {note && (
+        <div role="status" className={`flex items-center gap-2 rounded-lg px-3 py-2 text-xs ${note.style}`}>
+          {live === "checking" && (
+            <span className="h-3 w-3 animate-spin rounded-full border-2 border-slate-300 border-t-teal-700" />
+          )}
+          {note.text}
+        </div>
+      )}
+
+      <div className="rounded-2xl border-2 border-teal-700 bg-teal-50 p-4 text-center">
+        <p className="text-sm text-slate-600">You could save</p>
         <p className="text-3xl font-bold text-teal-900">{taka(saving)}</p>
-        <p className="text-xs text-slate-500">
-          Prescription total {taka(prescribedTotal)}, with your picks {taka(chosenTotal)}
+        <p className="text-xs text-slate-600">
+          Prescribed {taka(prescribedTotal)} · with your picks {taka(chosenTotal)}
         </p>
+      </div>
+
+      <div className={`grid gap-2 ${onSave || saved ? "grid-cols-3" : "grid-cols-2"}`}>
+        <button type="button" onClick={share} className={action}>
+          <Icon name="share" size={20} /> Share list
+        </button>
+        <button type="button" onClick={() => setShowPharmacist(true)} className={action}>
+          <Icon name="show" size={20} /> Show pharmacist
+        </button>
+        {(onSave || saved) && (
+          <button type="button" onClick={save} disabled={saveState === "saved"} className={action}>
+            <Icon name={saveState === "saved" ? "check" : "saved"} size={20} />
+            {saveState === "saving" ? "Saving..." : saveState === "saved" ? "Saved" : saveState === "error" ? "Try again" : "Save"}
+          </button>
+        )}
       </div>
 
       {found.map((m, i) => (
@@ -138,14 +228,52 @@ export default function ResultsScreen({ data, onRestart }: { data: AlternativesR
         </div>
       ))}
 
-      <p className="text-xs text-slate-500">
-        Prices are from a past dataset snapshot and may differ in the pharmacy. Always check with your doctor or
-        pharmacist before switching.
+      <p className="text-xs text-slate-600">
+        Prices marked live come from MedEx; others are from a past dataset snapshot and may differ in the pharmacy.
+        Always check with your doctor or pharmacist before switching.
       </p>
 
-      <button onClick={onRestart} className="w-full rounded-xl bg-teal-700 py-3 font-semibold text-white">
-        Scan another prescription
-      </button>
+      {/* Ad sits below the comparison, never inside it */}
+      <AdSlot compact text="Order these medicines from a partner pharmacy, delivered home" />
+
+      {onRestart && (
+        <button type="button" onClick={onRestart} className="min-h-12 rounded-xl bg-teal-700 font-semibold text-white">
+          Scan another prescription
+        </button>
+      )}
+
+      {showPharmacist && (
+        <div role="dialog" aria-modal="true" aria-label="Medicine list for the pharmacist"
+          className="fixed inset-0 z-50 overflow-y-auto bg-white">
+          <div className="mx-auto flex max-w-md flex-col gap-4 p-5">
+            <div className="flex items-center justify-between">
+              <h2 className="text-xl font-bold">Please give me these medicines</h2>
+              <button type="button" aria-label="Close" onClick={() => setShowPharmacist(false)}
+                className="flex h-11 w-11 items-center justify-center rounded-full bg-slate-100">
+                <Icon name="close" />
+              </button>
+            </div>
+            <ol className="flex flex-col gap-3">
+              {found.map((m, i) => {
+                const c = m[picks[i]];
+                return (
+                  <li key={i} className="rounded-2xl border-2 border-slate-200 p-4">
+                    <p className="text-2xl font-bold">{c.brand} {m.strength}</p>
+                    <p className="text-base text-slate-700">{m.dosage_form} · {c.manufacturer}</p>
+                    <p className="mt-1 text-sm text-slate-600">
+                      Generic: {m.generic}
+                      {m.quantity > 1 && c.unit === "per unit" ? ` · ${m.quantity} tablets` : ""}
+                    </p>
+                    {c.brand !== m.prescribed.brand && (
+                      <p className="mt-1 text-sm text-slate-600">Instead of {m.prescribed.brand}</p>
+                    )}
+                  </li>
+                );
+              })}
+            </ol>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

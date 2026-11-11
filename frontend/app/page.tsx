@@ -1,105 +1,58 @@
-"use client";
+import Link from "next/link";
+import { AdSlot, BottomNav, Icon, Page } from "@/components/ui";
 
-import { useState } from "react";
-import HomeScreen from "@/components/HomeScreen";
-import ConfirmScreen from "@/components/ConfirmScreen";
-import ResultsScreen from "@/components/ResultsScreen";
-import {
-  getAlternatives,
-  manualMedicine,
-  scanPrescription,
-  type AlternativesResponse,
-  type ScannedMedicine,
-  type SearchResult,
-} from "@/lib/api";
+const TILES = [
+  { href: "/scan", title: "Scan prescription", sub: "Take a photo and find cheaper brands", icon: "scan", primary: true },
+  { href: "/search", title: "Search medicine price", sub: "Check one medicine and its cheaper options", icon: "search" },
+  { href: "/saved", title: "Saved prescriptions", sub: "Open past scans and refill reminders", icon: "saved" },
+  { href: "/pharmacy", title: "Nearby pharmacies", sub: "Find, call or get directions", icon: "pin" },
+];
 
-type Step = "home" | "scanning" | "confirm" | "loading" | "results";
-
-const TITLES: Record<Step, string> = {
-  home: "Prescription Cost Optimizer",
-  scanning: "Reading your prescription",
-  confirm: "Check what we read",
-  loading: "Finding cheaper brands",
-  results: "Your prescription",
-};
-
-export default function Page() {
-  const [step, setStep] = useState<Step>("home");
-  const [medicines, setMedicines] = useState<ScannedMedicine[]>([]);
-  const [results, setResults] = useState<AlternativesResponse | null>(null);
-  const [error, setError] = useState<string | null>(null);
-
-  async function handlePhoto(file: File) {
-    setError(null);
-    setStep("scanning");
-    try {
-      const res = await scanPrescription(file);
-      if (!res.ok) {
-        setError(res.message);
-        setStep("home");
-        return;
-      }
-      setMedicines(res.medicines);
-      setStep("confirm");
-    } catch (e) {
-      setError(`Could not reach the scanner. ${(e as Error).message}`);
-      setStep("home");
-    }
-  }
-
-  function handleTyped(r: SearchResult) {
-    setError(null);
-    setMedicines([manualMedicine(r)]);
-    setStep("confirm");
-  }
-
-  async function handleConfirm() {
-    setError(null);
-    setStep("loading");
-    try {
-      setResults(await getAlternatives(medicines));
-      setStep("results");
-    } catch (e) {
-      setError(`Could not load alternatives. ${(e as Error).message}`);
-      setStep("confirm");
-    }
-  }
-
-  function restart() {
-    setMedicines([]);
-    setResults(null);
-    setError(null);
-    setStep("home");
-  }
-
+export default function Home() {
   return (
-    <main className="mx-auto min-h-screen max-w-md bg-slate-50">
-      <header className="sticky top-0 z-10 bg-teal-900 px-4 py-3.5 text-white">
-        <h1 className="font-semibold">{TITLES[step]}</h1>
-      </header>
+    <Page>
+      <div className="flex flex-col gap-2.5 bg-teal-900 px-5 pb-6 pt-5 text-white">
+        <p className="text-[15px] font-semibold opacity-90">Prescription Cost Optimizer</p>
+        <h1 className="text-[26px] font-bold leading-tight">Pay less for the same medicine</h1>
+        <p className="text-sm text-teal-100">Same generic, same strength, same form. Cheaper brand.</p>
+      </div>
 
-      <section className="p-4">
-        {step === "home" && <HomeScreen onPhoto={handlePhoto} onTypeMedicine={handleTyped} error={error} />}
+      <div className="flex flex-1 flex-col gap-4 p-5">
+        <div className="grid grid-cols-2 gap-3">
+          {TILES.map((t) => (
+            <Link
+              key={t.href}
+              href={t.href}
+              className={`flex min-h-[140px] flex-col gap-2.5 rounded-2xl border p-4 ${
+                t.primary ? "border-teal-700 bg-teal-700 text-white" : "border-slate-200 bg-white text-slate-900"
+              }`}
+            >
+              <span
+                className={`flex h-11 w-11 items-center justify-center rounded-xl ${
+                  t.primary ? "bg-white/20 text-white" : "bg-teal-100 text-teal-700"
+                }`}
+              >
+                <Icon name={t.icon} size={24} />
+              </span>
+              <span className="text-base font-semibold leading-tight">{t.title}</span>
+              <span className={`text-xs leading-snug ${t.primary ? "text-teal-100" : "text-slate-600"}`}>{t.sub}</span>
+            </Link>
+          ))}
+        </div>
 
-        {(step === "scanning" || step === "loading") && (
-          <div className="flex flex-col items-center gap-4 py-20 text-center text-slate-600">
-            <div className="h-10 w-10 animate-spin rounded-full border-4 border-teal-200 border-t-teal-700" />
-            <p>{step === "scanning" ? "Reading the medicines. This takes about 10 seconds." : "Comparing brands..."}</p>
-          </div>
-        )}
+        <section className="flex flex-col gap-2 rounded-2xl border border-slate-200 bg-white p-3.5">
+          <h2 className="text-sm font-semibold">How it works</h2>
+          <ol className="flex gap-2 text-xs text-slate-600">
+            <li className="flex-1 rounded-lg bg-slate-50 p-2">1. Scan or search</li>
+            <li className="flex-1 rounded-lg bg-slate-50 p-2">2. Check the list</li>
+            <li className="flex-1 rounded-lg bg-slate-50 p-2">3. See your saving</li>
+          </ol>
+        </section>
 
-        {step === "confirm" && (
-          <ConfirmScreen
-            medicines={medicines}
-            setMedicines={setMedicines}
-            onConfirm={handleConfirm}
-            onBack={restart}
-            error={error}
-          />
-        )}
+        <AdSlot text="Banner space for health partners: diagnostic labs, health checkups, insurance" />
+      </div>
 
-        {step === "results" && results && <ResultsScreen data={results} onRestart={restart} />}
-      </section>
-    </main>
+      <BottomNav />
+    </Page>
   );
 }

@@ -237,3 +237,106 @@ def search(q: str = Query(..., min_length=2)):
             (q + "%", q, q + "%", q),
         )
         return {"results": cur.fetchall()}
+
+
+# ---------------------------------------------------------------------------
+# Live prices (headless browser)
+# ---------------------------------------------------------------------------
+
+
+class LivePriceRequest(BaseModel):
+    brand_ids: list[int]
+
+
+@app.post("/live-prices")
+def live_prices(req: LivePriceRequest):
+    """Check today's price on MedEx for a few brands, then call /alternatives again."""
+    from live_price import refresh_prices
+
+    if not req.brand_ids:
+        return {"cached": [], "updated": [], "failed": []}
+    return refresh_prices(req.brand_ids)
+
+
+# ---------------------------------------------------------------------------
+# Saved prescriptions (no login yet: keyed by an anonymous device id)
+# ---------------------------------------------------------------------------
+import json
+import uuid as _uuid
+
+
+class SaveRequest(BaseModel):
+    device_id: str
+    title: str = ""
+    medicines: list[dict]
+    results: dict
+
+
+def _check_device(device_id: str) -> str:
+    try:
+        return str(_uuid.UUID(device_id))
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid device id.")
+
+
+@app.post("/prescriptions")
+def save_prescription(req: SaveRequest):
+    device = _check_device(req.device_id)
+    title = req.title or ", ".join(
+        (m.get("matched_brand") or m.get("brand_name") or "") for m in req.medicines
+    )[:200]
+    with db() as conn, conn.cursor() as cur:
+        cur.execute(
+            """INSERT INTO scan_session (device_id, title, medicines, results, total_saving, status)
+               VALUES (%s, %s, %s, %s, %s, 'saved')
+               RETURNING scan_id, created_at""",
+            (device, title, json.dumps(req.medicines), json.dumps(req.results),
+             req.results.get("total_saving", 0)),
+        )
+        row = cur.fetchone()
+    return {"id": str(row["scan_id"]), "created_at": row["created_at"].isoformat()}
+
+
+@app.get("/prescriptions")
+def list_prescriptions(device_id: str):
+    device = _check_device(device_id)
+    with db() as conn, conn.cursor() as cur:
+        cur.execute(
+            """SELECT scan_id, title, created_at, total_saving, medicines, results
+               FROM scan_session WHERE device_id = %s AND status = 'saved'
+               ORDER BY created_at DESC LIMIT 50""",
+            (device,),
+        )
+        rows = cur.fetchall()
+    return {"prescriptions": [
+        {"id": str(r["scan_id"]), "title": r["title"], "created_at": r["created_at"].isoformat(),
+         "total_saving": num(r["total_saving"]) or 0, "medicines": r["medicines"], "results": r["results"]}
+        for r in rows
+    ]}
+
+
+@app.delete("/prescriptions/{scan_id}")
+def delete_prescription(scan_id: str, device_id: str):
+    device = _check_device(device_id)
+    with db() as conn, conn.cursor() as cur:
+        cur.execute("DELETE FROM scan_session WHERE scan_id = %s AND device_id = %s",
+                    (_check_device(scan_id), device))
+        if cur.rowcount == 0:
+            raise HTTPException(status_code=404, detail="Not found.")
+    return {"ok": True}
+
+
+# ---------------------------------------------------------------------------
+# Featured (sponsored) pharmacies
+# ---------------------------------------------------------------------------
+
+
+@app.get("/featured-pharmacies")
+def featured_pharmacies():
+    with db() as conn, conn.cursor() as cur:
+        cur.execute(
+            """SELECT pharmacy_id, name, address, phone, latitude, longitude
+               FROM featured_pharmacy WHERE active ORDER BY pharmacy_id LIMIT 3"""
+        )
+        rows = cur.fetchall()
+    return {"pharmacies": [{**r, "latitude": num(r["latitude"]), "longitude": num(r["longitude"])} for r in rows]}
