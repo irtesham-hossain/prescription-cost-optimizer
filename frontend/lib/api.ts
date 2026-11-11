@@ -153,7 +153,8 @@ export const taka = (n: number) => `৳ ${n.toLocaleString("en-US", { maximumFra
 
 export type SavedPrescription = {
   id: string;
-  title: string;
+  label: string | null; // the name the user gave it
+  title: string; // the medicine names
   created_at: string;
   total_saving: number;
   medicines: ScannedMedicine[];
@@ -174,12 +175,12 @@ export function deviceId(): string {
   }
 }
 
-export async function savePrescription(medicines: ScannedMedicine[], results: AlternativesResponse) {
+export async function savePrescription(medicines: ScannedMedicine[], results: AlternativesResponse, title = "") {
   return check(
     await fetch(`${API}/prescriptions`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ device_id: deviceId(), medicines, results }),
+      body: JSON.stringify({ device_id: deviceId(), title: title.trim().slice(0, 80), medicines, results }),
     }),
   ) as Promise<{ id: string; created_at: string }>;
 }

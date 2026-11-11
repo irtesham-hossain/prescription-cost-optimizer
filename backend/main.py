@@ -282,15 +282,16 @@ def _check_device(device_id: str) -> str:
 @app.post("/prescriptions")
 def save_prescription(req: SaveRequest):
     device = _check_device(req.device_id)
-    title = req.title or ", ".join(
+    label = req.title.strip()[:80] or None
+    names = ", ".join(
         (m.get("matched_brand") or m.get("brand_name") or "") for m in req.medicines
     )[:200]
     with db() as conn, conn.cursor() as cur:
         cur.execute(
-            """INSERT INTO scan_session (device_id, title, medicines, results, total_saving, status)
-               VALUES (%s, %s, %s, %s, %s, 'saved')
+            """INSERT INTO scan_session (device_id, label, title, medicines, results, total_saving, status)
+               VALUES (%s, %s, %s, %s, %s, %s, 'saved')
                RETURNING scan_id, created_at""",
-            (device, title, json.dumps(req.medicines), json.dumps(req.results),
+            (device, label, names, json.dumps(req.medicines), json.dumps(req.results),
              req.results.get("total_saving", 0)),
         )
         row = cur.fetchone()
@@ -302,14 +303,14 @@ def list_prescriptions(device_id: str):
     device = _check_device(device_id)
     with db() as conn, conn.cursor() as cur:
         cur.execute(
-            """SELECT scan_id, title, created_at, total_saving, medicines, results
+            """SELECT scan_id, label, title, created_at, total_saving, medicines, results
                FROM scan_session WHERE device_id = %s AND status = 'saved'
                ORDER BY created_at DESC LIMIT 50""",
             (device,),
         )
         rows = cur.fetchall()
     return {"prescriptions": [
-        {"id": str(r["scan_id"]), "title": r["title"], "created_at": r["created_at"].isoformat(),
+        {"id": str(r["scan_id"]), "label": r["label"], "title": r["title"], "created_at": r["created_at"].isoformat(),
          "total_saving": num(r["total_saving"]) or 0, "medicines": r["medicines"], "results": r["results"]}
         for r in rows
     ]}

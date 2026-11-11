@@ -151,7 +151,7 @@ export default function ScanPage() {
           <ResultsScreen
             data={results}
             live={live}
-            onSave={async () => { await savePrescription(medicines, results); }}
+            onSave={async (label) => { await savePrescription(medicines, results, label); }}
             onRestart={restart}
           />
         )}

@@ -53,7 +53,7 @@ export default function SavedPage() {
   if (open) {
     return (
       <Page>
-        <Header title={fmtDate(open.created_at)} onBack={() => setOpen(null)} />
+        <Header title={open.label || fmtDate(open.created_at)} onBack={() => setOpen(null)} />
         <section className="flex flex-1 flex-col gap-3 p-5">
           <ResultsScreen data={open.results} saved />
           <button type="button" onClick={() => remove(open)}
@@ -84,10 +84,11 @@ export default function SavedPage() {
             <Fragment key={p.id}>
               <button type="button" onClick={() => setOpen(p)}
                 className="flex flex-col gap-1.5 rounded-2xl border border-slate-200 bg-white p-3.5 text-left">
-                <span className="flex w-full items-center justify-between">
-                  <span className="font-semibold">{fmtDate(p.created_at)}</span>
-                  <span className="text-sm font-semibold text-teal-700">Saved {taka(p.total_saving)}</span>
+                <span className="flex w-full items-start justify-between gap-2">
+                  <span className="font-semibold">{p.label || fmtDate(p.created_at)}</span>
+                  <span className="shrink-0 text-sm font-semibold text-teal-700">Saved {taka(p.total_saving)}</span>
                 </span>
+                {p.label && <span className="text-xs text-slate-500">{fmtDate(p.created_at)}</span>}
                 <span className="text-[13px] text-slate-600">{p.title}</span>
                 {note && (
                   <span className="flex w-fit items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-xs font-semibold text-amber-900">

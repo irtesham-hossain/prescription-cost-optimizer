@@ -136,7 +136,7 @@ export default function ResultsScreen({
 }: {
   data: AlternativesResponse;
   live?: keyof typeof LIVE_NOTE;
-  onSave?: () => Promise<void>;
+  onSave?: (label: string) => Promise<void>;
   saved?: boolean;
   onRestart?: () => void;
 }) {
@@ -147,6 +147,9 @@ export default function ResultsScreen({
   const [picks, setPicks] = useState<Pick[]>(found.map(() => "recommended"));
   const [showPharmacist, setShowPharmacist] = useState(false);
   const [saveState, setSaveState] = useState<"idle" | "saving" | "saved" | "error">(saved ? "saved" : "idle");
+  // After every scan, ask once whether to save it, with a label
+  const [askSave, setAskSave] = useState(Boolean(onSave) && !saved);
+  const [label, setLabel] = useState("");
 
   const prescribedTotal = found.reduce((s, m) => s + m.prescribed.price * m.quantity, 0);
   const chosenTotal = found.reduce((s, m, i) => s + m[picks[i]].price * m.quantity, 0);
@@ -170,8 +173,9 @@ export default function ResultsScreen({
     if (!onSave || saveState === "saving" || saveState === "saved") return;
     setSaveState("saving");
     try {
-      await onSave();
+      await onSave(label);
       setSaveState("saved");
+      setAskSave(false);
     } catch {
       setSaveState("error");
     }
@@ -206,7 +210,7 @@ export default function ResultsScreen({
           <Icon name="show" size={20} /> Show pharmacist
         </button>
         {(onSave || saved) && (
-          <button type="button" onClick={save} disabled={saveState === "saved"} className={action}>
+          <button type="button" onClick={() => setAskSave(true)} disabled={saveState === "saved"} className={action}>
             <Icon name={saveState === "saved" ? "check" : "saved"} size={20} />
             {saveState === "saving" ? "Saving..." : saveState === "saved" ? "Saved" : saveState === "error" ? "Try again" : "Save"}
           </button>
@@ -240,6 +244,46 @@ export default function ResultsScreen({
         <button type="button" onClick={onRestart} className="min-h-12 rounded-xl bg-teal-700 font-semibold text-white">
           Scan another prescription
         </button>
+      )}
+
+      {askSave && (
+        <div className="fixed inset-0 z-40 flex items-end justify-center bg-slate-900/50 sm:items-center">
+          <form
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="save-title"
+            onSubmit={(e) => { e.preventDefault(); save(); }}
+            className="flex w-full max-w-md flex-col gap-3 rounded-t-3xl bg-white p-5 sm:rounded-3xl"
+          >
+            <h2 id="save-title" className="text-lg font-bold">Save this prescription?</h2>
+            <p className="text-sm text-slate-600">
+              Find it later in Saved prescriptions, with your saving of {taka(saving)}.
+            </p>
+            <label htmlFor="save-label" className="text-sm font-semibold text-slate-700">Label</label>
+            <input
+              id="save-label"
+              autoFocus
+              value={label}
+              maxLength={80}
+              onChange={(e) => setLabel(e.target.value)}
+              placeholder="e.g. Mother's BP medicine"
+              className="min-h-12 rounded-xl border border-slate-300 px-3 text-base outline-none focus:border-teal-600"
+            />
+            {saveState === "error" && (
+              <p role="alert" className="text-sm text-red-700">Could not save. Try again.</p>
+            )}
+            <div className="flex gap-2 pt-1">
+              <button type="button" onClick={() => setAskSave(false)}
+                className="min-h-12 flex-1 rounded-xl border-2 border-slate-300 font-semibold text-slate-700">
+                Not now
+              </button>
+              <button type="submit" disabled={saveState === "saving"}
+                className="min-h-12 flex-1 rounded-xl bg-teal-700 font-semibold text-white disabled:bg-slate-300">
+                {saveState === "saving" ? "Saving..." : "Save"}
+              </button>
+            </div>
+          </form>
+        </div>
       )}
 
       {showPharmacist && (

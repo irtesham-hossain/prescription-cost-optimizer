@@ -4,7 +4,8 @@
 
 -- 1. Saved prescriptions (no login yet: each phone has an anonymous device_id)
 ALTER TABLE scan_session ADD COLUMN IF NOT EXISTS device_id   TEXT;
-ALTER TABLE scan_session ADD COLUMN IF NOT EXISTS title       TEXT;
+ALTER TABLE scan_session ADD COLUMN IF NOT EXISTS title       TEXT;    -- medicine names
+ALTER TABLE scan_session ADD COLUMN IF NOT EXISTS label       TEXT;    -- name the user gives it
 ALTER TABLE scan_session ADD COLUMN IF NOT EXISTS medicines   JSONB;   -- what the user confirmed
 ALTER TABLE scan_session ADD COLUMN IF NOT EXISTS results     JSONB;   -- the alternatives shown
 CREATE INDEX IF NOT EXISTS idx_scan_session_device ON scan_session(device_id, created_at DESC);
