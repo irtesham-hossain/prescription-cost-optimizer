@@ -40,15 +40,6 @@ export default function Home() {
           ))}
         </div>
 
-        <section className="flex flex-col gap-2 rounded-2xl border border-slate-200 bg-white p-3.5">
-          <h2 className="text-sm font-semibold">How it works</h2>
-          <ol className="flex gap-2 text-xs text-slate-600">
-            <li className="flex-1 rounded-lg bg-slate-50 p-2">1. Scan or search</li>
-            <li className="flex-1 rounded-lg bg-slate-50 p-2">2. Check the list</li>
-            <li className="flex-1 rounded-lg bg-slate-50 p-2">3. See your saving</li>
-          </ol>
-        </section>
-
         <AdSlot text="Banner space for health partners: diagnostic labs, health checkups, insurance" />
       </div>
 
