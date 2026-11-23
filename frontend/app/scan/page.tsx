@@ -18,6 +18,7 @@ import {
   type AlternativesResponse,
   type ScannedMedicine,
 } from "@/lib/api";
+import { stashPendingSave, useUser } from "@/lib/supabase";
 
 type Step = "start" | "scanning" | "confirm" | "edit" | "view" | "loading" | "results";
 
@@ -33,6 +34,7 @@ const TITLES: Record<Step, string> = {
 
 export default function ScanPage() {
   const router = useRouter();
+  const { user } = useUser();
   const [step, setStep] = useState<Step>("start");
   const [imageUrl, setImageUrl] = useState<string | null>(null);
   const [medicines, setMedicines] = useState<ScannedMedicine[]>([]);
@@ -151,7 +153,12 @@ export default function ScanPage() {
           <ResultsScreen
             data={results}
             live={live}
+            loggedIn={Boolean(user)}
             onSave={async (label) => { await savePrescription(medicines, results, label); }}
+            onLoginToSave={(label) => {
+              stashPendingSave({ medicines, results, label });
+              router.push("/login?next=/saved");
+            }}
             onRestart={restart}
           />
         )}

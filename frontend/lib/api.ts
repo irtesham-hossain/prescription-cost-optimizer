@@ -148,7 +148,7 @@ export function manualMedicine(r: SearchResult): ScannedMedicine {
 export const taka = (n: number) => `৳ ${n.toLocaleString("en-US", { maximumFractionDigits: 2 })}`;
 
 // ---------------------------------------------------------------------------
-// Saved prescriptions (no login yet: each phone has an anonymous id)
+// Saved prescriptions (needs login)
 // ---------------------------------------------------------------------------
 
 export type SavedPrescription = {
@@ -161,37 +161,33 @@ export type SavedPrescription = {
   results: AlternativesResponse;
 };
 
-export function deviceId(): string {
-  const KEY = "pco_device_id";
-  try {
-    let id = localStorage.getItem(KEY);
-    if (!id) {
-      id = crypto.randomUUID();
-      localStorage.setItem(KEY, id);
-    }
-    return id;
-  } catch {
-    return crypto.randomUUID();
-  }
+export class LoginRequired extends Error {}
+
+async function authed(path: string, init: RequestInit = {}) {
+  const { accessToken } = await import("./supabase");
+  const token = await accessToken();
+  if (!token) throw new LoginRequired("Please log in first.");
+  const res = await fetch(`${API}${path}`, {
+    ...init,
+    headers: { ...(init.headers || {}), Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+  });
+  if (res.status === 401) throw new LoginRequired("Your login has expired. Please log in again.");
+  return check(res);
 }
 
 export async function savePrescription(medicines: ScannedMedicine[], results: AlternativesResponse, title = "") {
-  return check(
-    await fetch(`${API}/prescriptions`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ device_id: deviceId(), title: title.trim().slice(0, 80), medicines, results }),
-    }),
-  ) as Promise<{ id: string; created_at: string }>;
+  return authed("/prescriptions", {
+    method: "POST",
+    body: JSON.stringify({ title: title.trim().slice(0, 80), medicines, results }),
+  }) as Promise<{ id: string; created_at: string }>;
 }
 
 export async function listPrescriptions(): Promise<SavedPrescription[]> {
-  const data = await check(await fetch(`${API}/prescriptions?device_id=${deviceId()}`));
-  return data.prescriptions;
+  return (await authed("/prescriptions")).prescriptions;
 }
 
 export async function deletePrescription(id: string) {
-  return check(await fetch(`${API}/prescriptions/${id}?device_id=${deviceId()}`, { method: "DELETE" }));
+  return authed(`/prescriptions/${id}`, { method: "DELETE" });
 }
 
 // ---------------------------------------------------------------------------

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AccountChip from "@/components/AccountChip";
 import { AdSlot, BottomNav, Icon, Page } from "@/components/ui";
 
 const TILES = [
@@ -12,7 +13,10 @@ export default function Home() {
   return (
     <Page>
       <div className="flex flex-col gap-2.5 bg-teal-900 px-5 pb-6 pt-5 text-white">
-        <p className="text-[15px] font-semibold opacity-90">Prescription Cost Optimizer</p>
+        <div className="flex items-center justify-between gap-2">
+          <p className="text-[15px] font-semibold opacity-90">Prescription Cost Optimizer</p>
+          <AccountChip />
+        </div>
         <h1 className="text-[26px] font-bold leading-tight">Pay less for the same medicine</h1>
         <p className="text-sm text-teal-100">Same generic, same strength, same form. Cheaper brand.</p>
       </div>

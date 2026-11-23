@@ -131,12 +131,16 @@ export default function ResultsScreen({
   data,
   live = "idle",
   onSave,
+  loggedIn = true,
+  onLoginToSave,
   saved = false,
   onRestart,
 }: {
   data: AlternativesResponse;
   live?: keyof typeof LIVE_NOTE;
   onSave?: (label: string) => Promise<void>;
+  loggedIn?: boolean;
+  onLoginToSave?: (label: string) => void;
   saved?: boolean;
   onRestart?: () => void;
 }) {
@@ -169,14 +173,22 @@ export default function ResultsScreen({
     window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, "_blank", "noopener");
   }
 
+  const [saveError, setSaveError] = useState<string | null>(null);
+
   async function save() {
+    if (!loggedIn && onLoginToSave) {
+      onLoginToSave(label);
+      return;
+    }
     if (!onSave || saveState === "saving" || saveState === "saved") return;
     setSaveState("saving");
+    setSaveError(null);
     try {
       await onSave(label);
       setSaveState("saved");
       setAskSave(false);
-    } catch {
+    } catch (e) {
+      setSaveError((e as Error).message || "Could not save. Try again.");
       setSaveState("error");
     }
   }
@@ -258,6 +270,7 @@ export default function ResultsScreen({
             <h2 id="save-title" className="text-lg font-bold">Save this prescription?</h2>
             <p className="text-sm text-slate-600">
               Find it later in Saved prescriptions, with your saving of {taka(saving)}.
+              {!loggedIn && " You will log in first, then it saves straight away."}
             </p>
             <label htmlFor="save-label" className="text-sm font-semibold text-slate-700">Label</label>
             <input
@@ -270,7 +283,7 @@ export default function ResultsScreen({
               className="min-h-12 rounded-xl border border-slate-300 px-3 text-base outline-none focus:border-teal-600"
             />
             {saveState === "error" && (
-              <p role="alert" className="text-sm text-red-700">Could not save. Try again.</p>
+              <p role="alert" className="text-sm text-red-700">{saveError}</p>
             )}
             <div className="flex gap-2 pt-1">
               <button type="button" onClick={() => setAskSave(false)}
@@ -279,7 +292,7 @@ export default function ResultsScreen({
               </button>
               <button type="submit" disabled={saveState === "saving"}
                 className="min-h-12 flex-1 rounded-xl bg-teal-700 font-semibold text-white disabled:bg-slate-300">
-                {saveState === "saving" ? "Saving..." : "Save"}
+                {saveState === "saving" ? "Saving..." : loggedIn ? "Save" : "Log in and save"}
               </button>
             </div>
           </form>
