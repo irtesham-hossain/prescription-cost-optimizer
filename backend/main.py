@@ -259,39 +259,70 @@ def live_prices(req: LivePriceRequest):
 
 
 # ---------------------------------------------------------------------------
-# Saved prescriptions (no login yet: keyed by an anonymous device id)
+# Login (Supabase Auth) and saved prescriptions
 # ---------------------------------------------------------------------------
 import json
+import time
+import urllib.error
+import urllib.request
 import uuid as _uuid
+
+from fastapi import Depends, Header
+
+SUPABASE_URL = os.getenv("SUPABASE_URL", "").rstrip("/")
+SUPABASE_ANON_KEY = os.getenv("SUPABASE_ANON_KEY", "")
+_token_cache: dict[str, tuple[str, float]] = {}  # token -> (user id, valid until)
+
+
+def verify_token(token: str) -> str | None:
+    """Ask Supabase Auth who owns this access token. Returns the user id or None."""
+    hit = _token_cache.get(token)
+    if hit and hit[1] > time.time():
+        return hit[0]
+    if not SUPABASE_URL or not SUPABASE_ANON_KEY:
+        raise HTTPException(status_code=500, detail="Login is not set up on the server (SUPABASE_URL / SUPABASE_ANON_KEY).")
+    req = urllib.request.Request(
+        f"{SUPABASE_URL}/auth/v1/user",
+        headers={"apikey": SUPABASE_ANON_KEY, "Authorization": f"Bearer {token}"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=10) as r:
+            user_id = json.load(r)["id"]
+    except urllib.error.HTTPError:
+        return None
+    except Exception:
+        raise HTTPException(status_code=503, detail="Could not check your login. Try again.")
+    _token_cache[token] = (user_id, time.time() + 300)
+    return user_id
+
+
+def current_user(authorization: str | None = Header(default=None)) -> str:
+    if not authorization or not authorization.startswith("Bearer "):
+        raise HTTPException(status_code=401, detail="Please log in to use saved prescriptions.")
+    user_id = verify_token(authorization[7:])
+    if not user_id:
+        raise HTTPException(status_code=401, detail="Your login has expired. Please log in again.")
+    return user_id
 
 
 class SaveRequest(BaseModel):
-    device_id: str
-    title: str = ""
+    title: str = ""  # the label the user types
     medicines: list[dict]
     results: dict
 
 
-def _check_device(device_id: str) -> str:
-    try:
-        return str(_uuid.UUID(device_id))
-    except ValueError:
-        raise HTTPException(status_code=400, detail="Invalid device id.")
-
-
 @app.post("/prescriptions")
-def save_prescription(req: SaveRequest):
-    device = _check_device(req.device_id)
+def save_prescription(req: SaveRequest, user_id: str = Depends(current_user)):
     label = req.title.strip()[:80] or None
     names = ", ".join(
         (m.get("matched_brand") or m.get("brand_name") or "") for m in req.medicines
     )[:200]
     with db() as conn, conn.cursor() as cur:
         cur.execute(
-            """INSERT INTO scan_session (device_id, label, title, medicines, results, total_saving, status)
+            """INSERT INTO scan_session (user_id, label, title, medicines, results, total_saving, status)
                VALUES (%s, %s, %s, %s, %s, %s, 'saved')
                RETURNING scan_id, created_at""",
-            (device, label, names, json.dumps(req.medicines), json.dumps(req.results),
+            (user_id, label, names, json.dumps(req.medicines), json.dumps(req.results),
              req.results.get("total_saving", 0)),
         )
         row = cur.fetchone()
@@ -299,29 +330,31 @@ def save_prescription(req: SaveRequest):
 
 
 @app.get("/prescriptions")
-def list_prescriptions(device_id: str):
-    device = _check_device(device_id)
+def list_prescriptions(user_id: str = Depends(current_user)):
     with db() as conn, conn.cursor() as cur:
         cur.execute(
             """SELECT scan_id, label, title, created_at, total_saving, medicines, results
-               FROM scan_session WHERE device_id = %s AND status = 'saved'
-               ORDER BY created_at DESC LIMIT 50""",
-            (device,),
+               FROM scan_session WHERE user_id = %s AND status = 'saved'
+               ORDER BY created_at DESC LIMIT 100""",
+            (user_id,),
         )
         rows = cur.fetchall()
     return {"prescriptions": [
-        {"id": str(r["scan_id"]), "label": r["label"], "title": r["title"], "created_at": r["created_at"].isoformat(),
-         "total_saving": num(r["total_saving"]) or 0, "medicines": r["medicines"], "results": r["results"]}
+        {"id": str(r["scan_id"]), "label": r["label"], "title": r["title"],
+         "created_at": r["created_at"].isoformat(), "total_saving": num(r["total_saving"]) or 0,
+         "medicines": r["medicines"], "results": r["results"]}
         for r in rows
     ]}
 
 
 @app.delete("/prescriptions/{scan_id}")
-def delete_prescription(scan_id: str, device_id: str):
-    device = _check_device(device_id)
+def delete_prescription(scan_id: str, user_id: str = Depends(current_user)):
+    try:
+        sid = str(_uuid.UUID(scan_id))
+    except ValueError:
+        raise HTTPException(status_code=404, detail="Not found.")
     with db() as conn, conn.cursor() as cur:
-        cur.execute("DELETE FROM scan_session WHERE scan_id = %s AND device_id = %s",
-                    (_check_device(scan_id), device))
+        cur.execute("DELETE FROM scan_session WHERE scan_id = %s AND user_id = %s", (sid, user_id))
         if cur.rowcount == 0:
             raise HTTPException(status_code=404, detail="Not found.")
     return {"ok": True}
