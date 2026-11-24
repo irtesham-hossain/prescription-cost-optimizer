@@ -265,7 +265,7 @@ export default function ResultsScreen({
             aria-modal="true"
             aria-labelledby="save-title"
             onSubmit={(e) => { e.preventDefault(); save(); }}
-            className="flex w-full max-w-md flex-col gap-3 rounded-t-3xl bg-white p-5 sm:rounded-3xl"
+            className="safe-bottom-lg flex max-h-[90dvh] w-full max-w-md flex-col gap-3 overflow-y-auto rounded-t-3xl bg-white p-5 sm:rounded-3xl"
           >
             <h2 id="save-title" className="text-lg font-bold">Save this prescription?</h2>
             <p className="text-sm text-slate-600">

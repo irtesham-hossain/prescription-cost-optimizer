@@ -3,3 +3,19 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Fill the part of the screen the user can see. Phone browsers count the
+   address bar inside 100vh, which pushed the bottom of every page off screen.
+   100dvh is the visible height; 100vh stays as a fallback for old browsers. */
+.app-page {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* Keep buttons above the iPhone home bar (needs viewport-fit=cover in layout.tsx) */
+.safe-bottom {
+  padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+}
+.safe-bottom-lg {
+  padding-bottom: max(1.25rem, env(safe-area-inset-bottom));
+}

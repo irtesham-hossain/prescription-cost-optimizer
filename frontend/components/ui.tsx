@@ -66,7 +66,7 @@ const NAV = [
 export function BottomNav() {
   const path = usePathname();
   return (
-    <nav className="sticky bottom-0 z-20 flex justify-around border-t border-slate-200 bg-white px-2 pb-3 pt-1.5">
+    <nav className="safe-bottom sticky bottom-0 z-20 flex justify-around border-t border-slate-200 bg-white px-2 pt-1.5">
       {NAV.map((n) => {
         const active = n.href === "/" ? path === "/" : path.startsWith(n.href);
         return (
@@ -102,5 +102,5 @@ export function AdSlot({ text, compact = false }: { text: string; compact?: bool
 }
 
 export function Page({ children }: { children: React.ReactNode }) {
-  return <main className="mx-auto flex min-h-screen max-w-md flex-col bg-slate-50">{children}</main>;
+  return <main className="app-page mx-auto flex max-w-md flex-col bg-slate-50">{children}</main>;
 }

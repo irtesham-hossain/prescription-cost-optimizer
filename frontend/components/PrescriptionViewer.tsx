@@ -7,7 +7,7 @@ export default function PrescriptionViewer({ imageUrl, medicines }: { imageUrl: 
     <div className="flex flex-col gap-3">
       <a href={imageUrl} target="_blank" rel="noreferrer" className="block overflow-hidden rounded-2xl bg-slate-800">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={imageUrl} alt="Your prescription" className="max-h-[480px] w-full object-contain" />
+        <img src={imageUrl} alt="Your prescription" className="max-h-[60dvh] w-full object-contain" />
       </a>
       <p className="text-xs text-slate-600">Tap the photo to open it full size and zoom.</p>
       <ol className="rounded-2xl border border-slate-200 bg-white px-3.5">

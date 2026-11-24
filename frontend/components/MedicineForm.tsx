@@ -112,16 +112,16 @@ export default function MedicineForm({
         <legend className="mb-1.5 text-sm font-semibold text-slate-700">Dose (how many each time)</legend>
         <div className="flex gap-2">
           {TIMES.map((t, i) => (
-            <div key={t} className="flex flex-1 flex-col items-center gap-2 rounded-xl border border-slate-200 bg-white px-1.5 py-2.5">
+            <div key={t} className="flex min-w-0 flex-1 flex-col items-center gap-1 rounded-xl border border-slate-200 bg-white px-1 py-2">
               <span className="text-xs font-medium text-slate-600">{t}</span>
-              <div className="flex items-center gap-1.5">
+              <span className="text-2xl font-bold leading-none" aria-live="polite">{dose[i]}</span>
+              <div className="mt-1 flex items-center gap-1.5">
                 <button type="button" aria-label={`Less in the ${t.toLowerCase()}`} onClick={() => setCount(i, -1)}
-                  className="flex h-9 w-9 items-center justify-center rounded-lg border border-slate-300">
+                  className="flex h-10 w-10 items-center justify-center rounded-lg border border-slate-300">
                   <Icon name="minus" size={16} />
                 </button>
-                <span className="w-5 text-center text-xl font-bold" aria-live="polite">{dose[i]}</span>
                 <button type="button" aria-label={`More in the ${t.toLowerCase()}`} onClick={() => setCount(i, 1)}
-                  className="flex h-9 w-9 items-center justify-center rounded-lg border border-slate-300">
+                  className="flex h-10 w-10 items-center justify-center rounded-lg border border-slate-300">
                   <Icon name="plus" size={16} />
                 </button>
               </div>
@@ -152,11 +152,11 @@ export default function MedicineForm({
           <label className="sr-only" htmlFor="duration-amount">Number</label>
           <input id="duration-amount" inputMode="numeric" value={unit === "ongoing" ? "" : amount}
             disabled={unit === "ongoing"} onChange={(e) => setAmount(e.target.value.replace(/\D/g, "").slice(0, 3))}
-            placeholder="0" className="w-20 rounded-lg border border-slate-300 bg-white px-3 text-base font-semibold disabled:bg-slate-100" />
-          <div className="flex flex-1 gap-1 rounded-xl bg-slate-200 p-1">
+            placeholder="0" className="w-16 shrink-0 rounded-lg border border-slate-300 bg-white px-3 text-base font-semibold disabled:bg-slate-100" />
+          <div className="flex min-w-0 flex-1 gap-1 rounded-xl bg-slate-200 p-1">
             {UNITS.map((u) => (
               <button key={u.value} type="button" aria-pressed={unit === u.value} onClick={() => setUnit(u.value)}
-                className={`min-h-10 flex-1 rounded-lg text-xs font-semibold ${
+                className={`min-h-10 min-w-0 flex-1 rounded-lg px-0.5 text-xs font-semibold ${
                   unit === u.value ? "bg-white text-slate-900 shadow-sm" : "text-slate-600"}`}>
                 {u.label}
               </button>
@@ -165,10 +165,13 @@ export default function MedicineForm({
         </div>
       </fieldset>
 
-      <button type="button" disabled={!med} onClick={save}
-        className="min-h-12 rounded-xl bg-teal-700 font-semibold text-white disabled:cursor-not-allowed disabled:bg-slate-300">
-        {initial ? "Save changes" : "Add medicine"}
-      </button>
+      {/* Stays at the bottom of the screen while the form scrolls */}
+      <div className="safe-bottom-lg sticky bottom-0 z-10 -mx-5 -mb-5 border-t border-slate-200 bg-slate-50/95 px-5 pt-3 backdrop-blur">
+        <button type="button" disabled={!med} onClick={save}
+          className="min-h-12 w-full rounded-xl bg-teal-700 font-semibold text-white disabled:cursor-not-allowed disabled:bg-slate-300">
+          {initial ? "Save changes" : "Add medicine"}
+        </button>
+      </div>
     </div>
   );
 }

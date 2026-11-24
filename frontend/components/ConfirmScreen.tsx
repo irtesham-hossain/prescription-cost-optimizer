@@ -100,12 +100,15 @@ export default function ConfirmScreen({
 
       {error && <div role="alert" className="rounded-lg border border-red-300 bg-red-50 px-3 py-2 text-sm text-red-800">{error}</div>}
 
-      <button type="button" disabled={medicines.length === 0 || unresolved > 0} onClick={onConfirm}
-        className="min-h-12 rounded-xl bg-teal-700 font-semibold text-white disabled:cursor-not-allowed disabled:bg-slate-300">
-        {unresolved > 0
-          ? `Fix ${unresolved} card${unresolved > 1 ? "s" : ""} to continue`
-          : `Confirm ${medicines.length} medicine${medicines.length === 1 ? "" : "s"}`}
-      </button>
+      {/* Stays at the bottom of the screen while the list scrolls */}
+      <div className="safe-bottom-lg sticky bottom-0 z-10 -mx-5 -mb-5 border-t border-slate-200 bg-slate-50/95 px-5 pt-3 backdrop-blur">
+        <button type="button" disabled={medicines.length === 0 || unresolved > 0} onClick={onConfirm}
+          className="min-h-12 w-full rounded-xl bg-teal-700 font-semibold text-white disabled:cursor-not-allowed disabled:bg-slate-300">
+          {unresolved > 0
+            ? `Fix ${unresolved} card${unresolved > 1 ? "s" : ""} to continue`
+            : `Confirm ${medicines.length} medicine${medicines.length === 1 ? "" : "s"}`}
+        </button>
+      </div>
     </div>
   );
 }

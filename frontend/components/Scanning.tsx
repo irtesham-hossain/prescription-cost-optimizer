@@ -11,7 +11,7 @@ export default function Scanning({ imageUrl }: { imageUrl: string | null }) {
     <div className="flex flex-col gap-5">
       {imageUrl && (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={imageUrl} alt="Your prescription" className="max-h-72 w-full rounded-2xl bg-slate-200 object-contain" />
+        <img src={imageUrl} alt="Your prescription" className="max-h-[35dvh] w-full rounded-2xl bg-slate-200 object-contain" />
       )}
       <div className="flex flex-col items-center gap-3">
         <div className="h-11 w-11 animate-spin rounded-full border-4 border-teal-100 border-t-teal-700" />
