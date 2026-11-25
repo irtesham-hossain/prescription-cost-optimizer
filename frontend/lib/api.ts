@@ -101,26 +101,44 @@ export async function getAlternatives(medicines: ScannedMedicine[]): Promise<Alt
   );
 }
 
-export async function refreshLivePrices(brandIds: number[]) {
+// ---------------------------------------------------------------------------
+// Live prices from MedEx (checked in the background by the server)
+// ---------------------------------------------------------------------------
+
+export type LiveStatus = {
+  total: number;
+  done: number[]; // have a price from MedEx from the last 7 days
+  pending: number[]; // still waiting in the queue
+  failed: number[];
+  errors: Record<string, string>;
+  queue_length: number;
+};
+
+async function livePost(path: string, brandIds: number[], priority = 0): Promise<LiveStatus> {
   return check(
-    await fetch(`${API}/live-prices`, {
+    await fetch(`${API}${path}`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ brand_ids: brandIds }),
+      body: JSON.stringify({ brand_ids: brandIds, priority }),
     }),
-  ) as Promise<{ cached: number[]; updated: number[]; failed: number[] }>;
+  );
 }
 
-// Which brands to check live: prescribed and recommended first, then cheapest and best
-export function brandsToCheck(data: AlternativesResponse, max = 6): number[] {
-  const found = data.medicines.filter((m) => m.found) as Extract<MedicineResult, { found: true }>[];
-  const order = [
-    ...found.map((m) => m.prescribed.brand_id),
-    ...found.map((m) => m.recommended.brand_id),
-    ...found.map((m) => m.cheapest.brand_id),
-    ...found.map((m) => m.best.brand_id),
-  ];
-  return [...new Set(order)].slice(0, max);
+/** Ask the server to check these brands. The first `priority` jump the queue. */
+export const startLivePrices = (brandIds: number[], priority = 0) => livePost("/live-prices", brandIds, priority);
+export const livePriceStatus = (brandIds: number[]) => livePost("/live-prices/status", brandIds);
+
+type FoundResult = Extract<MedicineResult, { found: true }>;
+
+/** The brand IDs of the picks on every card (these decide the saving). */
+export function pickIds(data: AlternativesResponse): number[] {
+  const found = data.medicines.filter((m): m is FoundResult => m.found);
+  return [...new Set(found.flatMap((m) => [m.prescribed, m.recommended, m.cheapest, m.best].map((o) => o.brand_id)))];
+}
+
+/** The brands to check live: Prescribed, Cheapest, Best and Recommended of every medicine. */
+export function brandsToCheck(data: AlternativesResponse): number[] {
+  return pickIds(data);
 }
 
 export async function searchMedicine(q: string): Promise<SearchResult[]> {

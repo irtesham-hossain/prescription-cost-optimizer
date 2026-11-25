@@ -163,7 +163,7 @@ def rank(options: list[dict], prescribed: dict, no_substitute: bool) -> dict:
 # ---------------------------------------------------------------------------
 
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 def health():
     return {"ok": True, "message": "Prescription Cost Optimizer API is running"}
 
@@ -246,16 +246,25 @@ def search(q: str = Query(..., min_length=2)):
 
 class LivePriceRequest(BaseModel):
     brand_ids: list[int]
+    priority: int = 0  # how many of the first brand_ids should jump the queue
 
 
 @app.post("/live-prices")
 def live_prices(req: LivePriceRequest):
-    """Check today's price on MedEx for a few brands, then call /alternatives again."""
-    from live_price import refresh_prices
+    """Queue brands for today's MedEx price. Returns at once; ask /live-prices/status for progress."""
+    import live_price
 
     if not req.brand_ids:
-        return {"cached": [], "updated": [], "failed": []}
-    return refresh_prices(req.brand_ids)
+        return {"total": 0, "done": [], "pending": [], "failed": [], "errors": {}, "queue_length": 0}
+    return live_price.enqueue(req.brand_ids, req.priority)
+
+
+@app.post("/live-prices/status")
+def live_prices_status(req: LivePriceRequest):
+    """How many of these brands now have a live price."""
+    import live_price
+
+    return live_price.status(req.brand_ids)
 
 
 # ---------------------------------------------------------------------------

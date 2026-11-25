@@ -10,15 +10,14 @@ import MedicineForm from "@/components/MedicineForm";
 import PrescriptionViewer from "@/components/PrescriptionViewer";
 import ResultsScreen from "@/components/ResultsScreen";
 import {
-  brandsToCheck,
   getAlternatives,
-  refreshLivePrices,
   savePrescription,
   scanPrescription,
   type AlternativesResponse,
   type ScannedMedicine,
 } from "@/lib/api";
 import { stashPendingSave, useUser } from "@/lib/supabase";
+import { useLivePrices } from "@/lib/useLivePrices";
 
 type Step = "start" | "scanning" | "confirm" | "edit" | "view" | "loading" | "results";
 
@@ -40,13 +39,20 @@ export default function ScanPage() {
   const [medicines, setMedicines] = useState<ScannedMedicine[]>([]);
   const [editing, setEditing] = useState<number | null>(null); // null = adding a new one
   const [results, setResults] = useState<AlternativesResponse | null>(null);
-  const [live, setLive] = useState<"idle" | "checking" | "done" | "failed">("idle");
   const [error, setError] = useState<string | null>(null);
+
+  // Today's MedEx prices for every brand on screen, checked in the background
+  const { progress: live, start: startLive, stop: stopLive } = useLivePrices(async () => {
+    const fresh = await getAlternatives(medicines);
+    setResults(fresh);
+    return fresh;
+  });
 
   // Free the photo from memory when leaving the page
   useEffect(() => () => { if (imageUrl) URL.revokeObjectURL(imageUrl); }, [imageUrl]);
 
   function back() {
+    if (step === "results") stopLive();
     if (step === "start") router.push("/");
     else if (step === "confirm") setStep("start");
     else if (step === "edit" || step === "view" || step === "results") setStep("confirm");
@@ -84,33 +90,17 @@ export default function ScanPage() {
       const first = await getAlternatives(medicines);
       setResults(first);
       setStep("results");
-      checkLivePrices(first);
+      startLive(first); // runs after the results are on screen, so the user never waits for it
     } catch (e) {
       setError(`Could not load alternatives. ${(e as Error).message}`);
       setStep("confirm");
     }
   }
 
-  // Runs after the results are on screen, so the user never waits for it
-  async function checkLivePrices(data: AlternativesResponse) {
-    const ids = brandsToCheck(data);
-    if (ids.length === 0) return;
-    setLive("checking");
-    try {
-      const r = await refreshLivePrices(ids);
-      if (r.updated.length || r.cached.length) {
-        setResults(await getAlternatives(medicines));
-        setLive("done");
-      } else setLive("failed");
-    } catch {
-      setLive("failed");
-    }
-  }
-
   function restart() {
+    stopLive();
     setMedicines([]);
     setResults(null);
-    setLive("idle");
     setError(null);
     setStep("start");
   }

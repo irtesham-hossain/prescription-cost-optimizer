@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import { AdSlot, Icon } from "./ui";
+import LiveNote from "./LiveNote";
+import { LIVE_IDLE, type LiveProgress } from "@/lib/useLivePrices";
 import { taka, type AlternativesResponse, type MedicineResult, type Option } from "@/lib/api";
 
 type Pick = "prescribed" | "cheapest" | "best" | "recommended";
@@ -97,7 +99,10 @@ function MedicineCard({ m, pick, setPick }: { m: Found; pick: Pick; setPick: (p:
               <span>
                 {o.brand} <span className="text-xs text-slate-500">{o.manufacturer}</span>
               </span>
-              <span className="font-medium">{taka(o.price)}</span>
+              <span className="shrink-0 font-medium">
+                {taka(o.price)}
+                {o.source === "live" && <span className="ml-1 text-[11px] font-semibold text-teal-700">live</span>}
+              </span>
             </li>
           ))}
         </ul>
@@ -105,13 +110,6 @@ function MedicineCard({ m, pick, setPick }: { m: Found; pick: Pick; setPick: (p:
     </div>
   );
 }
-
-const LIVE_NOTE = {
-  idle: null,
-  checking: { text: "Checking today's prices on MedEx...", style: "bg-slate-100 text-slate-700" },
-  done: { text: "Updated with today's prices where available.", style: "bg-teal-50 text-teal-800" },
-  failed: { text: "Could not get today's prices. Showing dataset prices.", style: "bg-amber-50 text-amber-900" },
-};
 
 function shareText(found: Found[], picks: Pick[], saving: number) {
   const lines = found.map((m, i) => {
@@ -129,7 +127,7 @@ function shareText(found: Found[], picks: Pick[], saving: number) {
 
 export default function ResultsScreen({
   data,
-  live = "idle",
+  live = LIVE_IDLE,
   onSave,
   loggedIn = true,
   onLoginToSave,
@@ -137,7 +135,7 @@ export default function ResultsScreen({
   onRestart,
 }: {
   data: AlternativesResponse;
-  live?: keyof typeof LIVE_NOTE;
+  live?: LiveProgress;
   onSave?: (label: string) => Promise<void>;
   loggedIn?: boolean;
   onLoginToSave?: (label: string) => void;
@@ -158,7 +156,6 @@ export default function ResultsScreen({
   const prescribedTotal = found.reduce((s, m) => s + m.prescribed.price * m.quantity, 0);
   const chosenTotal = found.reduce((s, m, i) => s + m[picks[i]].price * m.quantity, 0);
   const saving = Math.max(prescribedTotal - chosenTotal, 0);
-  const note = LIVE_NOTE[live];
 
   async function share() {
     const text = shareText(found, picks, saving);
@@ -197,14 +194,7 @@ export default function ResultsScreen({
 
   return (
     <div className="flex flex-col gap-3">
-      {note && (
-        <div role="status" className={`flex items-center gap-2 rounded-lg px-3 py-2 text-xs ${note.style}`}>
-          {live === "checking" && (
-            <span className="h-3 w-3 animate-spin rounded-full border-2 border-slate-300 border-t-teal-700" />
-          )}
-          {note.text}
-        </div>
-      )}
+      <LiveNote live={live} />
 
       <div className="rounded-2xl border-2 border-teal-700 bg-teal-50 p-4 text-center">
         <p className="text-sm text-slate-600">You could save</p>

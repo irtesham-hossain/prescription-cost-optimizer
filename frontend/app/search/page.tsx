@@ -1,16 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { BottomNav, Header, Page } from "@/components/ui";
 import SearchBox from "@/components/SearchBox";
+import LiveNote from "@/components/LiveNote";
 import {
   getAlternatives,
   manualMedicine,
-  refreshLivePrices,
   taka,
   type MedicineResult,
   type SearchResult,
 } from "@/lib/api";
+import { useLivePrices } from "@/lib/useLivePrices";
 
 type Found = Extract<MedicineResult, { found: true }>;
 
@@ -19,8 +20,19 @@ export default function SearchPage() {
   const [result, setResult] = useState<Found | null>(null);
   const [status, setStatus] = useState<"idle" | "loading" | "notfound" | "error">("idle");
   const [showAll, setShowAll] = useState(false);
+  const pickedRef = useRef<SearchResult | null>(null);
+
+  // Today's MedEx price for every brand of this medicine, checked in the background
+  const { progress: live, start: startLive, stop: stopLive } = useLivePrices(async () => {
+    if (!pickedRef.current) return null;
+    const data = await getAlternatives([manualMedicine(pickedRef.current)]);
+    if (data.medicines[0]?.found) setResult(data.medicines[0]);
+    return data;
+  });
 
   async function load(r: SearchResult) {
+    stopLive();
+    pickedRef.current = r;
     setPicked(r);
     setResult(null);
     setShowAll(false);
@@ -32,15 +44,7 @@ export default function SearchPage() {
       if (!m?.found) { setStatus("notfound"); return; }
       setResult(m);
       setStatus("idle");
-      // Update this brand and the cheapest one with today's price, quietly
-      refreshLivePrices([m.prescribed.brand_id, m.cheapest.brand_id])
-        .then(async (x) => {
-          if (x.updated.length) {
-            const again = (await getAlternatives(med)).medicines[0];
-            if (again?.found) setResult(again);
-          }
-        })
-        .catch(() => {});
+      startLive(data);
     } catch {
       setStatus("error");
     }
@@ -65,6 +69,7 @@ export default function SearchPage() {
 
         {result && (
           <>
+            <LiveNote live={live} />
             <div className="flex flex-col gap-1.5 rounded-2xl border border-slate-200 bg-white p-4">
               <span className="text-xs text-slate-600">You searched</span>
               <div className="flex items-baseline justify-between gap-2">
@@ -103,7 +108,10 @@ export default function SearchPage() {
                     {o.brand_id === result.best.brand_id && (
                       <span className="rounded-full bg-slate-700 px-2 py-0.5 text-[11px] font-bold text-white">Best</span>
                     )}
-                    <span className="text-sm font-bold">{taka(o.price)}</span>
+                    <span className="shrink-0 text-right text-sm font-bold">
+                      {taka(o.price)}
+                      {o.source === "live" && <span className="block text-[11px] font-semibold text-teal-700">live</span>}
+                    </span>
                   </li>
                 ))}
                 {cheaper.length > 5 && (

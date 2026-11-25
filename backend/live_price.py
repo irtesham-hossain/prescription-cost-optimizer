@@ -8,10 +8,12 @@ How it works:
      we search MedEx by name and open the result with the same name,
      strength and dosage form (the fallback). Sponsored results are skipped.
   3. Prices checked in the last CACHE_DAYS are reused (no new visit).
-  4. Every request waits DELAY_SECONDS after the one before, and at most
-     MAX_BRANDS brands are checked per call, to be polite to the site.
+  4. Brands wait in a queue and ONE background worker checks them one at a
+     time, DELAY_SECONDS apart, so MedEx never gets more than one request
+     at a time from us. The API returns at once; the app asks for progress.
   5. A new row is saved in price_record with source = 'live'.
   6. If anything fails, nothing changes and the dataset price is used.
+     A failed brand is not tried again for FAIL_RETRY_HOURS.
 
 The price is part of the page's plain HTML, so a normal HTTP request is
 enough. No headless browser is needed, which means this works on Windows
@@ -23,10 +25,12 @@ Test from the backend folder:
     python live_price.py 7630 28439                          by ID (names come from the database if DATABASE_URL is set)
     python live_price.py --name "Roxim" "200 mg" "Capsule"   by name only
 """
+import collections
 import html
 import os
 import re
 import sys
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -40,8 +44,10 @@ load_dotenv(Path(__file__).with_name(".env"))
 BASE_URL = "https://medex.com.bd/brands/{brand_id}/"
 SEARCH_URL = "https://medex.com.bd/search?search={query}"
 CACHE_DAYS = 7
-DELAY_SECONDS = 3
-MAX_BRANDS = 6
+DELAY_SECONDS = float(os.getenv("LIVE_DELAY_SECONDS", "2"))  # gap between two MedEx requests
+MAX_PER_CALL = 400          # brands accepted in one /live-prices call
+MAX_QUEUE = 3000            # brands waiting in total
+FAIL_RETRY_HOURS = 6
 TIMEOUT_SECONDS = 15
 USER_AGENT = "PrescriptionCostOptimizer/0.3 (IUB CSE398 student project)"
 
@@ -273,25 +279,124 @@ def fresh_ids(cur, brand_ids: list[int]) -> set[int]:
     return {r[0] for r in cur.fetchall()}
 
 
-def refresh_prices(brand_ids: list[int]) -> dict:
-    """Update live prices for up to MAX_BRANDS brands. Safe to call any time."""
-    import psycopg
+def save_price(cur, brand_id: int, p: dict):
+    cur.execute(
+        """INSERT INTO price_record
+           (brand_id, unit_price, unit_label, compare_price, compare_unit, source, source_url, fetched_at)
+           VALUES (%s, %s, %s, %s, %s, 'live', %s, NOW())""",
+        (brand_id, p["unit_price"], p["unit_label"], p["compare_price"], p["compare_unit"], p["url"]),
+    )
 
-    brand_ids = list(dict.fromkeys(int(b) for b in brand_ids))[:MAX_BRANDS]
-    with psycopg.connect(os.environ["DATABASE_URL"]) as conn, conn.cursor() as cur:
-        cached = fresh_ids(cur, brand_ids)
-        todo = brand_details(cur, [b for b in brand_ids if b not in cached])
-        found, errors = fetch_from_medex(todo) if todo else ({}, {})
-        for brand_id, p in found.items():
-            cur.execute(
-                """INSERT INTO price_record
-                   (brand_id, unit_price, unit_label, compare_price, compare_unit, source, source_url, fetched_at)
-                   VALUES (%s, %s, %s, %s, %s, 'live', %s, NOW())""",
-                (brand_id, p["unit_price"], p["unit_label"], p["compare_price"], p["compare_unit"], p["url"]),
-            )
-    return {"cached": sorted(cached), "updated": sorted(found), "failed": sorted(errors),
-            "by_name": sorted(k for k, p in found.items() if p["via"] == "name"),
-            "errors": {str(k): v for k, v in errors.items()}}
+
+# ---------------------------------------------------------------------------
+# Background queue: one worker thread checks brands one at a time
+# ---------------------------------------------------------------------------
+
+_queue: "collections.OrderedDict[int, dict]" = collections.OrderedDict()  # brand_id -> details
+_failed: dict[int, tuple[str, float]] = {}  # brand_id -> (reason, when)
+_current: int | None = None
+_lock = threading.Lock()
+_wake = threading.Event()
+_worker: threading.Thread | None = None
+
+
+def _db():
+    import psycopg
+    return psycopg.connect(os.environ["DATABASE_URL"])
+
+
+def _recently_failed(brand_id: int) -> bool:
+    hit = _failed.get(brand_id)
+    return bool(hit) and time.time() - hit[1] < FAIL_RETRY_HOURS * 3600
+
+
+def _work():
+    global _current
+    while True:
+        with _lock:
+            if _queue:
+                brand_id, details = _queue.popitem(last=False)
+                _current = brand_id
+            else:
+                details = None
+        if details is None:
+            _wake.wait()
+            _wake.clear()
+            continue
+        try:
+            price, reason = check_brand(details)
+            if price:
+                with _db() as conn, conn.cursor() as cur:
+                    save_price(cur, brand_id, price)
+                _failed.pop(brand_id, None)
+                if price["via"] == "name":
+                    print(f"[live price] {brand_id}: found by name at {price['url']}")
+            else:
+                _failed[brand_id] = (reason, time.time())
+                print(f"[live price] {brand_id}: {reason}")
+        except Exception as exc:  # database down and so on: keep the worker alive
+            _failed[brand_id] = (f"{type(exc).__name__}: {exc}", time.time())
+            print(f"[live price] {brand_id}: {type(exc).__name__}: {exc}")
+        finally:
+            with _lock:
+                _current = None
+
+
+def _ensure_worker():
+    global _worker
+    with _lock:
+        if _worker is None or not _worker.is_alive():
+            _worker = threading.Thread(target=_work, name="live-price-worker", daemon=True)
+            _worker.start()
+
+
+def _clean_ids(brand_ids) -> list[int]:
+    return list(dict.fromkeys(int(b) for b in brand_ids))[:MAX_PER_CALL]
+
+
+def enqueue(brand_ids: list[int], priority: int = 0) -> dict:
+    """Queue brands for a live check and return their status at once.
+
+    brand_ids are checked in the order given. The first `priority` of them
+    (for example the Cheapest, Best and Recommended picks) jump ahead of
+    everything already waiting.
+    """
+    ids = _clean_ids(brand_ids)
+    with _db() as conn, conn.cursor() as cur:
+        fresh = fresh_ids(cur, ids)
+        todo = [i for i in ids if i not in fresh and not _recently_failed(i)]
+        with _lock:
+            todo = [i for i in todo if i != _current]
+        details = {d["brand_id"]: d for d in brand_details(cur, todo)}
+    urgent = set(ids[:max(priority, 0)])
+    with _lock:
+        for i in todo:
+            if i not in _queue and len(_queue) < MAX_QUEUE:
+                _queue[i] = details.get(i, {"brand_id": i})
+        for i in reversed([i for i in todo if i in urgent and i in _queue]):
+            _queue.move_to_end(i, last=False)
+    _ensure_worker()
+    _wake.set()
+    return status(ids)
+
+
+def status(brand_ids: list[int]) -> dict:
+    """Which of these brands have a live price, are still waiting, or failed."""
+    ids = _clean_ids(brand_ids)
+    with _db() as conn, conn.cursor() as cur:
+        fresh = fresh_ids(cur, ids)
+    with _lock:
+        waiting = set(_queue) | ({_current} if _current is not None else set())
+    pending = [i for i in ids if i in waiting and i not in fresh]
+    failed = [i for i in ids if i not in fresh and i not in waiting and _recently_failed(i)]
+    return {
+        "total": len(ids),
+        "done": sorted(fresh),
+        "pending": pending,
+        "failed": failed,
+        "errors": {str(i): _failed[i][0] for i in failed},
+        "queue_length": len(waiting),
+    }
 
 
 # ---------------------------------------------------------------------------
